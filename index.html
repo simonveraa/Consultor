@@ -1640,7 +1640,9 @@
         if (resultadoFiltrados.length > 0) {
           resultadoFiltrados.forEach((r) => {
             const li = document.createElement("li")
-            li.textContent = `Examen: ${r.examen}, Establecimiento: ${r.establecimiento}`
+            li.textContent = `
+	    <div>Examen: ${r.examen}</div>
+     	    <div>Establecimiento: ${r.establecimiento}</div>`
             resultado.appendChild(li)
           })
         } else {
