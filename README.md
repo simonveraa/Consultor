@@ -1,2 +1,2 @@
 # Consultor
-Consultor de exámenes para derivación 
+Consultor de establecimiento para derivación de exámenes
