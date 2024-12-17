@@ -1642,13 +1642,16 @@
             const li = document.createElement("li")
             li.innerHTML = `
 	    <div>Examen: ${r.examen}</div>
-     	    <div>Establecimiento: ${r.establecimiento}</div>`
+     	    <div>Establecimiento: ${r.establecimiento}</div>
+	  `
             resultado.appendChild(li)
           })
         } else {
-          resultado.textContent = `No se encontró el examen: ${
+          resultado.innerHTML = `
+	  <div>No se encontró el examen: ${
             document.getElementById("buscar").value
-          }`
+          }</div
+	  `
         }
       })
     </script>
