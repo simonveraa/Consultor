@@ -1632,13 +1632,13 @@
             li.innerHTML = `
 	    <div>Examen: <strong>${r.examen}</strong></div>
      	    <div>Establecimiento: ${r.establecimiento}</div>
-	    <div>Nota: ${r.nota}</div>
-	  `
+	    ${r.nota ? `<div>Nota: ${r.nota}</div>` : ''}
+	`
             resultado.appendChild(li)
           })
         } else {
           resultado.innerHTML = `
-	  <div>No se encontró el examen: ${
+	  <div><strong>No se encontró el examen:</strong> ${
             document.getElementById("buscar").value
           }</div>
 	  <div>Busque una variable del nombre: ${
