@@ -304,35 +304,23 @@
           establecimiento: "Clinica Adventista Los Angeles",
         },
 		{
-          examen: "Test de coombs",
+          examen: "Test de Coombs Indirecto (TCI)",
           establecimiento: "Clinica Adventista Los Angeles",
         },
 		{
-          examen: "Test de coombs indirecto",
+          examen: "Test de Coombs Directo (TCD)",
           establecimiento: "Clinica Adventista Los Angeles",
         },
 		{
-          examen: "TCI",
+          examen: "Tiempo de Protrombina (TP)",
           establecimiento: "Clinica Adventista Los Angeles",
         },
 		{
-          examen: "TCD",
+          examen: "Porcentaje de protrombina (TP)",
           establecimiento: "Clinica Adventista Los Angeles",
         },
-		{
-          examen: "Test de coombs directo",
-          establecimiento: "Clinica Adventista Los Angeles",
-        },
-		{
-          examen: "Tiempo de protrombina",
-          establecimiento: "Clinica Adventista Los Angeles",
-        },
-		{
-          examen: "TP",
-          establecimiento: "Clinica Adventista Los Angeles",
-        },
-		{
-          examen: "Porcentaje de protrombina",
+	      	{
+          examen: "INR (TP)",
           establecimiento: "Clinica Adventista Los Angeles",
         },
 		{
@@ -340,8 +328,9 @@
           establecimiento: "Clinica Adventista Los Angeles",
         },
 		{
-          examen: "TTPA",
+          examen: "Tiempo de Tromboplastina Activada (TTPA)",
           establecimiento: "Clinica Adventista Los Angeles",
+	  nota: "Antiguamente TTPK",
         },
 		{
           examen: "Transferrina",
@@ -1643,6 +1632,7 @@
             li.innerHTML = `
 	    <div>Examen: ${r.examen}</div>
      	    <div>Establecimiento: ${r.establecimiento}</div>
+	    <div>Nota: ${r.nota}</div>
 	  `
             resultado.appendChild(li)
           })
