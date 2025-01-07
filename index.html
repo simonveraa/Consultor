@@ -25,7 +25,18 @@
             <button type="submit" class="btn btn-primary">Buscar</button>
           </form>
           <h2 id="resultado-titulo" class="mt-4 d-none">Resultado:</h2>
-          <ul id="resultado"></ul>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Examen</th>
+                <th scope="col">Establecimiento</th>
+                <th scope="col">Codigo</th>
+                <th scope="col">Nota</th>
+              </tr>
+            </thead>
+            <tbody id="resultado">
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
@@ -115,7 +126,7 @@
 		{
           examen: "Chlamydia trachomatis ",
           establecimiento: "Clinica Adventista Los Angeles",
-          nota: "Muestra de orina, flujo vaginal (mujer) o hisopado uretral (hombre)",
+          nota: "Muestra de flujo vaginal en mujer y orina en hombre",
         }, 
 		{
           examen: "Hormona Tiroidea (TSH)",
@@ -1393,16 +1404,8 @@
           establecimiento: "Clinica Adventista Los Angeles, CA 15-3",
         },
 		{
-          examen: "CA 15",
-          establecimiento: "Clinica Adventista Los Angeles, CA 15-3",
-        },
-		{
           examen: "CA 19-9",
           establecimiento: "Clinica Adventista Los Angeles",
-        },
-		{
-          examen: "CA 19",
-          establecimiento: "Clinica Adventista Los Angeles, CA 19-9",
         },
 		{
           examen: "CA19",
@@ -1439,6 +1442,7 @@
 		{
           examen: "IgE Especificas c/u",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          nota: "Lacteos y Detergentes No se realizan"
         },
 		{
           examen: "Marcadores Inmunologicos Diabetes: Anticuerpos anti tirosin fosfatasa (IA2)",
@@ -1601,11 +1605,12 @@
     {
           examen: "Virus Papiloma Humano PCR-Microarray (VPH 30 subtipos) Hombre o Mujer",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "",
           nota: "Tubo rosado con torula de dacron",
         },
       ]
 
-        buscarForm.addEventListener("submit", function (e) {
+      buscarForm.addEventListener("submit", function (e) {
         e.preventDefault()
         resultadoTitulo.classList.remove("d-none")
         const examenBuscado = document
@@ -1619,23 +1624,26 @@
 
         if (resultadoFiltrados.length > 0) {
           resultadoFiltrados.forEach((r) => {
-            const li = document.createElement("li")
-            li.innerHTML = `
-	    <div>Examen: <strong>${r.examen}</strong></div>
-     	    <div>Establecimiento: ${r.establecimiento}</div>
-	    ${r.nota ? `<div>Nota: ${r.nota}</div>` : ''}
-	`
-            resultado.appendChild(li)
+            const row = document.createElement("tr")
+            row.innerHTML = `
+              <td><strong>${r.examen}</strong></td>
+              <td>${r.establecimiento}</td>
+              <td>${r.codigo ? r.codigo : ''}</td>
+              <td>${r.nota ? r.nota : ''}</td>
+            `
+            resultado.appendChild(row)
           })
         } else {
           resultado.innerHTML = `
-	  <div><strong>No se encontró el examen:</strong> ${
-            document.getElementById("buscar").value
-          }</div>
-	  <div>Busque una variable del nombre: ${
-            document.getElementById("buscar").value
-          }</div>
-	  `
+            <tr>
+              <td colspan="3"><strong>No se encontró el examen:</strong> 
+                ${document.getElementById("buscar").value}</td>
+            </tr>
+            <tr>    
+              <td colspan="3">Busque una variable del nombre: 
+                ${document.getElementById("buscar").value}</td>
+            </tr>
+          `
         }
       })
     </script>
