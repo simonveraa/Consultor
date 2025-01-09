@@ -78,7 +78,7 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Panel Viral (8 Virus Respiratorios)",
           establecimiento: "Clinica Adventista Los Angeles",
-	  nota: "IFI/IFD Para Virus Influenza A+B, VRS, ADV, MPV, Parainfluenza 1, 2 y 3.",
+	        nota: "IFI/IFD Para Virus Influenza A+B, VRS, ADV, MPV, Parainfluenza 1, 2 y 3.",
         },
 		{
           examen: "Chlamydia trachomatis ",
@@ -348,10 +348,6 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           establecimiento: "Clinica Adventista Los Angeles",
         },
 		{
-          examen: "bnp",
-          establecimiento: "Clinica Adventista Los Angeles",
-        },
-		{
           examen: "Troponina",
           establecimiento: "Clinica Adventista Los Angeles",
         },
@@ -359,13 +355,11 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           examen: "Cobalamina (Vitamina B12)",
           establecimiento: "Clinica Adventista Los Angeles",
         },
-		{
-          examen: "B12 (Vitamina B12)",
-          establecimiento: "Clinica Adventista Los Angeles",
-        },
+
 		{
           examen: "Vit. B12 (Vitamina B12)",
           establecimiento: "Clinica Adventista Los Angeles",
+          
         },
 		{
           examen: "Vit B12 (Vitamina B12)",
@@ -374,22 +368,27 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "25-Hidroxivitamina D (Vitamina D)",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0302078",
         },
 		{
           examen: "25 Hidroxivitamina D (Vitamina D)",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0302078",
         },
 		{
           examen: "Vit. D (Vitamina D)",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0302078",
         },
 		{
           examen: "25-OH, 25(OH)D (Vitamina D)",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0302078",
         },
 		{
           examen: "25 OH (Vitamina D)",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0302078",
         },
 		{
           examen: "Antigeno Prostatico Especifico (APE Total)",
@@ -1051,10 +1050,6 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
         },
 		{
           examen: "Metanefrinas en Sangre",
-          establecimiento: "Santiago - Barnafi (1 semana)",
-        },
-		{
-          examen: "Parathormona (PTH)",
           establecimiento: "Santiago - Barnafi (1 semana)",
         },
 		{
@@ -1925,6 +1920,18 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           establecimiento: "Santiago - Barnafi",
           codigo: "0305010",
           nota: "Código BK: BETA2",
+        },
+        {
+          examen: "Hormona Paratiroidea (PTH)",
+          establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0303018",
+          nota: "Parathormona"
+        },
+        {
+          examen: "Parathormona (PTH)",
+          establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0303018",
+          nota: "Hormona Paratiroidea"
         },
       ]
 
