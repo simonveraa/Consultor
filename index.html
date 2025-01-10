@@ -22,25 +22,26 @@
               id="buscar"
               placeholder="Nombre del examen"
             />
-            <button type="submit" class="btn btn-primary">Buscar</button><br><p></p>
-            <text><strong>10/01/2025: **Aviso** Parathormona / Hormona Paratiroidea (PTH):</strong> 
-            Se realizara en Clinica Adventista por el mes de enero, con resultados en el día.
-            </text>
+            <button type="submit" class="btn btn-primary">Buscar</button>
+            <div class="mt-4 alert alert-warning">
+              <strong>10/01/2025: **Aviso** Parathormona / Hormona Paratiroidea (PTH):</strong> 
+                Se realizará en Clinica Adventista por el mes de enero, con resultados en el día.
+            </div>
           </form>
           <h2 id="resultado-titulo" class="mt-4 d-none">Resultado:</h2>
-          <table class="table">
+          <table id="tabla" class="table d-none">
             <thead>
               <tr>
                 <th scope="col">Examen</th>
                 <th scope="col">Establecimiento</th>
                 <th scope="col">Codigo</th>
-                <th scope="col">Codigo-BK</th>
-                <th scope="col">Notas</th>
+                <th scope="col">Nota</th>
               </tr>
             </thead>
             <tbody id="resultado">
             </tbody>
           </table>
+          <div id="sin-resultado"></div>
         </div>
       </div>
     </div>
