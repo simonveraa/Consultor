@@ -1938,37 +1938,37 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
         },
         {
           examen: "Anticuerpos anti receptores de acetilcolina",
-          establecimiento: "Santiago - Barnafi",
+          establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "ACERTILRECE",
           nota: "Código BK: ACETILRECE",
         },
         {
           examen: "Apolipoproteina A1",
-          establecimiento: "Santiago - Barnafi",
+          establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0302070-1",
           nota: "Código BK: APOA",
         },
         {
           examen: "Apolipoproteina B",
-          establecimiento: "Santiago - Barnafi",
+          establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0302070-2",
           nota: "Código BK: APOB",
         },
         {
           examen: "Arsenico en Orina",
-          establecimiento: "Santiago - Barnafi",
+          establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0309034",
           nota: "Código BK: ARSOA",
         },
         {
           examen: "Arsenico en sangre",
-          establecimiento: "Santiago - Barnafi",
+          establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0302134",
           nota: "Código BK: ARSESANGRE",
         },
         {
           examen: "Beta 2 Microglobulina",
-          establecimiento: "Santiago - Barnafi",
+          establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305010",
           nota: "Código BK: BETA2",
         },
@@ -1983,6 +1983,30 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           establecimiento: "Clinica Adventista Los Angeles",
           codigo: "0303018",
           nota: "Hormona Paratiroidea"
+        },
+        {
+          examen: "Toxoplasmosis IgG",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306061-7",
+          nota: "Codigo BK: TOXOG // Serología IgG para Toxoplasma"
+        },
+        {
+          examen: "Toxoplasmosis IgM",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306061-8",
+          nota: "Codigo BK: TOXOM // Serología IgM para Toxoplasma"
+        },
+        {
+          examen: "Anticuerpos IgG Toxoplasma",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306061-7",
+          nota: "Codigo BK: TOXOG // Serología"
+        },
+        {
+          examen: "Anticuerpos IgM Toxoplasma",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306061-8",
+          nota: "Codigo BK: TOXOM // Serología"
         },
       ]
 
