@@ -764,9 +764,12 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           examen: "Sirolimus",
           establecimiento: "Santiago - Barnafi (1 semana)",
         },
-		{
+        {
           examen: "Tacrolimus",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "TAC",
+          codigoBK: "TAC",
+          nota: "",
         },
 		{
           examen: "Retinol (Vitamina A)",
@@ -1952,6 +1955,69 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           codigo: "0306061-8",
           codigoBK: "TOXOM",
           nota: "Serología",
+        },
+        {
+          examen: "Peptido C",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "303052",
+          codigoBK: "PEPC",
+          nota: "",
+        },
+        {
+          examen: "Lamotrigina",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "LAMO",
+          codigoBK: "LAMO",
+          nota: "",
+        },
+        {
+          examen: "Virus Parotiditis IgG",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "PARAG",
+          codigoBK: "PARAG",
+          nota: "",
+        },
+        {
+          examen: "Virus Parotiditis IgM",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "PARAM",
+          codigoBK: "PARAM",
+          nota: "",
+        },
+        {
+          examen: "Subclases de IgG (I, II, III, IV)",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "SUBIGG",
+          codigoBK: "SUBIGG",
+          nota: "Incluye Clases IgG1, IgG2, IgG3 e IgG4",
+        },
+        {
+          examen: "Subclase de IgG 1",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "IGG1",
+          codigoBK: "IGG1",
+          nota: "",
+        },
+        {
+          examen: "Subclase de IgG 2",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "IGG2",
+          codigoBK: "IGG2",
+          nota: "",
+        },
+        {
+          examen: "Subclase de IgG 3",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "IGG3",
+          codigoBK: "IGG3",
+          nota: "",
+        },
+        {
+          examen: "Subclase de IgG 4",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "IGG4",
+          codigoBK: "IGG4",
+          nota: "",
         },
       ]
 
