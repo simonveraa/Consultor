@@ -365,6 +365,7 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Ac. Antitiroperoxidasa",
           establecimiento: "Clinica Adventista Los Angeles",
+          nota: "Anticuerpos Anti-Tiroperoxidasa (ATPO)",
         },
 		{
           examen: "Anticuerpo Antitiroperoxidasa",
@@ -386,7 +387,7 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           establecimiento: "Clinica Adventista Los Angeles",
         },
 		{
-          examen: "Antigeno Carcinoembrionario",
+          examen: "Antigeno Carcinoembrionario (CEA)",
           establecimiento: "Clinica Adventista Los Angeles",
         },
 		{
@@ -400,73 +401,99 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Inmunoglobulinas",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0305027",
+          codigoBK: "",
 	        Nota: "Inmunoglobulinas Totales IgA, IgG, IgM",
+          comparte: true
         },
 		{
-          examen: "Imunoglobulinas Totales",
+          examen: "Imunoglobulinas Totales c/u",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0305027",
           Nota: "IgA, IgG, IgM",
+          comparte: true
         },
 		{
           examen: "IgA total",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0305027-1",
+          
         },
 		{
           examen: "IgG total",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0305027-2",
         },
 		{
           examen: "IgM Total",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0305027-3",
         },
 		{
           examen: "IgE Total",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0305028",
         },
 		{
           examen: "IgA Secretora",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0305026"
         },
 		{
           examen: "Hantavirus (Hanta Virus IgM)",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0306121"
         },
 		{
           examen: "Virus Hanta (Hanta Virus IgM)",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0306121"
         },
 		{
           examen: "Hanta IgM (Hanta Virus IgM)",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0306121"
         },
 		{
           examen: "Hantavirus IgM (Hanta Virus IgM)",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0306121"
         },
 		{
           examen: "Virus Hanta IgM (Hanta Virus IgM)",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0306121"
         },
 		{
           examen: "Virus Hepatitis B (HBsAg)",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0306079"
         },
 		{
           examen: "VHB (HBsAg)",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0306079"
         },
 		{
           examen: "Antigeno de superficie Hepatitis B (HBsAg)",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0306079"
         },
 		{
-          examen: " Mycoplasma pneumoniae Serologia IgM+IgG",
+          examen: "Mycoplasma pneumoniae IgM+IgG",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0306037",
+          nota: "Se cobra por dos determinaciones (IgM e IgG)",
         },
-		{
-          examen: "Mycoplasma pneumoniae",
+        {
+          examen: "Mycoplasma pneumoniae IgM",
           establecimiento: "Clinica Adventista Los Angeles",
-	        nota: "Serología M. pneumoniae IgG + IgM",
+          codigo: "0306037-1",
+        },
+        {
+          examen: "Mycoplasma pneumoniae IgG",
+          establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0306037-2",
         },
 		{
           examen: "Virus Inmunodeficiencia Humana (VIH SIDA)",
@@ -475,23 +502,11 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Virus Hepatitis C (VHC)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306081",
 	        nota: "Solo si tiene otros exámenes a barnafi, de lo contrario: Lab. Cordillera",
-        },
-		{
-          examen: "Hepatitis C (VHC)",
-          establecimiento: "Santiago - Barnafi (1 semana)",
-	        nota: "Solo si tiene otros exámenes a barnafi, de lo contrario: Lab. Cordillera",
-        },
-		{
-          examen: "Hepatitis A (VHA IgM)",
-          establecimiento: "Santiago - Barnafi (1 semana)",
         },
 		{
           examen: "Virus Hepatitis A (VHA IgM)",
-          establecimiento: "Santiago - Barnafi (1 semana)",
-        },
-		{
-          examen: "Virus Hepatitis A IgM (VHA IgM)",
           establecimiento: "Santiago - Barnafi (1 semana)",
         },
 		{
@@ -707,6 +722,8 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Nivel de Drogas Terapeuticas (Fenitoína)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302035-4",
+          codigoBK: "FEN",
         },
 		{
           examen: "Nivel de Drogas Terapeuticas (Carbamazepina Total)",
@@ -729,6 +746,16 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Nivel de Drogas Terapeuticas (Fenobarbital)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302035-5",
+          codigoBK: "FEB",
+          
+        },
+        {
+          examen: "Fenobarbital Libre",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "",
+          codigoBK: "FEBL",
+          nota: "Agregar como Examen Barnafi: 0307099 y escribir en notas",
         },
 		{
           examen: "Examen Barnafi",
@@ -739,6 +766,8 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Ac. Valproico (Acido Valprotico)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302035-1",
+          codigoBK: "VALP",
         },
 		{
           examen: "Plomo",
@@ -774,26 +803,38 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Retinol (Vitamina A)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "VITA",
+          CodigoBK: "VITA",
         },
 		{
           examen: "Vit A (Vitamina A)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "VITA",
+          codigoBK: "VITA",
         },
 		{
           examen: "Vit. A (Vitamina A)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "VITA",
+          codigoBK: "VITA",
         },
 		{
           examen: "Acido Retinoico (Vitamina A)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "VITA",
+          codigoBK: "VITA",
         },
 		{
           examen: "Ac Retinoico (Vitamina A)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "VITA",
+          codigoBK: "VITA",
         },
 		{
           examen: "Ac. Retinoico (Vitamina A)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "VITA",
+          codigoBK: "VITA",
         },
 		{
           examen: "Piridoxina (Vitamina B6)",
@@ -815,19 +856,19 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           examen: "17 Hidroxiprogesterona (17-OHP)",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0303029",
-          codigoBK: "",
+          codigoBK: "17PR",
         },
 		{
           examen: "17-OH Progesterona (17-OHP)",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0303029",
-          codigoBK: "",
+          codigoBK: "17PR",
         },
 		{
           examen: "17 OH Progesterona (17-OHP)",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0303029",
-          codigoBK: "",
+          codigoBK: "17PR",
         },
     {
           examen: "Anticuerpos Anti-Membrana Basal Glomerular (AAMBG)",
@@ -906,12 +947,14 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0303035",
 	        codigoBK: "CORTOA",
+          comparte: true
         },
         {
           examen: "Cortisol en Orina 24h",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0303035",
 	        codigoBK: "CORTO",
+          comparte: true
         },
         {
           examen: "Cortisol en Saliva",
@@ -973,7 +1016,7 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Insulin-Like Growth Factor Binding Protein-3 (IGFBP3)",
           establecimiento: "Santiago - Barnafi (1 semana)",
-          codigo: "0303048",
+          codigo: "0303048-1",
 	        codigoBK: "IGFBP-3Q", 
         },
 		{
@@ -985,7 +1028,7 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "IGF Binding Protein 3 (IGFBP3)",
           establecimiento: "Santiago - Barnafi (1 semana)",
-          codigo: "0303048",
+          codigo: "0303048-1",
 	        codigoBK: "IGFBP-3Q", 
         },
 		{
@@ -997,70 +1040,94 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "IGF Binding Protein-3 (IGFBP3)",
           establecimiento: "Santiago - Barnafi (1 semana)",
-          codigo: "0303048",
+          codigo: "0303048-1",
 	        codigoBK: "IGFBP-3Q", 
         },
 		{
           examen: "Proteina 1 de union al Factor de Crecimiento Similar a Insulina (IGFBP1)",
           establecimiento: "Santiago - Barnafi (1 semana)",
-          codigo: "0303048",
+          codigo: "0303048-1",
 	        codigoBK: "BP1",
           nota: "IGF Binding Protein-1",
         },
 		{
           examen: "Proteina 3 de union al Factor de Crecimiento Similar a Insulina (IGFBP3)",
           establecimiento: "Santiago - Barnafi (1 semana)",
-          codigo: "0303048",
+          codigo: "0303048-1",
 	        codigoBK: "IGFBP-3Q",
           nota: "IGF Binding Protein-3",
         },
 		{
           examen: "Metanefrinas Plasmaticas",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "",
+	        codigoBK: "METALIBRE",
         },
 		{
           examen: "Metanefrinas Urinarias",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0303050",
+	        codigoBK: "METANEF",
         },
 		{
           examen: "Metanefrinas en Orina",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0303050",
+	        codigoBK: "METANEF",
         },
 		{
           examen: "Metanefrinas en Sangre",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "",
+	        codigoBK: "METALIBRE",
         },
 		{
           examen: "Progesterona",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0303019",
+	        codigoBK: "PRGD",
         },
 		{
           examen: "Renina",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0303021",
+	        codigoBK: "RENINA",
         },
 		{
           examen: "Globulina Fijadora de Hormonas Sexuales (SHBG)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0303046",
+	        codigoBK: "SHBG",
         },
 		{
           examen: "Sex hormone binding globulin (SHBG)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0303046",
+	        codigoBK: "SHBG",
         },
 		{
           examen: "Testosterona Libre",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0303023",
+	        codigoBK: "TESTL",
         },
 		{
           examen: "Testosterona Total",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0303022",
+	        codigoBK: "",
         },
 		{
           examen: "Testosterona",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0303022",
+	        codigoBK: "",
         },
 		{
           examen: "Tiroglobulina",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0303025",
+	        codigoBK: "TIROG",
         },
 		{
           examen: "Alfa 1 Antitripsina (AAT)",
@@ -1077,10 +1144,14 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Alfa 2 Macroglobulina (A2M)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0305002",
+          nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
         },
 		{
           examen: "Alfa-2 Macroglobulina (A2M)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0305002",
+          nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
         },
 		{
           examen: "Alfa Feto Proteina (AFP)",
@@ -1254,82 +1325,102 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           codigo: "0305007-4",
           codigoBK: "",
         },
+
+        //comparte codigo
+        //Antigliadina IgG
+        //Antigliadina IgA
+
 		{
           examen: "Anticuerpos Anti Gliadina IgG",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305086",
           codigoBK: "GLIG",
+          comparte: true,
         },
+
 		{
           examen: "Antigliadina IgG",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305086",
           codigoBK: "GLIG",
+          comparte: true,
         },
 		{
           examen: "Ac Antigliadina IgG",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305086",
           codigoBK: "GLIG",
+          comparte: true,
         },
 		{
           examen: "Ac. Anti Gliadina IgG",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305086",
           codigoBK: "GLIG",
+          comparte: true,
         },
 		{
           examen: "Anticuerpos Anti Gliadina IgA",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305086",
           codigoBK: "GLIA",
+          comparte: true,
         },
 		{
           examen: "Antigliadina IgA",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305086",
           codigoBK: "GLIA",
+          comparte: true,
         },
 		{
           examen: "Ac Antigliadina IgA",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305086",
           codigoBK: "GLIA",
+          comparte: true,
         },
 		{
           examen: "Ac. Anti Gliadina IgA",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305086",
           codigoBK: "GLIA",
+          comparte: true,
         },
 		{
           examen: "Anticuerpos Antigliadina (IgG, IgA)",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305086",
           codigoBK: "GLIA + GLIG",
+          comparte: true,
         },
+
+        //Fin comparte codigo Antigliadina IgG IgA
+
 		{
           examen: "Anticuerpos Anti Transglutaminasa IgA",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305181-1",
           codigoBK: "GLUTAS",
+          
         },
 		{
           examen: "Ac anti transglutaminasa IgA",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305181-1",
           codigoBK: "GLUTAS",
+        
         },
         {
           examen: "Anticuerpos Anti Transglutaminasa IgG",
           establecimiento: "Santiago - Barnafi (1 semana)",
-          codigo: "0305181-1",
+          codigo: "0305181-2",
           codigoBK: "GLUTAG",
         },
 		{
           examen: "Ac anti transglutaminasa IgG",
           establecimiento: "Santiago - Barnafi (1 semana)",
-          codigo: "0305181-1",
+          codigo: "0305181-2",
           codigoBK: "GLUTAG",
         },
         {
@@ -1347,28 +1438,20 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Anticuerpos Anti Microsomales",
           establecimiento: "Santiago - Barnafi (1 semana)",
-          codigo: "0305086",
+          codigo: "0305007-1",
           codigoBK: "AMIC",
         },
 		{
           examen: "Ac Antimicrosomales",
           establecimiento: "Santiago - Barnafi (1 semana)",
-          codigo: "0305086",
+          codigo: "0305007-1",
           codigoBK: "AMIC",
         },
 		{
           examen: "Ac. Antimicrosomales",
           establecimiento: "Santiago - Barnafi (1 semana)",
-          codigo: "0305086",
+          codigo: "0305007-1",
           codigoBK: "AMIC",
-        },
-		{
-          examen: "Auto Anticuerpos",
-          establecimiento: "Santiago - Barnafi (1 semana)",
-        },
-		{
-          examen: "autoanticuerpos",
-          establecimiento: "Santiago - Barnafi (1 semana)",
         },
 		{
           examen: "Anticuerpos Anti Cardiolipinas (IgG y/o IgM)",
@@ -1401,6 +1484,9 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Anticoagulante Lupico",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigoBK: "LUPI",
+          notas: ""
+          
         },
 		{
           examen: "Anticuerpos Anti Receptor TSH (TRAB)",
@@ -1416,9 +1502,10 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
         },
 		{
           examen: "TRABS",
-          establecimiento: "Barnafi (Correción: Ac Anti Receptor TSH - TRAB)",
+          establecimiento: "Barnafi",
           codigo: "0305124",
           codigoBK: "TRABB",
+          nota: "Correción: Anticuerpos Anti Receptor TSH (TRAB)"
         },
 		{
           examen: "Ac. antireceptor TSH (TRAB) ",
@@ -1506,15 +1593,21 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
         },
 		{
           examen: "Anticuerpos Anti LKM-1 (LKM)",
-          establecimiento: "Santiago - Barnafi (1 semana) Ac. Anti LKM-1",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0305085",
+          codigoBK: "LKM",
         },
 		{
           examen: "Ac Anti LKM-1 (LKM)",
-          establecimiento: "Santiago - Barnafi (1 semana) Ac. Anti LKM-1",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0305085",
+          codigoBK: "LKM",
         },
 		{
           examen: "Ac LKM (LKM)",
-          establecimiento: "Santiago - Barnafi (1 semana) Ac. Anti LKM-1",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0305085",
+          codigoBK: "LKM",
         },
 		{
           examen: "Anticuerpos Anti Mitocondriales (AMIT)",
@@ -1726,24 +1819,34 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           examen: "Bartonella henselae Serologia IgG, IgM",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "BARTH",
-          codigoBK: "IgG: BARG, IgM: BARM",
+          codigoBK: "IgG: <strong>BARG</strong><br> IgM: <strong>BARM</strong>",
           nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
         },
 		{
           examen: "Chlamydia en Sangre Serologia IgG, IgM ",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          
         },
 		{
           examen: "Citomegalovirus (CMV) Serologia IgG, IgM ",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306069-3",
+          codigoBK: "IgG: <strong>CIG</strong><br> IgM: <strong>EBM</strong>",
+          nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
         },
 		{
           examen: "Epstein Barr Virus Serologia IgG, IgM ",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306069-5",
+          codigoBK: "IgG: <strong>EBG</strong><br> IgM: <strong>EBM</strong>",
+          nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
         },
 		{
           examen: "Virus Epstein Barr Serologia IgG, IgM ",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306069-5",
+          codigoBK: "IgG: <strong>EBG</strong><br> IgM: <strong>EBM</strong>",
+          nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
         },
 		{
           examen: "FTA-ABS (Sifilis)",
@@ -1776,54 +1879,86 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Virus Herpes Simple I Serología IgG, IgM",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306069-1",
+          codigoBK: "IgG: <strong>H1G</strong><br> IgM: <strong>H1M</strong>",
+          nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
         },
 		{
           examen: "Virus Herpes Simple II Serología IgG, IgM",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306069-2",
+          codigoBK: "IgG: <strong>H2G</strong><br> IgM: <strong>H2M</strong>",
+          nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
         },
 		{
           examen: "Anticuerpos Anti Antigeno de superficie Hepatitis B (Anti-HBsAG, Anti HbsAG)",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "ANTIHBS",
           codigoBK: "ANTIHBS",
+          nota: "Examen para ver inmunidad con vacuna/exposición",
         },
 		{
           examen: "Anticuerpos Anti-Antigeno de superficie Hepatitis B (Anti-HBsAG, Anti HbsAG)",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "ANTIHBS",
           codigoBK: "ANTIHBS",
+          nota: "Examen para ver inmunidad con vacuna/exposición",
         },
 		{
           examen: "Ac Anti-Antigeno de superficie Hepatitis B (Anti-HBsAG, Anti HbsAG)",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "ANTIHBS",
           codigoBK: "ANTIHBS",
+          nota: "Examen para ver inmunidad con vacuna/exposición",
         },
 		{
           examen: "Ac Anti Antigeno de superficie Hepatitis B (Anti-HBsAG, Anti HbsAG)",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "ANTIHBS",
           codigoBK: "ANTIHBS",
+          nota: "Evaluación de la seroconversión posterior a la vacuna/exposición",
         },
 		{
           examen: "Anticuerpos Anti Core Hepatitis B (Anticore HB IgM)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306080",
+          codigoBK: "HEV",
+          nota: "Evaluación etapa aguda VHB",
+        },
+        {
+          examen: "Anticuerpos Anti Core Hepatitis B Totales (IgG+IgM)",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306080",
+          codigoBK: "HBC",
+          nota: "Evaluación de la memoria inmunológica",
         },
 		{
           examen: "Antigeno E, Hepatitis B",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306078",
+          codigoBK: "HBE",
+          nota: "Indicador de infección activa y replicación viral",
         },
 		{
           examen: "Anticuerpos Anti Antigeno E, Hepatitis B",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306075",
+          codigoBK: "ANTIHBE",
+          nota: "Indicador de infección activa y replicación viral",
         },
 		{
           examen: "Anticuerpos Anti-Antigeno E, Hepatitis B",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306075",
+          codigoBK: "ANTIHBE",
+          nota: "Indicador de infección activa y replicación viral",
         },
 		{
           examen: "Ac Anti Antigeno E, Hepatitis B",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306075",
+          codigoBK: "ANTIHBE",
+          nota: "Indicador de infección activa y replicación viral",
         },
 		{
           examen: "17-Cetosteroides, 17 Cetosteroides Orina",
@@ -1840,6 +1975,9 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Virus Zika Serologia IgG, IgM",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "sin codigo, ingresar Examen barnafi",
+          codigoBK: "IgG: <strong>ZIKAG</strong><br> IgM: <strong>ZIKAM</strong>",
+          nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK.",
         },
 		{
           examen: "Bordetella pertusis IgG",
@@ -1861,7 +1999,7 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           examen: "Cadenas Livianas Libres, razon kappa/lambda",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305300",
-          codigoBK: "CUANTIKALA"
+          codigoBK: "CUANTIKALA",
         },
     {
           examen: "Virus Papiloma Humano PCR-RT (VPH 14 subtipos) MUJER",
