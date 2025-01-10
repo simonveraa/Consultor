@@ -1300,7 +1300,7 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
         {
           examen: "Anticuerpos Anti peptido deaminado de gliadina IgG ",
           establecimiento: "Santiago - Barnafi (1 semana)",
-          codigo: "0305086-1",
+          codigo: "0305086-2",
           nota: "Codigo BK: GLIDG",
         },
         {
