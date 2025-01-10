@@ -31,8 +31,8 @@ buscarForm.addEventListener("submit", function (e) {
           `
           resultado.appendChild(row)
 
-          if (r.codigo) {
-            codigosVistos.add(r.codigo) // <-- para agregar los elementos que tengan código al Set
+          if (r.codigo && !r.comparte) { // <-- si tiene codigo y no lo comparte
+            codigosVistos.add(r.codigo) // <-- agregar código al Set
             console.log(codigosVistos)
         }
       }  
