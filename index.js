@@ -101,9 +101,12 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           examen: "Hormona Tiroestimulante (TSH)",
           establecimiento: "Clinica Adventista Los Angeles",
         },
-		{
-          examen: "Hormona Tiro-Estimulante (TSH)",
+        {
+          eexamen: "Hormona Tiroestimulante Neonatal GSS (TSH)",
           establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0302097",
+          codigoBK: "TSHN",
+          nota: "",
         },
 		{
           examen: "Hormona Estimulante de la Tiroides (TSH)",
@@ -209,8 +212,10 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Transferrina",
           establecimiento: "Santiago - Barnafi (1 semana)",
-	        nota: "Suero, 1 mL",
-        },
+          codigo: "0301082",
+          codigoBK: "TRANS",
+          nota: "Suero, 1 mL",
+        },    
 		{
           examen: "Clearence",
           establecimiento: "Clinica Adventista Los Angeles",
@@ -788,6 +793,9 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Triptasa",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0305201",
+          codigoBK: "TRIPTASA",
+          nota: "",
         },
 		{
           examen: "Sirolimus",
@@ -839,18 +847,32 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Piridoxina (Vitamina B6)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302080",
+          codigoBK: "VITB6",
         },
 		{
           examen: "Vit. B6 (Vitamina B6)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302080",
+          codigoBK: "VITB6",
         },
 		{
           examen: "Vit B6 (Vitamina B6)",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302080",
+          codigoBK: "VITB6",
         },
 		{
           examen: "Zinc",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302198",
+          codigoBK: "ZN",
+        },
+        {
+          examen: "Zinc en Orina",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302198",
+          codigoBK: "ZINCOA",
         },
 		{
           examen: "17 Hidroxiprogesterona (17-OHP)",
@@ -1458,28 +1480,28 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305084",
 	        codigoBK: "Para IgG: CARG, Para IgM: CARM",
-          nota: "Esepcificar segun corresponda",
+          nota: "Especificar segun corresponda",
         },
 		{
           examen: "Ac Anticardiolipinas (IgG y/o IgM)",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305084",
 	        codigoBK: "Para IgG: CARG, Para IgM: CARM",
-          nota: "Esepcificar segun corresponda",
+          nota: "Especificar segun corresponda",
         },
 		{
           examen: "Ac. Anticardiolipinas (IgG y/o IgM)",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305084",
 	        codigoBK: "Para IgG: CARG, Para IgM: CARM",
-          nota: "Esepcificar segun corresponda",
+          nota: "Especificar segun corresponda",
         },
 		{
           examen: "Anticardiolipinas (IgG y/o IgM)",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305084",
 	        codigoBK: "Para IgG: CARG, Para IgM: CARM",
-          nota: "Esepcificar segun corresponda",
+          nota: "Especificar segun corresponda",
         },
 		{
           examen: "Anticoagulante Lupico",
@@ -2070,6 +2092,13 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           nota: "Hormona Paratiroidea"
         },
         {
+          examen: "Toxocara IgG",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306061-6",
+          codigoBK: "TOXO",
+          nota: "Serología IgG para <i>Toxocara canis</i>",
+        },
+        {
           examen: "Toxoplasmosis IgG",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0306061-7",
@@ -2159,6 +2188,39 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           codigo: "IGG4",
           codigoBK: "IGG4",
           nota: "",
+        },
+        {
+          examen: "Triquinosis, anticuerpos IgG",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306061-5",
+          codigoBK: "TRIQ",
+          nota: "<i>Trichinella spiralis</i>",
+        },
+        {
+          examen: "Test Genetico de Intolerancia a la Lactosa (PCR-RT)",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "8003687",
+          codigoBK: "LACTOGEN",
+        },
+        {
+          examen: "Teofilina",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302035-7",
+          codigoBK: "TEO",
+        },
+        {
+          examen: "Triyodotironina 3 Libre (T3 Libre)",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0303057",
+          codigoBK: "TEO",
+          nota: "T3 Total se hace en Clinala."
+        },
+        {
+          examen: "Streptococcus Grupo B por PCR-RT",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306299",
+          codigoBK: "PCRSTREP",
+          nota: "<i>Streptococcus agalactiae</i> (Grupo B) por PCR - Biología Molecular"
         },
       ]
 
