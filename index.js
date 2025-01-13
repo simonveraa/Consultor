@@ -2222,6 +2222,20 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           codigoBK: "PCRSTREP",
           nota: "<i>Streptococcus agalactiae</i> (Grupo B) por PCR - Biología Molecular"
         },
+        {
+          examen: "Sex Hormone Binging Globulin (SHBG)",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0303046",
+          codigoBK: "SHBG",
+          nota: "Glubulina fijadora de hormonas sexuales"
+        },
+        {
+          examen: "Glubulina Fijadora de Hormonas Sexuales (SHBG)",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0303046",
+          codigoBK: "SHBG",
+          nota: "Sex Hormone Binging Globulin"
+        },
       ]
 
       buscarForm.addEventListener("submit", function (e) {
