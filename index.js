@@ -2277,14 +2277,14 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0302035-6",
           codigoBK: "PRI",
-          nota: "",
+          nota: "Farmaco en sangre (suero)",
         },
         {
           examen: "Primidona libre",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0302035-6",
           codigoBK: "PRIL",
-          nota: "",
+          nota: "Especificar en notas que es Libre",
         },
       ]
 
