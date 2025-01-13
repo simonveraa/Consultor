@@ -2004,13 +2004,16 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
     {
           examen: "Virus Papiloma Humano PCR-RT (VPH 14 subtipos) MUJER",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306123",
+          codigoBK: "HPV",
           nota: "Frasco y Cepillo Citoliq",
         },
     {
           examen: "Virus Papiloma Humano PCR-Microarray (VPH 30 subtipos) Hombre o Mujer",
           establecimiento: "Santiago - Barnafi (1 semana)",
-          codigo: "",
-          nota: "Tubo rosado con torula de dacron",
+          codigo: "0306123-1",
+          codigoBK: "PCRPAPI",
+          nota: "<strong>Se cobra particular.</strong> Tubo rosado con torula de dacron",
         },
         {
           examen: "ONCOGEN: Estudio Genetico Oncologico",
