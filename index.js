@@ -1196,15 +1196,15 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           codigo: "0305003_xx",
           codigoBK: "AFP",
         },
+        {
+          examen: "Panel ANA 23 Autoanticuerpos IgG",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0305005-5",
+          codigoBK: "ANA23",
+        },
 		{
           examen: "Anticuerpos Antinucleares (ANA)",
           establecimiento: "Clinica Adventista Los Angeles",
-          codigo: "0305005",
-          codigoBK: "ANAS",
-        },
-		{
-          examen: "Anticuerpos Anti-Nucleares (ANA)",
-          establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0305005",
           codigoBK: "ANAS",
         },
