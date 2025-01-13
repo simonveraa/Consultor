@@ -122,6 +122,13 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           nota: "Orina Completa",
         },
 		{
+          examen: "Perfil de Aminoacidos y Acilcarnitinas",
+          establecimiento: "Clinica Adventista Los Angeles",
+          codigo: "0302098",
+          codigoBK: "ACILPLUS",
+          nota: "Muestra: Gotas de sangre total sobre papel filtro especial",
+        },
+        {
           examen: "Perfil Lipidico",
           establecimiento: "Clinica Adventista Los Angeles",
           nota: "Colesterol Total, LDL, HDL y Trigliceridos",
@@ -777,18 +784,26 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Plomo",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302084",
+          codigoBK: "PLOMOMASA",
+        },
+        {
+          examen: "Plomo en Orina",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302084",
+          codigoBK: "PLOOA",
         },
 		{
           examen: "Prealbumina",
           establecimiento: "Santiago - Barnafi (1 semana)",
-        },
-		{
-          examen: "Pre-albumina",
-          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302085",
+          codigoBK: "PREALB",
         },
 		{
           examen: "Pre albumina",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302085",
+          codigoBK: "PREALB",
         },
 		{
           examen: "Triptasa",
@@ -2212,7 +2227,7 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           examen: "Triyodotironina 3 Libre (T3 Libre)",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0303057",
-          codigoBK: "TEO",
+          codigoBK: "T3L",
           nota: "T3 Total se hace en Clinala."
         },
         {
@@ -2235,6 +2250,41 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           codigo: "0303046",
           codigoBK: "SHBG",
           nota: "Sex Hormone Binging Globulin",
+        },
+        {
+          examen: "Rubeola IgG, IgM",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306069-4",
+          codigoBK: "IgG: <strong>RUG</strong><br> IgM: <strong>RUM</strong>",
+          nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK.",
+        },
+        {
+          examen: "Sarampión IgG, IgM",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0306069-6",
+          codigoBK: "IgG: <strong>SARG</strong><br> IgM: <strong>SARM</strong>",
+          nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK.",
+        },
+        {
+          examen: "Selenio",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302135",
+          codigoBK: "SELESANGRE",
+          nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK.",
+        },
+        {
+          examen: "Primidona",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302035-6",
+          codigoBK: "PRI",
+          nota: "",
+        },
+        {
+          examen: "Primidona libre",
+          establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "0302035-6",
+          codigoBK: "PRIL",
+          nota: "",
         },
       ]
 
