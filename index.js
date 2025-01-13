@@ -102,7 +102,7 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           establecimiento: "Clinica Adventista Los Angeles",
         },
         {
-          eexamen: "Hormona Tiroestimulante Neonatal GSS (TSH)",
+          examen: "Hormona Tiroestimulante Neonatal GSS (TSH)",
           establecimiento: "Clinica Adventista Los Angeles",
           codigo: "0302097",
           codigoBK: "TSHN",
@@ -2227,14 +2227,14 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0303046",
           codigoBK: "SHBG",
-          nota: "Glubulina fijadora de hormonas sexuales"
+          nota: "Glubulina fijadora de hormonas sexuales",
         },
         {
           examen: "Glubulina Fijadora de Hormonas Sexuales (SHBG)",
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0303046",
           codigoBK: "SHBG",
-          nota: "Sex Hormone Binging Globulin"
+          nota: "Sex Hormone Binging Globulin",
         },
       ]
 
