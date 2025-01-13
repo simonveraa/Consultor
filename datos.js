@@ -1464,13 +1464,20 @@ let datos = [
     nota: "Esepcificar segun corresponda",
   },
 {
-    examen: "Ac. Anticardiolipinas (IgG y/o IgM)",
+    examen: "Ac. Anticardiolipinas (IgM)",
     establecimiento: "Santiago - Barnafi (1 semana)",
     codigo: "0305084",
-    codigoBK: "Para IgG: CARG, Para IgM: CARM",
+    codigoBK: "CARM",
     nota: "Esepcificar segun corresponda",
   },
 {
+    examen: "Anticardiolipinas (IgG)",
+    establecimiento: "Santiago - Barnafi (1 semana)",
+    codigo: "0305084",
+    codigoBK: "CARG",
+    nota: "Esepcificar segun corresponda",
+  },
+  {
     examen: "Anticardiolipinas (IgG y/o IgM)",
     establecimiento: "Santiago - Barnafi (1 semana)",
     codigo: "0305084",
