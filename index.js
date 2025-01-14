@@ -14,7 +14,7 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           establecimiento: "Clinica Adventista Los Angeles",
         },
 	      {
-          examen: "Proteina C Reactiva",
+          examen: "Proteina C Reactiva (PCR)",
           establecimiento: "Clinica Adventista Los Angeles",
         },
 	      {
@@ -103,6 +103,7 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
         },
         {
           examen: "Hormona Tiroestimulante Neonatal GSS (TSH)",
+          keywords: ['tiroestimulante', 'TSH', 'tiroidea', 'neonatal'],
           establecimiento: "Clinica Adventista Los Angeles",
           codigo: "0302097",
           codigoBK: "TSHN",
@@ -110,6 +111,7 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
         },
 		{
           examen: "Hormona Estimulante de la Tiroides (TSH)",
+          keywords: ['tiroestimulante', 'TSH', 'tiroidea'],
           establecimiento: "Clinica Adventista Los Angeles",
         },
 		{
@@ -526,27 +528,23 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           establecimiento: "Clinica Adventista Los Angeles",
         },
 		{
-          examen: "BHCG",
-          establecimiento: "Clinica Adventista Los Angeles",
-        },
-		{
-          examen: "B-HCG",
-          establecimiento: "Clinica Adventista Los Angeles (BHCG)",
-        },
-		{
-          examen: "Gonadotropina Corionica Humana subunidad beta (BHCG)",
+          examen: "Gonadotropina Corionica Humana, subunidad beta (BHCG)",
+          keywords: ['embarazo', 'B-HCG'],
           establecimiento: "Clinica Adventista Los Angeles",
         },
 		{
           examen: "Insulina",
+          keywords: ['diabetes', 'resistencia'],
           establecimiento: "Clinica Adventista Los Angeles",
         },
 		{
           examen: "Insulina Post Prandial",
+          keywords: ['diabetes', 'resistencia'],
           establecimiento: "Clinica Adventista Los Angeles",
         },
 		{
           examen: "Curva de Insulina (3 muestras)",
+          keywords: ['diabetes', 'resistencia'],
           establecimiento: "Clinica Adventista Los Angeles",
         },
 		{
@@ -595,6 +593,7 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
         },
 		{
           examen: "Acido Folico",
+          keywords: ['Ac Folico', 'Ac. Folico'],
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "0301002",
 	        codigoBK: "FOL", 
@@ -631,11 +630,6 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "",
 	        codigoBK: "FOLERI",
-        },
-		{
-          examen: "Adenosin Deaminasa (ADA)",
-          establecimiento: "Santiago - Barnafi (1 semana)",
-	        nota: "Suero o Plasma, 1 ml",
         },
 		{
           examen: "Adenosindeaminasa (ADA)",
@@ -815,6 +809,9 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 		{
           examen: "Sirolimus",
           establecimiento: "Santiago - Barnafi (1 semana)",
+          codigo: "s/c",
+          codigoBK: "SIR",
+          notas: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
         },
         {
           examen: "Tacrolimus",
@@ -824,10 +821,12 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           nota: "",
         },
 		{
-          examen: "Retinol (Vitamina A)",
+          examen: "Vitamina A (Retinol)",
+          keywords: ['vit', 'acido', 'retinoico'],
           establecimiento: "Santiago - Barnafi (1 semana)",
           codigo: "VITA",
           CodigoBK: "VITA",
+          notas: "Acido Retinoico"
         },
 		{
           examen: "Vit A (Vitamina A)",
@@ -2098,12 +2097,15 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
           examen: "Hormona Paratiroidea (PTH)",
           establecimiento: "Clinica Adventista Los Angeles",
           codigo: "0303018",
-          nota: "Parathormona"
+          codigoBK: "PTHC",
+          nota: "Parathormona",
         },
         {
           examen: "Parathormona (PTH)",
+          keywords: ['hormona', 'pth', 'paratiroidea'],
           establecimiento: "Clinica Adventista Los Angeles",
           codigo: "0303018",
+          codigoBK: "PTHC",
           nota: "Hormona Paratiroidea"
         },
         {
