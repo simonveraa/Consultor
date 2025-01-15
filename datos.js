@@ -1316,7 +1316,8 @@ const datos = [
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0306097",
         codigoBK: "PANELSTI",
-        nota: "Panel ITS por PCR:<ol><li><i>Chlamydia trachomatis</i><li><i>Mycoplasma genitalum</i><li><i>Mycoplasma hominis</i><li><i>Neisseria gonorrhoeae</i><li><i>Ureaplasma spp.</i><li><i>Trichomonas vaginalis</i><br><strong>Mujer:</strong> Tubo rosado, tomado por profesional.<br><strong>Hombre:</strong> Frasco de orina (primer chorro) "
+        nota: "Panel ITS por PCR:<ol><li><i>Chlamydia trachomatis</i><li><i>Mycoplasma genitalum</i><li><i>Mycoplasma hominis</i><li><i>Neisseria gonorrhoeae</i><li><i>Ureaplasma spp.</i><li><i>Trichomonas vaginalis</i><br><b>Mujer:</b> Tubo rosado, tomado por profesional.<br><b>Hombre:</b> Frasco de orina (primer chorro)",
+        img: "<img src='trosa.png' height='150px'>",
       },
     {
         examen: "Cadenas Livianas Libres, razon kappa/lambda",
@@ -1330,13 +1331,15 @@ const datos = [
         codigo: "0306123",
         codigoBK: "HPV",
         nota: "Frasco y Cepillo Citoliq",
+        img: "<img src='rcm.png'  height='150px'>",
       },
   {
         examen: "Virus Papiloma Humano PCR-Microarray (VPH 30 subtipos) Hombre o Mujer",
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0306123-1",
         codigoBK: "PCRPAPI",
-        nota: "<strong>Se cobra particular.</strong><b> Tubo rosado con tórula de dacron",
+        nota: "<i>Se cobra particular.</i><br> Tubo rosado con tórula de dacron",
+        img: "<img src='trosa.png' height='150px'>",     
       },
       {
         examen: "ONCOGEN: Estudio Genético Oncológico",

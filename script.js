@@ -74,11 +74,12 @@ buscarForm.addEventListener("submit", function (event) {
     resultadoFiltrados.forEach((r) => {
       const row = document.createElement("tr")
       row.innerHTML = `
-        <td><strong>${r.examen}</strong></td>
-        <td>${r.establecimiento}</td>
-        <td>${r.codigo ? r.codigo : ''}</td>
-        <td>${r.codigoBK ? r.codigoBK : ''}</td>
-        <td>${r.nota ? r.nota : ''}</td>
+        <td style="vertical-align: middle;"><b>${r.examen}</b></td>
+        <td style="vertical-align: middle;">${r.establecimiento}</td>
+        <td style="vertical-align: middle;">${r.codigo ? r.codigo : ''}</td>
+        <td style="vertical-align: middle;">${r.codigoBK ? r.codigoBK : ''}</td>
+        <td style="vertical-align: middle;">${r.nota ? r.nota : ''}</td>
+        <td style="text-align: center; vertical-align: middle;">${r.img ? r.img : ''}</td>
       `
       resultado.appendChild(row)
     })
