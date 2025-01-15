@@ -6,8 +6,11 @@ const datos = [
         nota: "Resultado en la tarde",
       },
       {
-        examen: "Recuento de Leucocitos (Hemograma)",
+        examen: "Hemograma",
+        keywords: ['recuento', 'leucocitos', 'eritrocitos', 'plaquetas', 'VHS', 'hto', 'hematocrito', 'hb', 'hemoglobina' ],
         establecimiento: "Clinica Adventista Los Angeles",
+        codigo: "0301045",
+        nota: "<ol><li>Rto. Leucocitos<li>Rto. Eritrocitos<li>Rto. Plaquetas<li>Hemoglobina<li>Hematocrito<li>VHS<li>Indices corpusculares<li>Formula diferencial</ol>"
       },
         {
         examen: "Proteina C Reactiva (PCR)",
@@ -27,26 +30,6 @@ const datos = [
       },
           {
         examen: "Inmunoglobulina E Total (IgE)",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Recuento de Eritrocitos (Hemograma)",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Recuento de Plaquetas (Hemograma)",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "VHS (Hemograma)",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Hematocrito (Hemograma)",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Hemoglobina (Hemograma)",
         establecimiento: "Clinica Adventista Los Angeles",
       },
       {
@@ -121,50 +104,44 @@ const datos = [
         nota: "Muestra: Gotas de sangre total sobre papel filtro especial",
       },
       {
-        examen: "Perfil Lipidico",
+        examen: "Perfil Lipídico",
+        keywords: ['Colesterol','LDL','HD','Trigliceridos'],
         establecimiento: "Clinica Adventista Los Angeles",
-        nota: "Colesterol Total, LDL, HDL y Trigliceridos",
+        nota: "<ol><li>Colesterol Total<li>LDL<li>HDL<li>Trigliceridos",
       },
       {
-        examen: "Perfil Bioquimico",
+        examen: "Perfil Bioquímico",
+        keywords: ['Bilirrubina','ALP','AST', 'GOT', 'LDH','Glicemia','glucosa','Urea','BUN','Calcio','Fosforo','Colesterol','Proteinas','Albumina','acido Urico',],
         establecimiento: "Clinica Adventista Los Angeles",
-        nota: "Bilirrubina Total y Directa, ALP, ALT/GPT, AST/GOT, GGT, Glicemia, Urea/BUN, Calcio, Fosforo, Proteinas Totales, Albumina, Ácido Urico, Creatinina",
+        nota: "<ol><li>Bilirrubina Total<li>ALP<li>AST/GOT<li>LDH<li>Glicemia<li>Urea/BUN<li>Calcio<li>Fosforo<li>Colesterol Total<li>Proteinas Totales<li>Albumina<li>Fracción A/G<li>Ácido Urico",
       },
       {
         examen: "Perfil Hepático",
+        keywords: ['Bilirrubina','ALP','ALT','GPT','AST','GOT','GGT', 'protrombina', 'tp'],
         establecimiento: "Clinica Adventista Los Angeles",
-        nota: "Bilirrubina Total y Directa, ALP, ALT/GPT, AST/GOT, GGT",
+        nota: "<ol><li>Bilirrubina Total<li>Bilirrubina Directa<li>ALP<li>ALT/GPT<li>AST/GOT<li>GGT<li>Protrombina",
       },
       {
-        examen: "Fierro (Hierro)",
+        examen: "Fierro sérico (Hierro)",
         establecimiento: "Clinica Adventista Los Angeles",
       },
       {
         examen: "Capacidad Total de Fijación del Hierro (TIBC)",
+        keywords: ['saturación'],
         establecimiento: "Clinica Adventista Los Angeles",
+        codigo: "0301029"
+        
       },
       {
-        examen: "Saturacion de Fierro, Hierro (TIBC)",
+        examen: "Fierro con Saturación de Transferrina (Porcentaje)",
+        keywords: ['Indice de saturación de transferrina', 'TIBC', 'capacidad total de fijacion del hierro'],
         establecimiento: "Clinica Adventista Los Angeles",
+        codigo: "0301029",
+        nota: "Incluye Capacidad Total de Fijación del Hierro (TIBC) y Fierro Sérico",
       },
       {
-        examen: "Fierro con Saturacion, Hierro (TIBC)",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Indice de Saturación de Transferrina (TIBC)",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Grupo y RH",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Grupo sanguineo",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Hematocrito",
+        examen: "Grupo Sanguíneo (ABO, Rh-D)",
+        keywords: ['Grupo y rh'],
         establecimiento: "Clinica Adventista Los Angeles",
       },
       {
@@ -172,11 +149,7 @@ const datos = [
         establecimiento: "Clinica Adventista Los Angeles",
       },
       {
-        examen: "Hemograma",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Reticulocitos",
+        examen: "Recuento de Reticulocitos",
         establecimiento: "Clinica Adventista Los Angeles",
       },
       {
@@ -189,24 +162,19 @@ const datos = [
       },
       {
         examen: "Tiempo de Protrombina (TP)",
+        keywords: ['porcentaje de protrombina', 'tiempos de coagulacion', 'coagulacion', 'inr'],
         establecimiento: "Clinica Adventista Los Angeles",
+        nota: "<ol><li>Tiempo<li>Porcentaje<li>INR</ol>"
       },
       {
-        examen: "Porcentaje de protrombina (TP)",
+        examen: "Tiempo de Tromboplastina Activada (TTPA)",
+        keywords: ['coagulacion', 'TTPK',],
         establecimiento: "Clinica Adventista Los Angeles",
-      },
-            {
-        examen: "INR (TP)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        nota: "Antiguamente TTPK",
       },
       {
         examen: "Tiempo de sangría",
         establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Tiempo de Tromboplastina Activada (TTPA)",
-        establecimiento: "Clinica Adventista Los Angeles",
-          nota: "Antiguamente TTPK",
       },
       {
         examen: "Transferrina",
@@ -215,10 +183,6 @@ const datos = [
         codigoBK: "TRANS",
         nota: "Suero, 1 mL",
       },    
-      {
-        examen: "Clearence",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
       {
         examen: "Clearence de creatinina",
         establecimiento: "Clinica Adventista Los Angeles",
@@ -232,20 +196,10 @@ const datos = [
         establecimiento: "Clinica Adventista Los Angeles",
       },
       {
-        examen: "Dimero-D",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
         examen: "Electrolitos plasmaticos (ELP)",
+        keywords: ['ionograma', 'sodio', 'potasio', 'cloro'],
         establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Lactico deshidrogenasa (LDH)(Perfil Bioquímico)",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Lactato deshidrogenasa (LDH)(Perfil Bioquímico)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        nota: "Sodio (Na), Potasio (K), Cloro (Cl)",
       },
       {
         examen: "Procalcitonina",
