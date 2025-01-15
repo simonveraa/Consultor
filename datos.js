@@ -1184,7 +1184,7 @@ const datos = [
         examen: "Citomegalovirus (CMV) Serología IgG, IgM ",
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0306069-3",
-        codigoBK: "IgG: <strong>CIG</strong><br> IgM: <strong>EBM</strong>",
+        codigoBK: "IgG: <strong>CIG</strong><br> IgM: <strong>CIM</strong>",
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
