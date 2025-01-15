@@ -13,7 +13,7 @@ const datos = [
         nota: "<ol><li>Rto. Leucocitos<li>Rto. Eritrocitos<li>Rto. Plaquetas<li>Hemoglobina<li>Hematocrito<li>VHS<li>Indices corpusculares<li>Formula diferencial</ol>"
       },
         {
-        examen: "Proteina C Reactiva (PCR)",
+        examen: "Proteína C Reactiva (PCR)",
         establecimiento: "Clinica Adventista Los Angeles",
       },
         {
@@ -41,10 +41,6 @@ const datos = [
         establecimiento: "Clinica Adventista Los Angeles",
       },
       {
-        examen: "Sangre Oculta (FOB)",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
         examen: "Antigeno Helicobacter pylori en Deposicion",
         establecimiento: "Clinica Adventista Los Angeles",
       },
@@ -52,20 +48,17 @@ const datos = [
         examen: "Rotavirus / Adenovirus en Deposicion",
         establecimiento: "Clinica Adventista Los Angeles",
       },
+      
       {
-        examen: "Clostridium difficile GDH Toxina A y B",
-        establecimiento: "Clinica Adventista Los Angeles",
-        nota: "Clostridioides difficile"
-      },
-      {
-        examen: "Clostridioides difficile GDH Toxina A y B",
+        examen: "Clostridioides difficile, GDH Toxina A y B",
+        keywords: ['clostridium'],
         establecimiento: "Clinica Adventista Los Angeles",
         nota: "Antes: Clostridium difficile"
       },
       {
         examen: "Panel Viral (8 Virus Respiratorios)",
         establecimiento: "Clinica Adventista Los Angeles",
-          nota: "IFI/IFD Para Virus Influenza A+B, VRS, ADV, MPV, Parainfluenza 1, 2 y 3.",
+        nota: "IFI/IFD Para Virus Influenza A+B, VRS, ADV, MPV, Parainfluenza 1, 2 y 3.",
       },
       {
         examen: "Chlamydia trachomatis ",
@@ -90,11 +83,6 @@ const datos = [
       {
         examen: "Orina Completa",
         establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Orina segundo chorro",
-        establecimiento: "Clinica Adventista Los Angeles",
-        nota: "Orina Completa",
       },
       {
         examen: "Perfil de Aminoácidos y Acilcarnitinas",
