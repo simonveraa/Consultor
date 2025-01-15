@@ -381,8 +381,8 @@ const datos = [
         keywords: ['Ac Folico', 'Ac. Folico', 'folatos'],
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0301002",
-          codigoBK: "FOL", 
-        ntoa: "Muestra: Suero o Plasma, 500 ul",
+        codigoBK: "FOL", 
+        nota: "Muestra: Suero o Plasma, 500 ul",
       },
       {
         examen: "Ácido Fólico Eritrocitario",
