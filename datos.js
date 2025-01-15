@@ -567,7 +567,7 @@ const datos = [
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "s/c",
         codigoBK: "SIR",
-        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>s/c Fonasa, cobro particular",
       },
       {
         examen: "Tacrolimus, Nivel Plasmático (Fármaco)",
@@ -764,7 +764,7 @@ const datos = [
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "s/c",
         codigoBK: "METALIBRE",
-        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>s/c Fonasa, cobro particular",
       },
       {
         examen: "Metanefrinas Urinarias",
@@ -826,7 +826,7 @@ const datos = [
       {
         examen: "Alfa Feto Proteina (AFP)",
         establecimiento: "Clinica Adventista Los Angeles",
-        codigo: "0305003_xx",
+        codigo: "0305003",
         codigoBK: "AFP",
       },
       {
