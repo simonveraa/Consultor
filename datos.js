@@ -18,19 +18,33 @@ const datos = [
       },
         {
         examen: "Inmunoglobulina A Total (IgA)",
+        keywords: ["iga total"],
         establecimiento: "Clinica Adventista Los Angeles",
+        codigo: "0305027-1",
       },
     {
         examen: "Inmunoglobulina G Total (IgG)",
+        keywords: ["igg total"],
         establecimiento: "Clinica Adventista Los Angeles",
+        codigo: "0305027-2",
       },
           {
         examen: "Inmunoglobulina M Total (IgM)",
+        keywords: ["igm total"],
         establecimiento: "Clinica Adventista Los Angeles",
+        codigo: "0305027-3",
       },
           {
         examen: "Inmunoglobulina E Total (IgE)",
+        keywords: ["ige total"],
         establecimiento: "Clinica Adventista Los Angeles",
+        codigo: "0305028",
+      },
+      {
+        examen: "Imunoglobulinas Totales (IgA, IgM, IgG)",
+        establecimiento: "Clinica Adventista Los Angeles",
+        codigo: "0305027",
+        Nota: "Cobro x3",
       },
       {
         examen: "Leucocitos Fecales",
@@ -41,7 +55,7 @@ const datos = [
         establecimiento: "Clinica Adventista Los Angeles",
       },
       {
-        examen: "Antigeno Helicobacter pylori en Deposicion",
+        examen: "Antígeno Helicobacter pylori en Deposicion",
         establecimiento: "Clinica Adventista Los Angeles",
       },
       {
@@ -66,7 +80,7 @@ const datos = [
         nota: "Muestra de flujo vaginal en mujer y orina en hombre",
       }, 
       {
-        examen: "Neonatal GSS (TSH Recien Nacido)",
+        examen: "Neonatal GSS (TSH Recién Nacido)",
         keywords: ['tiroestimulante', 'TSH', 'tiroidea',],
         establecimiento: "Clinica Adventista Los Angeles",
         codigo: "0302097",
@@ -101,7 +115,7 @@ const datos = [
         examen: "Perfil Bioquímico",
         keywords: ['Bilirrubina','ALP','AST', 'GOT', 'LDH','Glicemia','glucosa','Urea','BUN','Calcio','Fosforo','Colesterol','Proteinas','Albumina','acido Urico',],
         establecimiento: "Clinica Adventista Los Angeles",
-        nota: "<ol><li>Bilirrubina Total<li>ALP<li>AST/GOT<li>LDH<li>Glicemia<li>Urea/BUN<li>Calcio<li>Fosforo<li>Colesterol Total<li>Proteinas Totales<li>Albumina<li>Fracción A/G<li>Ácido Urico",
+        nota: "<ol><li>Bilirrubina Total<li>ALP<li>AST/GOT<li>LDH<li>Glicemia<li>Urea/BUN<li>Calcio<li>Fosforo<li>Colesterol Total<li>Proteínas Totales<li>Albúmina<li>Fracción A/G<li>Ácido Urico",
       },
       {
         examen: "Perfil Hepático",
@@ -184,7 +198,7 @@ const datos = [
         establecimiento: "Clinica Adventista Los Angeles",
       },
       {
-        examen: "Electrolitos plasmaticos (ELP)",
+        examen: "Electrolitos plasmáticos (ELP)",
         keywords: ['ionograma', 'sodio', 'potasio', 'cloro'],
         establecimiento: "Clinica Adventista Los Angeles",
         nota: "Sodio (Na), Potasio (K), Cloro (Cl)",
@@ -214,20 +228,16 @@ const datos = [
         codigo: "0302078",
       },
       {
-        examen: "Antigeno Prostatico Especifico (APE Total)",
+        examen: "Antígeno Prostatico Especifico (APE Total)",
+        keywords: ['PSA'],
         establecimiento: "Clinica Adventista Los Angeles",
+        nota: "Total Prostatic Specific Antigen (PSA Total)",
       },
       {
-        examen: "Antigeno Prostatico Especifico Libre (APE Libre)",
+        examen: "Antígeno Prostatico Especifico Libre (APE Libre)",
+        keywords: ['free PSA', 'psa'],
         establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Total Prostatic Specific Antigen (PSA Total)",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Free Prostatic Specific Antigen (PSA Libre)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        nota: "Free Prostatic Specific Antigen (PSA Libre)",
       },
       {
         examen: "Anticuerpos Antitiroglobulina (ATG)",
@@ -240,7 +250,7 @@ const datos = [
         establecimiento: "Clinica Adventista Los Angeles",
       },
       {
-        examen: "Antigeno Carcinoembrionario (CEA)",
+        examen: "Antígeno Carcinoembrionario (CEA)",
         keywords: ['ACE','tumoral', 'ag carcino'],
         establecimiento: "Clinica Adventista Los Angeles",
         codigo: "0305009",
@@ -249,73 +259,14 @@ const datos = [
         examen: "Complemento C3 y C4",
         establecimiento: "Clinica Adventista Los Angeles",
       },
-          {
-        examen: "Complemento C4",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Inmunoglobulinas",
-        establecimiento: "Clinica Adventista Los Angeles",
-        codigo: "0305027",
-        codigoBK: "",
-          Nota: "Inmunoglobulinas Totales IgA, IgG, IgM",
-        comparte: true
-      },
-      {
-        examen: "Imunoglobulinas Totales c/u",
-        establecimiento: "Clinica Adventista Los Angeles",
-        codigo: "0305027",
-        Nota: "IgA, IgG, IgM",
-        comparte: true
-      },
-      {
-        examen: "IgA total",
-        establecimiento: "Clinica Adventista Los Angeles",
-        codigo: "0305027-1",
-        
-      },
-      {
-        examen: "IgG total",
-        establecimiento: "Clinica Adventista Los Angeles",
-        codigo: "0305027-2",
-      },
-      {
-        examen: "IgM Total",
-        establecimiento: "Clinica Adventista Los Angeles",
-        codigo: "0305027-3",
-      },
-      {
-        examen: "IgE Total",
-        establecimiento: "Clinica Adventista Los Angeles",
-        codigo: "0305028",
-      },
       {
         examen: "IgA Secretora",
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0305026"
       },
       {
-        examen: "Hantavirus (Hanta Virus IgM)",
-        establecimiento: "Clinica Adventista Los Angeles",
-        codigo: "0306121"
-      },
-      {
-        examen: "Virus Hanta (Hanta Virus IgM)",
-        establecimiento: "Clinica Adventista Los Angeles",
-        codigo: "0306121"
-      },
-      {
-        examen: "Hanta IgM (Hanta Virus IgM)",
-        establecimiento: "Clinica Adventista Los Angeles",
-        codigo: "0306121"
-      },
-      {
-        examen: "Hantavirus IgM (Hanta Virus IgM)",
-        establecimiento: "Clinica Adventista Los Angeles",
-        codigo: "0306121"
-      },
-      {
-        examen: "Virus Hanta IgM (Hanta Virus IgM)",
+        examen: "Hantavirus (IgM)",
+        keywords: ['virus hanta'],
         establecimiento: "Clinica Adventista Los Angeles",
         codigo: "0306121"
       },
@@ -324,7 +275,7 @@ const datos = [
         keywords: ['VHB', 'superficie'],
         establecimiento: "Clinica Adventista Los Angeles",
         codigo: "0306079",
-        nota: "Antigeno de superficie de Hepatitis B",
+        nota: "Antígeno de superficie de Hepatitis B",
       },
       {
         examen: "Mycoplasma pneumoniae IgM+IgG",
@@ -400,10 +351,7 @@ const datos = [
       },
       {
         examen: "Pool de Prolactina",
-        establecimiento: "Clinica Adventista Los Angeles",
-      },
-      {
-        examen: "Pool Prolactina",
+        keywords: ['Pool Prolactina'],
         establecimiento: "Clinica Adventista Los Angeles",
       },
       {
@@ -496,7 +444,7 @@ const datos = [
         codigoBK: "LAC",
       },
       {
-        examen: "Deshidrogenasa Lactica c/separación isoenzimas",
+        examen: "Deshidrogenasa Láctica c/separación isoenzimas",
         establecimiento: "Santiago - Barnafi (1 semana)",
       },
       {
@@ -504,11 +452,11 @@ const datos = [
         establecimiento: "Santiago - Barnafi (1 semana)",
       },
       {
-        examen: "Electroforesis de Proteinas",
+        examen: "Electroforesis de Proteínas",
         establecimiento: "Santiago - Barnafi (1 semana)",
       },
           {
-        examen: "Electroforesis de Proteinas en Orina",
+        examen: "Electroforesis de Proteínas en Orina",
         establecimiento: "Santiago - Barnafi (1 semana)",
       },
       {
@@ -520,7 +468,7 @@ const datos = [
         establecimiento: "Santiago - Barnafi (1 semana)",
       },
       {
-        examen: "Homocisteina",
+        examen: "Homocisteína",
         establecimiento: "Santiago - Barnafi (1 semana)",
       },
       {
@@ -594,13 +542,7 @@ const datos = [
         codigoBK: "PLOOA",
       },
       {
-        examen: "Prealbumina",
-        establecimiento: "Santiago - Barnafi (1 semana)",
-        codigo: "0302085",
-        codigoBK: "PREALB",
-      },
-      {
-        examen: "Pre albumina",
+        examen: "Prealbúmina",
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0302085",
         codigoBK: "PREALB",
@@ -654,19 +596,8 @@ const datos = [
         codigoBK: "ZINCOA",
       },
       {
-        examen: "17 Hidroxiprogesterona (17-OHP)",
-        establecimiento: "Santiago - Barnafi (1 semana)",
-        codigo: "0303029",
-        codigoBK: "17PR",
-      },
-      {
-        examen: "17-OH Progesterona (17-OHP)",
-        establecimiento: "Santiago - Barnafi (1 semana)",
-        codigo: "0303029",
-        codigoBK: "17PR",
-      },
-      {
-        examen: "17 OH Progesterona (17-OHP)",
+        examen: "17-Hidroxiprogesterona (17-OHP)",
+        keywords: ['17 oh progesterona'],
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0303029",
         codigoBK: "17PR",
@@ -1169,7 +1100,7 @@ const datos = [
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0305004",
         codigoBK: "ENAS",
-        nota: "Tamizaje para complejo de antigenos: SM, LA(SS-B), RO(SS-A), RNP, SCL-70, JO-1"
+        nota: "Tamizaje para complejo de antígenos: SM, LA(SS-B), RO(SS-A), RNP, SCL-70, JO-1"
       },
       {
         examen: "Inmunofijación de Inmunoglobulinas en Sangre",
@@ -1231,40 +1162,40 @@ const datos = [
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
-        examen: "Antigeno Galactomanano de Aspergillus",
+        examen: "Antígeno Galactomanano de Aspergillus",
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "s/c",
         codigoBK: "GALACTO",
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
-        examen: "Bartonella henselae Serologia IgG, IgM",
+        examen: "Bartonella henselae Serología IgG, IgM",
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "BARTH",
         codigoBK: "IgG: <strong>BARG</strong><br> IgM: <strong>BARM</strong>",
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
-        examen: "Chlamydia en Sangre Serologia IgG, IgM ",
+        examen: "Chlamydia en Sangre Serología IgG, IgM ",
         establecimiento: "Santiago - Barnafi (1 semana)",
         
       },
       {
-        examen: "Citomegalovirus (CMV) Serologia IgG, IgM ",
+        examen: "Citomegalovirus (CMV) Serología IgG, IgM ",
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0306069-3",
         codigoBK: "IgG: <strong>CIG</strong><br> IgM: <strong>EBM</strong>",
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
-        examen: "Epstein Barr Virus Serologia IgG, IgM ",
+        examen: "Epstein Barr Virus Serología IgG, IgM ",
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0306069-5",
         codigoBK: "IgG: <strong>EBG</strong><br> IgM: <strong>EBM</strong>",
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
-        examen: "Virus Epstein Barr Serologia IgG, IgM ",
+        examen: "Virus Epstein Barr Serología IgG, IgM ",
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0306069-5",
         codigoBK: "IgG: <strong>EBG</strong><br> IgM: <strong>EBM</strong>",
@@ -1302,7 +1233,7 @@ const datos = [
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
-        examen: "Hepatitis B, Anticuerpos Anti-antigeno de superficie (vacuna)",
+        examen: "Hepatitis B, Anticuerpos Anti-antígeno de superficie (vacuna)",
         keywords: ['ac anti antigeno', 'anti hepatitis b', 'vhb'],
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "ANTIHBS",
@@ -1326,14 +1257,14 @@ const datos = [
         nota: "Evaluación de la memoria inmunológica",
       },
       {
-        examen: "Hepatitis B, Antigeno E",
+        examen: "Hepatitis B, Antígeno E",
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0306078",
         codigoBK: "HBE",
         nota: "Indicador de infección activa y replicación viral",
       },
       {
-        examen: "Hepatitis B, Anticuerpos Anti-antigeno E",
+        examen: "Hepatitis B, Anticuerpos Anti-antígeno E",
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0306075",
         codigoBK: "ANTIHBE",
@@ -1346,13 +1277,14 @@ const datos = [
         codigoBK: "",
       },
       {
-        examen: "17-Hidroxicorticosteroides, 17-OH Corticosteroides",
+        examen: "17-Hidroxicorticosteroides",
+        keywords: ['17 oh corticosteroides'],
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0303044",
         codigoBK: "",
       },
       {
-        examen: "Virus Zika Serologia IgG, IgM",
+        examen: "Virus Zika Serología IgG, IgM",
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "sin codigo, ingresar Examen barnafi",
         codigoBK: "IgG: <strong>ZIKAG</strong><br> IgM: <strong>ZIKAM</strong>",
@@ -1396,10 +1328,10 @@ const datos = [
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0306123-1",
         codigoBK: "PCRPAPI",
-        nota: "<strong>Se cobra particular.</strong><b> Tubo rosado con torula de dacron",
+        nota: "<strong>Se cobra particular.</strong><b> Tubo rosado con tórula de dacron",
       },
       {
-        examen: "ONCOGEN: Estudio Genetico Oncologico",
+        examen: "ONCOGEN: Estudio Genético Oncológico",
         establecimiento: "Santiago - Barnafi",
         codigo: "ONC",
         codigoBK: "",
@@ -1423,13 +1355,13 @@ const datos = [
         codigoBK: "APOB",
       },
       {
-        examen: "Arsenico en Orina",
+        examen: "Arsénico en Orina",
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0309034",
         codigoBK: "ARSOA",
       },
       {
-        examen: "Arsenico en sangre",
+        examen: "Arsénico en sangre",
         establecimiento: "Santiago - Barnafi (1 semana)",
         codigo: "0302134",
         codigoBK: "ARSESANGRE",
