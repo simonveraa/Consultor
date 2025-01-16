@@ -5,6 +5,7 @@ const resultadoTitulo = document.getElementById("resultado-titulo")
 const tabla = document.getElementById("tabla")
 const input = document.getElementById("buscar")
 const previewList = document.getElementById("preview")
+const updatesv = document.getElementById("updatesv")
 
 function normalizarTexto(texto) {
   texto = texto.toLowerCase()
@@ -68,6 +69,7 @@ buscarForm.addEventListener("submit", function (event) {
   })
   
   if (resultadoFiltrados.length > 0) {
+    updatesv.classList.add("asvbot")
     tabla.classList.remove("d-none")
     resultadoTitulo.classList.remove("d-none")
   
