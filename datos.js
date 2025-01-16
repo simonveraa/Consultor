@@ -1,89 +1,89 @@
 const datos = [
     {
         examen: "Ferritina",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0301026",
         nota: "Resultado en la tarde",
       },
       {
         examen: "Hemograma",
         keywords: ['recuento', 'leucocitos', 'eritrocitos', 'plaquetas', 'VHS', 'hto', 'hematocrito', 'hb', 'hemoglobina' ],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0301045",
         nota: "<ol><li>Rto. Leucocitos<li>Rto. Eritrocitos<li>Rto. Plaquetas<li>Hemoglobina<li>Hematocrito<li>VHS<li>Indices corpusculares<li>Formula diferencial</ol>"
       },
         {
         examen: "Proteína C Reactiva (PCR)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305031",
       },
         {
         examen: "Inmunoglobulina A Total (IgA)",
         keywords: ["iga total"],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305027-1",
       },
     {
         examen: "Inmunoglobulina G Total (IgG)",
         keywords: ["igg total"],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305027-2",
       },
           {
         examen: "Inmunoglobulina M Total (IgM)",
         keywords: ["igm total"],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305027-3",
       },
           {
         examen: "Inmunoglobulina E Total (IgE)",
         keywords: ["ige total"],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305028",
       },
       {
         examen: "Imunoglobulinas Totales (IgA, IgM, IgG)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305027",
         Nota: "Cobro x3",
       },
       {
         examen: "Leucocitos Fecales",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Sangre Oculta en Deposición (FOB)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Antígeno Helicobacter pylori en Deposición",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Rotavirus / Adenovirus en Deposición",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       
       {
         examen: "Clostridioides difficile, GDH Toxina A y B",
         keywords: ['clostridium'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         nota: "Antes: Clostridium difficile"
       },
       {
         examen: "Panel Viral (8 Virus Respiratorios)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         nota: "IFI/IFD Para Virus Influenza A+B, VRS, ADV, MPV, Parainfluenza 1, 2 y 3.",
       },
       {
         examen: "Chlamydia trachomatis ",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         nota: "Muestra de flujo vaginal en mujer y orina en hombre",
       }, 
       {
         examen: "Neonatal GSS (TSH Recién Nacido)",
         keywords: ['tiroestimulante', 'TSH', 'tiroidea',],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0302097",
         codigoBK: "TSHN",
         nota: "",
@@ -91,17 +91,17 @@ const datos = [
       {
         examen: "Hormona Estimulante de la Tiroides (TSH)",
         keywords: ['tiroestimulante', 'TSH', 'tiroidea',],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0303024",
         nota: "Hormona Tiroidea/Tiroestimulate"
       },
       {
         examen: "Orina Completa",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Perfil de Aminoácidos y Acilcarnitinas",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0302098",
         codigoBK: "ACILPLUS",
         nota: "Muestra: Gotas de sangre total sobre papel filtro especial",
@@ -109,75 +109,75 @@ const datos = [
       {
         examen: "Perfil Lipídico",
         keywords: ['Colesterol','LDL','HD','Trigliceridos'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         nota: "<ol><li>Colesterol Total<li>LDL<li>HDL<li>Trigliceridos",
       },
       {
         examen: "Perfil Bioquímico",
         keywords: ['Bilirrubina','ALP','AST', 'GOT', 'LDH','Glicemia','glucosa','Urea','BUN','Calcio','Fosforo','Colesterol','Proteinas','Albumina','acido Urico',],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         nota: "<ol><li>Bilirrubina Total<li>ALP<li>AST/GOT<li>LDH<li>Glicemia<li>Urea/BUN<li>Calcio<li>Fosforo<li>Colesterol Total<li>Proteínas Totales<li>Albúmina<li>Fracción A/G<li>Ácido Urico",
       },
       {
         examen: "Perfil Hepático",
         keywords: ['Bilirrubina','ALP','ALT','GPT','AST','GOT','GGT', 'protrombina', 'tp'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         nota: "<ol><li>Bilirrubina Total<li>Bilirrubina Directa<li>ALP<li>ALT/GPT<li>AST/GOT<li>GGT<li>Protrombina",
       },
       {
         examen: "Fierro sérico (Hierro)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Capacidad Total de Fijación del Hierro (TIBC)",
         keywords: ['saturación'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0301029"
         
       },
       {
         examen: "Fierro con Saturación de Transferrina (Porcentaje)",
         keywords: ['Indice de saturación de transferrina', 'TIBC', 'capacidad total de fijacion del hierro'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0301029",
         nota: "Incluye Capacidad Total de Fijación del Hierro (TIBC) y Fierro Sérico",
       },
       {
         examen: "Grupo Sanguíneo (ABO, Rh-D)",
         keywords: ['Grupo y rh'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Hemoglobina glicosilada (HbA1c)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Recuento de Reticulocitos",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Test de Coombs Indirecto (TCI)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Test de Coombs Directo (TCD)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Tiempo de Protrombina (TP)",
         keywords: ['porcentaje de protrombina', 'tiempos de coagulacion', 'coagulacion', 'inr'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         nota: "<ol><li>Tiempo<li>Porcentaje<li>INR</ol>"
       },
       {
         examen: "Tiempo de Tromboplastina Activada (TTPA)",
         keywords: ['coagulacion', 'TTPK',],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         nota: "Antiguamente TTPK",
       },
       {
         examen: "Tiempo de sangría",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Transferrina",
@@ -188,77 +188,77 @@ const datos = [
       },    
       {
         examen: "Clearence de creatinina",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Clearence de creatinina 24h",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Dimero D",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Electrolitos plasmáticos (ELP)",
         keywords: ['ionograma', 'sodio', 'potasio', 'cloro'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         nota: "Sodio (Na), Potasio (K), Cloro (Cl)",
       },
       {
         examen: "Procalcitonina",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Péptido Natriurético tipo B (NT-proBNP)",
         keywords: ['pro bnp',],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Troponina",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Vitamina B12 (Cobalamina)",
         keywords: ['vit b12', 'vit12'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Vitamina D (25-Hidroxivitamina D)",
         keywords: ['vitd', 'vit d', '25 oh'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0302078",
       },
       {
         examen: "Antígeno Prostatico Especifico (APE Total)",
         keywords: ['PSA'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         nota: "Total Prostatic Specific Antigen (PSA Total)",
       },
       {
         examen: "Antígeno Prostatico Especifico Libre (APE Libre)",
         keywords: ['free PSA', 'psa'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         nota: "Free Prostatic Specific Antigen (PSA Libre)",
       },
       {
         examen: "Anticuerpos Antitiroglobulina (ATG)",
         keywords: ['ac antitiroglobulina', 'ac tg'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
           {
         examen: "Anticuerpos Anti-Tiroperoxidasa (ATPO)",
         keywords: ['ac antitiroperoxidasa', 'anti tpo', 'tpo'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Antígeno Carcinoembrionario (CEA)",
         keywords: ['ACE','tumoral', 'ag carcino'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305009",
       },
       {
         examen: "Complemento C3 y C4",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "IgA Secretora",
@@ -268,35 +268,35 @@ const datos = [
       {
         examen: "Hantavirus (IgM)",
         keywords: ['virus hanta'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0306121"
       },
       {
         examen: "Virus Hepatitis B (HBsAg)",
         keywords: ['VHB', 'superficie'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0306079",
         nota: "Antígeno de superficie de Hepatitis B",
       },
       {
         examen: "Mycoplasma pneumoniae IgM+IgG",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0306037",
         nota: "Se cobra por dos determinaciones (IgM e IgG)",
       },
       {
         examen: "Mycoplasma pneumoniae IgM",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0306037-1",
       },
       {
         examen: "Mycoplasma pneumoniae IgG",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0306037-2",
       },
       {
         examen: "Virus Inmunodeficiencia Humana (VIH SIDA)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Virus Hepatitis C (VHC)",
@@ -310,72 +310,72 @@ const datos = [
       },
       {
         examen: "Calprotectina",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Gonadotropina Corionica Humana, subunidad beta (BHCG)",
         keywords: ['embarazo', 'B-HCG'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Insulina",
         keywords: ['resistencia'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Insulina Post Prandial",
         keywords: ['resistencia'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Curva de Insulina (3 muestras)",
         keywords: ['resistencia'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Estradiol",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Hormona Foliculo Estimulante (FSH)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0303015",
       },
       {
         examen: "Hormona Leutinizante (LH)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0303016",
       },
       {
         examen: "Prolactina",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Pool de Prolactina",
         keywords: ['Pool Prolactina'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Proteinuria",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Proteinuria 24h",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Ratio microalbuminuria (RAC)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Microalbuminuria",
         keywords: ['ualb',],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Microalbuminuria 24h",
         keywords: ['ualb 24',],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
         examen: "Ácido Fólico",
@@ -802,7 +802,7 @@ const datos = [
       },
       {
         examen: "Testosterona Total",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0303022",
           codigoBK: "",
       },
@@ -826,7 +826,7 @@ const datos = [
       },
       {
         examen: "Alfa Feto Proteina (AFP)",
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305003",
         codigoBK: "AFP",
       },
@@ -840,7 +840,7 @@ const datos = [
       {
         examen: "Anticuerpos Antinucleares (ANA)",
         keywords: ['aan', 'ac antinucleares', 'anticuerpos nucleares', 'ac antinucleares', 'anticuerpos anti nucleares'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305005",
         codigoBK: "ANAS",
         nota: "AAN (en inglés), Patrones de Anticuerpos Anti-Nucleo/Citoplasma para detección de autoinmunidad"
@@ -1079,19 +1079,19 @@ const datos = [
       {
         examen: "CA 15-3",
         keywords: ['ca15-3','tumoral'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305170",
       },
       {
         examen: "CA 19-9",
         keywords: ['ca19','tumoral'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305170-1",
       },
       {
         examen: "CA 125",
         keywords: ['ca125','tumoral'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305170-2",
       },
       {
@@ -1132,7 +1132,7 @@ const datos = [
       {
         examen: "Anticuerpos Anti Celulas Beta (ICAS)",
         keywords: ['diabetes'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "s/c",
         codigoBK: "ICAS",
         nota: "Ingresar <i>Examen BARNAFI</i>"
@@ -1387,7 +1387,7 @@ const datos = [
       {
         examen: "Parathormona (PTH)",
         keywords: ['hormona', 'pth', 'paratiroidea', 'parato'],
-        establecimiento: "Clinica Adventista Los Angeles",
+        establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0303018",
         codigoBK: "PTHC",
         nota: "Hormona Paratiroidea"
