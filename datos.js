@@ -667,6 +667,7 @@ const datos = [
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "303002",
         codigoBK: "ALDO",
+        nota: "Requiere Ayuno de 8 h.<br>Paciente debe permanecer sentado 15 minutos antes de la punción.<br>Indicar <i><u>posición: sentado</u></i> en el envío a Barnafi."
       },
       {
         examen: "Aldosterona en orina",
