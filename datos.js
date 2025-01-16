@@ -178,31 +178,32 @@ const datos = [
       {
         examen: "Tiempo de sangría",
         establecimiento: "<img src='adv.png' /> Clinala",
+        nota: "Evaluación de la Hemostasia Primaria en el reclutamiento y activación plaquetaria",
       },
       {
         examen: "Transferrina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0301082",
         codigoBK: "TRANS",
-        nota: "Suero, 1 mL",
+        nota: "Muestra: Suero, 1 mL<br>Proteína transportadora de hierro (cuantificación)",
       },    
       {
-        examen: "Clearence de creatinina",
+        examen: "Clearence de Creatinina",
+        keywords: ["depuración de creatinina"],
         establecimiento: "<img src='adv.png' /> Clinala",
-      },
-      {
-        examen: "Clearence de creatinina 24h",
-        establecimiento: "<img src='adv.png' /> Clinala",
+        nota: "Resultado calculado con determinación de Creatininuria 24h + Creatinina en sangre.<br>Muestras:<ol><li>Orina 24 h.<li>Sangre"
       },
       {
         examen: "Dimero D",
         establecimiento: "<img src='adv.png' /> Clinala",
+        nota: "Tubo celéste: Sangre citratada"
       },
       {
         examen: "Electrolitos plasmáticos (ELP)",
         keywords: ['ionograma', 'sodio', 'potasio', 'cloro'],
         establecimiento: "<img src='adv.png' /> Clinala",
-        nota: "Sodio (Na), Potasio (K), Cloro (Cl)",
+        codigo: "0308012 (x3)",
+        nota: "Sodio (Na), Potasio (K) y Cloro (Cl).",
       },
       {
         examen: "Procalcitonina",
@@ -212,10 +213,12 @@ const datos = [
         examen: "Péptido Natriurético tipo B (NT-proBNP)",
         keywords: ['pro bnp',],
         establecimiento: "<img src='adv.png' /> Clinala",
+        nota: "Tubo verde: Sangre heparinizada",
       },
       {
         examen: "Troponina",
         establecimiento: "<img src='adv.png' /> Clinala",
+        nota: "Tubo verde: Sangre heparinizada"
       },
       {
         examen: "Vitamina B12 (Cobalamina)",
