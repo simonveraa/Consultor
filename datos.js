@@ -666,13 +666,14 @@ const datos = [
         examen: "Aldosterona",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "303002",
-          codigoBK: "ALDO",
+        codigoBK: "ALDO",
       },
       {
         examen: "Aldosterona en orina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "",
-          codigoBK: "ALDOO",
+        codigo: "s/c - Ingresar: 0307099",
+        codigoBK: "ALDOO",
+        nota: "Escribir en notas: ALDOSTERONA EN ORINA y cobrar con codigo Fonasa: 303002"
       },
       {
         examen: "Androstenediona (4-androstenediona)",
@@ -690,15 +691,13 @@ const datos = [
         examen: "Cortisol Libre Urinario",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303035",
-          codigoBK: "CORTOA",
-        comparte: true
+        codigoBK: "CORTOA",
       },
       {
         examen: "Cortisol en Orina 24h",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303035",
-          codigoBK: "CORTO",
-        comparte: true
+        codigoBK: "CORTO",
       },
       {
         examen: "Cortisol en Saliva",
