@@ -297,12 +297,21 @@ const datos = [
         examen: "Anticuerpos Antitiroglobulina (ATG)",
         keywords: ['ac antitiroglobulina', 'ac tg'],
         establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0305007-2",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti-Tiroperoxidasa (ATPO)",
-        keywords: ['ac antitiroperoxidasa', 'anti tpo', 'tpo'],
+        keywords: ['ac antitiroperoxidasa', 'anti tpo', 'tpo', 'antiperoxidasa'],
         establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0305007-3"
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Anticuerpos Anti Tiroideos (ATG-TPO)",
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0305007",
+        nota: "Determinación de ATG y ATPO.<br>Cobro 0305007 x2"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -619,8 +628,17 @@ const datos = [
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Fosfatasas Alcalinas c/separación de isoenzimas",
+        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "s/c",
+        codigoBK: "ISOFA",
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Enzima Convertidora De Angiotensina (ECA)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0302033",
+        codigoBK: "ECA",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -669,6 +687,15 @@ const datos = [
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0302056",
         codigoBK: "MG",
+      },
+      {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
+        examen: "Ácido 5 Hidroxindol acético (orina 24h)",
+        keywords: ['5 OH indol', 'indol', 'ac 5 hidroxi'],
+        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "s/c",
+        codigoBK: "HIAA",
+        nota: "Se envía en: Contenedor para orina con Ácido Bórico"
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
@@ -857,6 +884,7 @@ const datos = [
         codigoBK: "CATEP"
       },
       {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Catecolaminas en Orina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303051",
@@ -1064,7 +1092,7 @@ const datos = [
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
-        examen: "Anticuerpos Anti Peptido Citrulinado IgG (CCP)",
+        examen: "Anticuerpos Anti Péptido Citrulinado IgG (CCP)",
         keywords: ['anti ccp', 'ac anti ccp', 'anticuerpos anti ccp', 'accp',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305099",
@@ -1073,7 +1101,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Endomisio IgA (EMA)",
-        keywords: ['ac anti endomisio',],
+        keywords: ['ac anti endomisio', 'antiendomisio'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305081-1",
         codigoBK: "EMA",
@@ -1121,7 +1149,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Transglutaminasa IgA",
-        keywords: ['ac anti transgluta',],
+        keywords: ['ac anti transgluta', 'antitransgluta'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305181-1",
         codigoBK: "GLUTAS",
@@ -1130,7 +1158,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Transglutaminasa IgG",
-        keywords: ['ac anti transgluta',],
+        keywords: ['ac anti transgluta', 'antitransgluta'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305181-2",
         codigoBK: "GLUTAG",
@@ -1152,6 +1180,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Microsomales",
+        keywords: ['antimicrosomales', 'ac antimicroso', 'ac anti micros'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305007-1",
         codigoBK: "AMIC",
@@ -1159,7 +1188,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Cardiolipinas (IgG y/o IgM)",
-        keywords: ['ac Anti Cardiolipinas',],
+        keywords: ['ac Anti Cardiolipinas', 'anticardiolipi',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305084",
           codigoBK: "Para IgG: CARG, Para IgM: CARM",
@@ -1316,7 +1345,7 @@ const datos = [
         codigoBK: "INMUNOFIJA",
       },
       {
-        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Inmunofijación de Inmunoglobulinas en Orina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305025-1",
@@ -1430,6 +1459,14 @@ const datos = [
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Varicela Zoster, Serología IgG, IgM ",
+        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "s/c",
+        codigoBK: "IgG: <strong>VARG</strong><br> IgM: <strong>VARM</strong>",
+        nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Epstein Barr Virus Serología IgG, IgM ",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306069-5",
@@ -1447,7 +1484,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "FTA-ABS (Sífilis)",
-        keywords: ['MHA-TP'],
+        keywords: ['MHA-TP', 'treponema pallidum'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306041",
         codigoBK: "FTA",
@@ -1481,7 +1518,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hepatitis B, Anticuerpos Anti-antígeno de superficie (VACUNA)",
-        keywords: ['ac anti antigeno', 'anti hepatitis b', 'vhb'],
+        keywords: ['ac anti antigeno', 'anti hepatitis b', 'vhb', 'hepatitis b vacuna'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "ANTIHBS",
         codigoBK: "ANTIHBS",
