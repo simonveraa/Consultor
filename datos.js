@@ -15,6 +15,13 @@ const datos = [
         nota: "<ol><li>Rto. Leucocitos<li>Rto. Eritrocitos<li>Rto. Plaquetas<li>Hemoglobina<li>Hematocrito<li>VHS<li>Indices corpusculares<li>Formula diferencial</ol>"
       },
       {
+        tubo: "<img src='img/forina32.png' height='32px'/>",
+        examen: "Espermiograma",
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0308029",
+        nota: "Datos necesarios:<ol><li>Hora toma de muestra<li>Días de abstinencia (3 min.)<li>Vasectomía<li>Pegar etiqueta en papel de datos"
+      },
+      {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Proteína C Reactiva (PCR)",
         establecimiento: "<img src='adv.png' /> Clinala",
@@ -220,9 +227,10 @@ const datos = [
       {
         tubo: "<img src='img/ccrea.png' height='32px'/>",
         examen: "Clearence de Creatinina",
-        keywords: ["depuración de creatinina"],
+        keywords: ["depuración de creatinina", "aclaramiento de crea"],
         establecimiento: "<img src='adv.png' /> Clinala",
-        nota: "Resultado calculado con determinación de Creatininuria 24h + Creatinina en sangre.<br>Muestras:<ol><li>Orina 24 h.<li>Sangre"
+        codigo: "0302024",
+        nota: "Indicar:<ul><li>Estatura<li>Peso Kg</li></ul>Examen calculado con:<ol><li>Creatininuria 24h<li>Creatinina en sangre</li></ol>Muestras:<ol><li>Orina 24 h.<li>Suero"
       },
       {
         tubo: "<img src='img/tcel32.png' height='32px'/>",
@@ -562,6 +570,7 @@ const datos = [
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302086",
         codigoBK: "HOMOC",
+        nota: "<ol><li>Separar rapidamente el suero de glóbulos rojos<li>Transporte refrigerado"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -886,10 +895,11 @@ const datos = [
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
-        examen: "Renina",
+        examen: "Renina plasmática",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303021",
         codigoBK: "RENINA",
+        nota: "<ol><li>Centrifugar inmediatamente<li>Extraer plasma<li>Congelar<li>Transporte congelado"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
