@@ -78,6 +78,7 @@ buscarForm.addEventListener("submit", function (event) {
     resultadoFiltrados.forEach((r) => {
       const row = document.createElement("tr")
       row.innerHTML = `
+        <td style="text-align: center; vertical-align: middle;">${r.tubo ? r.tubo : ''}</td>
         <td style="vertical-align: middle;"><b>${r.examen}</b></td>
         <td style="vertical-align: middle;">${r.establecimiento}</td>
         <td style="vertical-align: middle;">${r.codigo ? r.codigo : ''}</td>

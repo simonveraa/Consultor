@@ -1,51 +1,66 @@
 const datos = [
     {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Ferritina",
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0301026",
         nota: "Resultado en la tarde",
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Hemograma",
         keywords: ['recuento', 'leucocitos', 'eritrocitos', 'plaquetas', 'VHS', 'hto', 'hematocrito', 'hb', 'hemoglobina' ],
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0301045",
         nota: "<ol><li>Rto. Leucocitos<li>Rto. Eritrocitos<li>Rto. Plaquetas<li>Hemoglobina<li>Hematocrito<li>VHS<li>Indices corpusculares<li>Formula diferencial</ol>"
       },
-        {
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Proteína C Reactiva (PCR)",
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305031",
       },
-        {
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Inmunoglobulina A Total (IgA)",
         keywords: ["iga total"],
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305027-1",
       },
-    {
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Inmunoglobulina G Total (IgG)",
         keywords: ["igg total"],
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305027-2",
       },
-          {
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Inmunoglobulina M Total (IgM)",
         keywords: ["igm total"],
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305027-3",
       },
-          {
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Inmunoglobulina E Total (IgE)",
         keywords: ["ige total"],
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305028",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Imunoglobulinas Totales (IgA, IgM, IgG)",
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305027",
-        Nota: "Cobro x3",
+        nota: "Cobro x3",
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Globulinas Totales (Proteínas + Albúmina)",
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0302100<br>0302101",
+        nota: "<u>Ingresar ambos códigos</u><br>Proteínas Totales: 0302100<br>Albumina: 0302101",
       },
       {
         examen: "Leucocitos Fecales",
@@ -89,6 +104,7 @@ const datos = [
         nota: "",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hormona Estimulante de la Tiroides (TSH)",
         keywords: ['tiroestimulante', 'TSH', 'tiroidea',],
         establecimiento: "<img src='adv.png' /> Clinala",
@@ -107,28 +123,33 @@ const datos = [
         nota: "Muestra: Gotas de sangre total sobre papel filtro especial",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Perfil Lipídico",
         keywords: ['Colesterol','LDL','HD','Trigliceridos'],
         establecimiento: "<img src='adv.png' /> Clinala",
         nota: "<ol><li>Colesterol Total<li>LDL<li>HDL<li>Trigliceridos",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Perfil Bioquímico",
         keywords: ['Bilirrubina','ALP','AST', 'GOT', 'LDH','Glicemia','glucosa','Urea','BUN','Calcio','Fosforo','Colesterol','Proteinas','Albumina','acido Urico',],
         establecimiento: "<img src='adv.png' /> Clinala",
         nota: "<ol><li>Bilirrubina Total<li>ALP<li>AST/GOT<li>LDH<li>Glicemia<li>Urea/BUN<li>Calcio<li>Fosforo<li>Colesterol Total<li>Proteínas Totales<li>Albúmina<li>Fracción A/G<li>Ácido Urico",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Perfil Hepático",
         keywords: ['Bilirrubina','ALP','ALT','GPT','AST','GOT','GGT', 'protrombina', 'tp'],
         establecimiento: "<img src='adv.png' /> Clinala",
         nota: "<ol><li>Bilirrubina Total<li>Bilirrubina Directa<li>ALP<li>ALT/GPT<li>AST/GOT<li>GGT<li>Protrombina",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Fierro sérico (Hierro)",
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Capacidad Total de Fijación del Hierro (TIBC)",
         keywords: ['saturación'],
         establecimiento: "<img src='adv.png' /> Clinala",
@@ -136,6 +157,7 @@ const datos = [
         
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Fierro con Saturación de Transferrina (Porcentaje)",
         keywords: ['Indice de saturación de transferrina', 'TIBC', 'capacidad total de fijacion del hierro'],
         establecimiento: "<img src='adv.png' /> Clinala",
@@ -143,33 +165,40 @@ const datos = [
         nota: "Incluye Capacidad Total de Fijación del Hierro (TIBC) y Fierro Sérico",
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Grupo Sanguíneo (ABO, Rh-D)",
         keywords: ['Grupo y rh'],
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Hemoglobina glicosilada (HbA1c)",
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Recuento de Reticulocitos",
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Test de Coombs Indirecto (TCI)",
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Test de Coombs Directo (TCD)",
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/tcel32.png' height='32px'/>",
         examen: "Tiempo de Protrombina (TP)",
         keywords: ['porcentaje de protrombina', 'tiempos de coagulacion', 'coagulacion', 'inr'],
         establecimiento: "<img src='adv.png' /> Clinala",
         nota: "<ol><li>Tiempo<li>Porcentaje<li>INR</ol>"
       },
       {
+        tubo: "<img src='img/tcel32.png' height='32px'/>",
         examen: "Tiempo de Tromboplastina Activada (TTPA)",
         keywords: ['coagulacion', 'TTPK',],
         establecimiento: "<img src='adv.png' /> Clinala",
@@ -181,6 +210,7 @@ const datos = [
         nota: "Evaluación de la Hemostasia Primaria en el reclutamiento y activación plaquetaria",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Transferrina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0301082",
@@ -188,17 +218,20 @@ const datos = [
         nota: "Muestra: Suero, 1 mL<br>Proteína transportadora de hierro (cuantificación)",
       },    
       {
+        tubo: "<img src='img/ccrea.png' height='32px'/>",
         examen: "Clearence de Creatinina",
         keywords: ["depuración de creatinina"],
         establecimiento: "<img src='adv.png' /> Clinala",
         nota: "Resultado calculado con determinación de Creatininuria 24h + Creatinina en sangre.<br>Muestras:<ol><li>Orina 24 h.<li>Sangre"
       },
       {
+        tubo: "<img src='img/tcel32.png' height='32px'/>",
         examen: "Dimero D",
         establecimiento: "<img src='adv.png' /> Clinala",
         nota: "Tubo celéste: Sangre citratada"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Electrolitos plasmáticos (ELP)",
         keywords: ['ionograma', 'sodio', 'potasio', 'cloro'],
         establecimiento: "<img src='adv.png' /> Clinala",
@@ -206,60 +239,71 @@ const datos = [
         nota: "Sodio (Na), Potasio (K) y Cloro (Cl).",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Procalcitonina",
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/tverde32.png' height='32px'/>",
         examen: "Péptido Natriurético tipo B (NT-proBNP)",
         keywords: ['pro bnp',],
         establecimiento: "<img src='adv.png' /> Clinala",
         nota: "Tubo verde: Sangre heparinizada",
       },
       {
+        tubo: "<img src='img/tverde32.png' height='32px'/>",
         examen: "Troponina",
         establecimiento: "<img src='adv.png' /> Clinala",
         nota: "Tubo verde: Sangre heparinizada"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Vitamina B12 (Cobalamina)",
         keywords: ['vit b12', 'vit12'],
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Vitamina D (25-Hidroxivitamina D)",
         keywords: ['vitd', 'vit d', '25 oh'],
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0302078",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Antígeno Prostatico Especifico (APE Total)",
         keywords: ['PSA'],
         establecimiento: "<img src='adv.png' /> Clinala",
         nota: "Total Prostatic Specific Antigen (PSA Total)",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Antígeno Prostatico Especifico Libre (APE Libre)",
         keywords: ['free PSA', 'psa'],
         establecimiento: "<img src='adv.png' /> Clinala",
         nota: "Free Prostatic Specific Antigen (PSA Libre)",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Antitiroglobulina (ATG)",
         keywords: ['ac antitiroglobulina', 'ac tg'],
         establecimiento: "<img src='adv.png' /> Clinala",
       },
-          {
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti-Tiroperoxidasa (ATPO)",
         keywords: ['ac antitiroperoxidasa', 'anti tpo', 'tpo'],
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Antígeno Carcinoembrionario (CEA)",
         keywords: ['ACE','tumoral', 'ag carcino'],
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305009",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Complemento C3 y C4",
         establecimiento: "<img src='adv.png' /> Clinala",
       },
@@ -269,12 +313,14 @@ const datos = [
         codigo: "0305026"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hantavirus (IgM)",
         keywords: ['virus hanta'],
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0306121"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Hepatitis B (HBsAg)",
         keywords: ['VHB', 'superficie'],
         establecimiento: "<img src='adv.png' /> Clinala",
@@ -282,32 +328,38 @@ const datos = [
         nota: "Antígeno de superficie de Hepatitis B",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Mycoplasma pneumoniae IgM+IgG",
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0306037",
         nota: "Se cobra por dos determinaciones (IgM e IgG)",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Mycoplasma pneumoniae IgM",
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0306037-1",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Mycoplasma pneumoniae IgG",
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0306037-2",
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Virus Inmunodeficiencia Humana (VIH SIDA)",
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Hepatitis C (VHC)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306081",
           nota: "Solo si tiene otros exámenes a barnafi, de lo contrario: Lab. Cordillera",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Hepatitis A (VHA IgM)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
       },
@@ -316,44 +368,53 @@ const datos = [
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Gonadotropina Corionica Humana, subunidad beta (BHCG)",
         keywords: ['embarazo', 'B-HCG'],
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Insulina",
         keywords: ['resistencia'],
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Insulina Post Prandial",
         keywords: ['resistencia'],
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Curva de Insulina (3 muestras)",
         keywords: ['resistencia'],
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Estradiol",
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hormona Foliculo Estimulante (FSH)",
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0303015",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hormona Leutinizante (LH)",
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0303016",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Prolactina",
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Pool de Prolactina",
         keywords: ['Pool Prolactina'],
         establecimiento: "<img src='adv.png' /> Clinala",
@@ -381,6 +442,7 @@ const datos = [
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Ácido Fólico",
         keywords: ['Ac Folico', 'Ac. Folico', 'folatos'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -389,18 +451,23 @@ const datos = [
         nota: "Muestra: Suero o Plasma, 500 ul",
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Ácido Fólico Eritrocitario",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
         codigoBK: "FOLERI",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Adenosindeaminasa (ADA)",
         keywords: ['deaminase',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        nota: "Suero o Plasma, 1 ml",
+        codigo: "s/c",
+        codigoBK: "ADDA",
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Caroteno",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302017",
@@ -413,6 +480,7 @@ const datos = [
         codigoBK: ""
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Calcio Ionico",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302081",
@@ -425,71 +493,114 @@ const datos = [
         codigoBK: "CALC"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Ceruloplasmina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302019",
         codigoBK: "CER",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Cobre en sangre",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302020",
         codigoBK: "CU",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Colinesterasa en suero o plasma",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302021",
         codigoBK: "COLI",
       },
       {
+        tubo: "<img src='img/tgris32.png' height='32px'/>",
         examen: "Lactato",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "s/c",
         codigoBK: "LAC",
+        nota: "Tubo gris: Fluoruro u Oxalato<br>Transporte en frío (2 - 8 °C)"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Deshidrogenasa Láctica c/separación isoenzimas",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Enzima Convertidora De Angiotensina (ECA)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Electroforesis de Proteínas",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0301044",
+        codigoBK: "EFP"
       },
-          {
+      {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
+        examen: "Electroforesis de Hemoglobina",
+        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0301044",
+        codigoBK: "EFHBG"
+      },
+      {
         examen: "Electroforesis de Proteínas en Orina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
       },
       {
-        examen: "Fenilalanina (LFA)",
+        examen: "Fenilalanina neonatal (PKU)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0302082",
+        codigoBK: "PKU",
+        nota: "Muestra: Gotas de sangre total sobre papel filtro especial",
       },
       {
-        examen: "L-Fenilalanina (LFA)",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-      },
-      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Homocisteína",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0302086",
+        codigoBK: "HOMOC",
       },
       {
-        examen: "Litio",
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Litio, nivel plasmático",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0302055",
+        codigoBK: "LIT",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Magnesio",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        keywords: ['mg', 'mgo'],
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0302056",
+        codigoBK: "MG",
       },
       {
+        examen: "Magnesio en orina",
+        keywords: ['mg', 'mgo', 'magensiuria'],
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0302052-1",
+        codigoBK: "MGO",
+      },
+      {
+        examen: "Magnesio en orina 24h",
+        keywords: ['mg', 'mgo', 'magensiuria'],
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0302052-2",
+        codigoBK: "",
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Ácido Valpróico Total, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302035-1",
         codigoBK: "VALP",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Ácido Valpróico Libre, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
@@ -497,12 +608,14 @@ const datos = [
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Fenitoína, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302035-4",
         codigoBK: "FEN",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Carbamazepina Total, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302035-2",
@@ -515,6 +628,7 @@ const datos = [
         codigoBK: "BENZ",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Oxcarbazepina, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
@@ -522,6 +636,7 @@ const datos = [
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Fenobarbital Total, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302035-5",
@@ -529,6 +644,7 @@ const datos = [
         
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Fenobarbital Libre, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
@@ -542,10 +658,12 @@ const datos = [
         nota: "Se utiliza cuando no hay indexado un examen y este debe ser referido en notas",
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Plomo",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302084",
         codigoBK: "PLOMOMASA",
+        nota: "Niveles de plomo en sangre total"
       },
       {
         examen: "Plomo en Orina",
@@ -554,12 +672,14 @@ const datos = [
         codigoBK: "PLOOA",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Prealbúmina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302085",
         codigoBK: "PREALB",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Triptasa",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305201",
@@ -567,6 +687,7 @@ const datos = [
         nota: "",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Sirolimus, Nivel Plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
@@ -574,6 +695,7 @@ const datos = [
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>s/c Fonasa, cobro particular",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Tacrolimus, Nivel Plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "TAC",
@@ -581,6 +703,7 @@ const datos = [
         nota: "s/c Fonasa, cobro particular",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Vitamina A (Retinol)",
         keywords: ['vit a', 'acido retinoico', 'ac retinoico'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -589,6 +712,7 @@ const datos = [
         nota: "Ácido Retinoico"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Vitamina B6 (Piridoxina)",
         keywords: ['vit b6', 'vitb6'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -596,6 +720,7 @@ const datos = [
         codigoBK: "VITB6",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Zinc",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302198",
@@ -608,61 +733,44 @@ const datos = [
         codigoBK: "ZINCOA",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "17-Hidroxiprogesterona (17-OHP)",
         keywords: ['17 oh progesterona'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303029",
         codigoBK: "17PR",
       },
-  {
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti-Membrana Basal Glomerular (AAMBG)",
+        keywords: ['ac antimembrana basal'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305081-2",
         codigoBK: "MEMBRA",
       },
       {
-        examen: "Ac Antimembrana Basal Glomerular (AAMBG)",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "0305081-2",
-        codigoBK: "MEMBRA",
-      },
-      {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Hormona Adrenocorticotropica (ACTH)",
+        keywords: ['corticotropina', 'corticotrofina'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303001",
-          codigoBK: "ACTH",
+        codigoBK: "ACTH",
       },
       {
-        examen: "Corticotropina , Corticotrofina (ACTH)",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "0303001",
-          codigoBK: "ACTH",
-      },
-      {
-        examen: "Catecolaminas Plasmaticas",
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
+        examen: "Catecolaminas Plasmáticas",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303049",
         codigoBK: "CATEP"
       },
       {
-        examen: "Catecolaminas Urinarias",
+        examen: "Catecolaminas en Orina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303051",
         codigoBK: "CATEOA"
       },
       {
-        examen: "Catecolaminas En Orina",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "0303051",
-        codigoBK: "CATEOA"
-      },
-      {
-        examen: "Catecolaminas En Sangre",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "0303049",
-        codigoBK: "CATEP"
-      },
-      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Aldosterona",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "303002",
@@ -677,12 +785,15 @@ const datos = [
         nota: "Escribir en notas: ALDOSTERONA EN ORINA y cobrar con codigo Fonasa: 303002"
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Androstenediona (4-androstenediona)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303003",
-          codigoBK: "ANDROD",
+        codigoBK: "ANDROD",
+        nota: "EDTA"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Cortisol AM/PM",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303006",
@@ -707,36 +818,22 @@ const datos = [
           codigoBK: "CORTS",
       },
       {
-        examen: "Dehidroepiandrosterona (DHEA)",
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Dehidroepiandrosterona, sulfato (DHEA-SO4)",
+        keywords: ['dheas'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303008",
-          codigoBK: "DHEAS",
+        codigoBK: "DHEAS",
       },
       {
-        examen: "Dehidroepiandrosterona sulfato (DHEA-SO4)",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "0303008",
-          codigoBK: "DHEAS",
-      },
-      {
-        examen: "DHEA-S (DHEA-SO4)",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "0303008",
-          codigoBK: "DHEAS",
-      },
-      {
-        examen: "DHEAS (DHEA-SO4)",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "0303008",
-          codigoBK: "DHEAS",
-      },
-      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Gastrina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303012",
           codigoBK: "GAS",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Insulin-Like Growth Factor 1 (IGF1)",
         keywords: ['somatomedina', 'crecimiento', 'similar a insulina', 'factor 1 de crecimiento'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -745,6 +842,7 @@ const datos = [
         nota: "Somatomedina, Factor 1 de Crecimiento Similar a Insulina",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Insulin-Like Growth Factor Binding Protein-1 (IGFBP1)",
         keywords: ['proteina 1', 'crecimiento', 'similar a insulina', 'factor de crecimiento', 'ligado a',
           'igf binding', 'igf ligado',],
@@ -754,6 +852,7 @@ const datos = [
         nota: "Proteina 1 de union al Factor de Crecimiento Similar a Insulina, IGF Binding Protein 1",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Insulin-Like Growth Factor Binding Protein-3 (IGFBP3)",
         keywords: ['proteina 3', 'crecimiento', 'similar a insulina', 'factor de crecimiento', 'ligado a',
           'igf binding', 'igf ligado',],
@@ -763,6 +862,7 @@ const datos = [
         nota: "Proteina 3 de union al Factor de Crecimiento Similar a Insulina, IGF Binding Protein 1",
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Metanefrinas Plasmáticas",
         keywords: ['metanefrinas en sangre',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -778,18 +878,21 @@ const datos = [
         codigoBK: "METANEF",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Progesterona",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303019",
         codigoBK: "PRGD",
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Renina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303021",
         codigoBK: "RENINA",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Sex hormone binding globulin (SHBG)",
         keywords: ['globulina fijadora',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -798,42 +901,49 @@ const datos = [
         nota: "Globulina Fijadora de Hormonas Sexuales",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Testosterona Libre",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303023",
         codigoBK: "TESTL",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Testosterona Total",
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0303022",
           codigoBK: "",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Tiroglobulina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303025",
         codigoBK: "TIROG",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Alfa 1 Antitripsina (AAT)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "305001",
         codigoBK: "AATT",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Alfa 2 Macroglobulina (A2M)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305002",
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Alfa Feto Proteina (AFP)",
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305003",
         codigoBK: "AFP",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Panel ANA 23 Autoanticuerpos IgG",
         keywords: ['ac antinucleares', 'anticuerpos nucleares', 'ac antinucleares'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -841,6 +951,7 @@ const datos = [
         codigoBK: "ANA23",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Antinucleares (ANA)",
         keywords: ['aan', 'ac antinucleares', 'anticuerpos nucleares', 'ac antinucleares', 'anticuerpos anti nucleares'],
         establecimiento: "<img src='adv.png' /> Clinala",
@@ -849,6 +960,7 @@ const datos = [
         nota: "AAN (en inglés), Patrones de Anticuerpos Anti-Nucleo/Citoplasma para detección de autoinmunidad"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti DNA",
         keywords: ['ac anti dna', 'ac anti adn', 'ac anti adn',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -857,6 +969,7 @@ const datos = [
         nota: "<strong>Código Fonasa:</strong> 0305005<br> Anticuerpos anti ADN nativo de doble cadena (dsDNA)"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Peptido Citrulinado IgG (CCP)",
         keywords: ['anti ccp', 'ac anti ccp', 'anticuerpos anti ccp', 'accp',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -864,6 +977,7 @@ const datos = [
         codigoBK: "CCPP",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Endomisio IgA (EMA)",
         keywords: ['ac anti endomisio',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -871,6 +985,7 @@ const datos = [
         codigoBK: "EMA",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Peptido Deaminado de Gliadina IgA ",
         keywords: ['ac anti peptido deaminado de gliadina iga',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -878,6 +993,7 @@ const datos = [
         codigoBK: "GLIDA",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Peptido Deaminado de Gliadina IgG ",
         keywords: ['Ac Antifosfolipidos',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -885,6 +1001,7 @@ const datos = [
         codigoBK: "GLIDG",
       },
     {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Antifosfolipidos",
         keywords: ['ac anti fosfolipidos',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -892,6 +1009,7 @@ const datos = [
         codigoBK: "",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Gliadina IgG",
         keywords: ['ac antigliadina igg', 'ac anti gliadina igg',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -899,6 +1017,7 @@ const datos = [
         codigoBK: "GLIG",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Gliadina IgA",
         keywords: ['ac antigliadina iga', 'ac anti gliadina iga',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -906,96 +1025,61 @@ const datos = [
         codigoBK: "GLIA",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Transglutaminasa IgA",
+        keywords: ['ac anti transgluta',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305181-1",
         codigoBK: "GLUTAS",
         
       },
       {
-        examen: "Ac anti transglutaminasa IgA",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "0305181-1",
-        codigoBK: "GLUTAS",
-      
-      },
-      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Transglutaminasa IgG",
+        keywords: ['ac anti transgluta',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305181-2",
         codigoBK: "GLUTAG",
       },
       {
-        examen: "Ac anti transglutaminasa IgG",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "0305181-2",
-        codigoBK: "GLUTAG",
-      },
-      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Celulas Parietales (IFI)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "PARI",
         codigoBK: "PARI",
       },
       {
-        examen: "Anticuerpos Anti Celulas Parietales IgG",
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Anticuerpos Anti Células Parietales IgG",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "PARIELISA",
         codigoBK: "PARIELISA",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Microsomales",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305007-1",
         codigoBK: "AMIC",
       },
       {
-        examen: "Ac Antimicrosomales",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "0305007-1",
-        codigoBK: "AMIC",
-      },
-      {
-        examen: "Ac. Antimicrosomales",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "0305007-1",
-        codigoBK: "AMIC",
-      },
-      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Cardiolipinas (IgG y/o IgM)",
+        keywords: ['ac Anti Cardiolipinas',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305084",
           codigoBK: "Para IgG: CARG, Para IgM: CARM",
         nota: "Especificar segun corresponda",
       },
       {
-        examen: "Ac Anticardiolipinas (IgG y/o IgM)",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "0305084",
-          codigoBK: "Para IgG: CARG, Para IgM: CARM",
-        nota: "Especificar segun corresponda",
-      },
-      {
-        examen: "Ac. Anticardiolipinas (IgG y/o IgM)",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "0305084",
-          codigoBK: "Para IgG: CARG, Para IgM: CARM",
-        nota: "Especificar segun corresponda",
-      },
-      {
-        examen: "Anticardiolipinas (IgG y/o IgM)",
-        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "0305084",
-          codigoBK: "Para IgG: CARG, Para IgM: CARM",
-        nota: "Especificar segun corresponda",
-      },
-      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticoagulante Lupico",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigoBK: "LUPI",
         
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Receptor de TSH (TRAB)",
         keywords: ['ac antireceptor', 'antireceptor', 'ac anti receptor', 'anti trab', 'ac anti trab',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1003,6 +1087,7 @@ const datos = [
         codigoBK: "TRABB",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti B2 Glicoproteina IgG",
         keywords: ['anti b2', 'ac antiglicoproteina', 'ac anti glicoproteina', 'ac antib2', 'ac anti b2 glicoproteina'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1010,6 +1095,7 @@ const datos = [
         codigoBK: "B2G",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti B2 Glicoproteina IgM",
         keywords: ['anti b2', 'ac antiglicoproteina', 'ac anti glicoproteina', 'ac antib2', 'ac anti b2 glicoproteina'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1017,6 +1103,7 @@ const datos = [
         codigoBK: "B2M",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Musculo liso (AMLI)",
         keywords: ['ac antimusuclo', 'ac anti musculo', 'antimusculo'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1024,6 +1111,7 @@ const datos = [
         codigoBK: "AMLI",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti LKM-1 (LKM)",
         keywords: ['ac anti lkm', 'anti lkm',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1031,6 +1119,7 @@ const datos = [
         codigoBK: "LKM",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Mitocondriales (AMIT)",
         keywords: ['ac anti mitocondriales', 'anti mitocondriales', 'antimito',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1038,6 +1127,7 @@ const datos = [
         codigoBK: "AMIT",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Mieloperoxidasa (MPO)",
         keywords: ['ac anti mielopero', 'anti mielopero', 'antimielopero', 'antimpo', 'anti mpo',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1045,6 +1135,7 @@ const datos = [
         codigoBK: "MPO",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anticentromero (ACA)",
         keywords: ['ac anti centromero', 'anti centromero', 'ac anticentromero', 'centromero',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1052,6 +1143,7 @@ const datos = [
         codigoBK: "ANTICEN",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Proteinasa 3 (ANTI-PR3)",
         keywords: ['ac proteinasa3', 'antiproteinasa',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1059,6 +1151,7 @@ const datos = [
         codigoBK: "PR3",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anticitoplasma de Neutrofilos (ANCA)",
         keywords: ['ancas'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1066,6 +1159,7 @@ const datos = [
         codigoBK: "ANCA",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anticitoplasma de Neutrofilos C (ANCA C)",
         keywords: ['ancac'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1073,6 +1167,7 @@ const datos = [
         codigoBK: "ANCAC",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anticitoplasma de Neutrofilos P (ANCA P)",
         keywords: ['ancap',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1080,24 +1175,28 @@ const datos = [
         codigoBK: "ANCAP",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "CA 15-3",
         keywords: ['ca15-3','tumoral'],
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305170",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "CA 19-9",
         keywords: ['ca19','tumoral'],
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305170-1",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "CA 125",
         keywords: ['ca125','tumoral'],
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0305170-2",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti-SM, RNP, LA (SS-B), RO (SS-A), SCL-70, JO-1 C/U",
         keywords: ['anti sm', 'anti RO', ' anti RNP', 'anti LA', 'anti SCL', 'anti JO',
                     'smith', 'ena'],
@@ -1107,6 +1206,7 @@ const datos = [
         nota: "La solicitud a BkLab debe ser por c/u de los anticuerpos y su cobro: 0305108 x6 "
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "ENA screening (ENAS)",
         keywords: ['SM', 'RO', 'RNP', 'LA', 'SCL-70', 'JO-1', 'tamizaje'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1115,15 +1215,37 @@ const datos = [
         nota: "Tamizaje para complejo de antígenos: SM, LA(SS-B), RO(SS-A), RNP, SCL-70, JO-1"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Inmunofijación de Inmunoglobulinas en Sangre",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0305025",
+        codigoBK: "INMUNOFIJA",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Inmunofijación de Inmunoglobulinas en Orina",
+        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0305025-1",
+        codigoBK: "INMUNOFIJO",
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "IgE Especificas c/u",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0305029",
+        codigoBK: "IGEE",
         nota: "Lacteos y Detergentes No se realizan"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "IgE Especificas, Panel Chile (35 Alérgenos)",
+        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0305029-1",
+        codigoBK: "PCHILE35",
+        nota: "Leche de vaca, entre otros alérgenos"
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Marcadores Inmunologicos en Diabetes",
         keywords: ['tirosin', 'fosfatasa', 'IA2', 'celulas beta', 'ICA', 'IAA', 'descarboxilasa',
             'acido glutamico', 'gad', 'transportador 8', 'znt8',],
@@ -1133,6 +1255,7 @@ const datos = [
         nota: "<strong>Código FONASA: 0305106</strong><ol>Anticuerpos anti:<li> Tirosin Fosfatasa (IA2),<li> Células beta (ICA),<li> Insulina (IAA),<li> Descarboxilasa del ácido glutámico (GAD),<li> Transportador 8 del Zinc (ZNT8) "
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Celulas Beta (ICAS)",
         keywords: ['diabetes'],
         establecimiento: "<img src='adv.png' /> Clinala",
@@ -1141,6 +1264,7 @@ const datos = [
         nota: "Ingresar <i>Examen BARNAFI</i>"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Panel Miositis 16, Auto Anticuerpos Tipo IgG",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305007-8",
@@ -1148,18 +1272,21 @@ const datos = [
         nota: "<ol><li>Anti-Mi-2alpha, <li>Anti-Mi-2beta, <li>Anti-TIF1gamma, <li>Anti-MDA5, <li>Anti-NXP2, <li>Anti-SAE1, <li>Anti-Ku, <li>Anti-PM-Scl100, <li>Anti-PM-Scl75, <li>Anti-Jo-1, <li>Anti-SRP, <li>Anti-PL-7, <li>Anti-PL-12, <li>Anti-EJ, <li>Anti-OJ, <li>Anti-Ro52</ol>",
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Tipificación HLA-B27",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305118",
         codigoBK: "HLAB27",
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Tipificación HLA-DQ2 y HLA-DQ8",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305121",
         codigoBK: "DQ",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hormona Anti Mulleriana (AMH)",
         keywords: ['antimulleriana'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1167,6 +1294,7 @@ const datos = [
         codigoBK: "MULLE",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Adenovirus Anticuerpos IgG, IgM",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
@@ -1178,9 +1306,10 @@ const datos = [
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
         codigoBK: "GALACTO",
-        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>Suero o lavado broncoalveolar",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Bartonella henselae Serología IgG, IgM",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "BARTH",
@@ -1188,11 +1317,17 @@ const datos = [
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
-        examen: "Chlamydia en Sangre Serología IgG, IgM ",
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Chlamydia pneumoniae Serología IgG, IgM",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "s/c",
+        codigoBK: "IgG: <b>CLANEG</b><br>IgM: <b>CALNEM</b>",
+        nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
+
         
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Citomegalovirus (CMV) Serología IgG, IgM ",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306069-3",
@@ -1200,6 +1335,7 @@ const datos = [
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Epstein Barr Virus Serología IgG, IgM ",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306069-5",
@@ -1207,6 +1343,7 @@ const datos = [
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Epstein Barr Serología IgG, IgM ",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306069-5",
@@ -1214,6 +1351,7 @@ const datos = [
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "FTA-ABS (Sífilis)",
         keywords: ['MHA-TP'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1229,6 +1367,7 @@ const datos = [
         nota: "Anticuerpos confirmatorios para sífilis, MHA-TP y FTA-ABS",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Herpes Simple I Serología IgG, IgM",
         keywords: ['herpes 1',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1237,6 +1376,7 @@ const datos = [
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Herpes Simple II Serología IgG, IgM",
         keywords: ['herpes 2',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1245,14 +1385,16 @@ const datos = [
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
-        examen: "Hepatitis B, Anticuerpos Anti-antígeno de superficie (vacuna)",
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Hepatitis B, Anticuerpos Anti-antígeno de superficie (VACUNA)",
         keywords: ['ac anti antigeno', 'anti hepatitis b', 'vhb'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "ANTIHBS",
         codigoBK: "ANTIHBS",
-        nota: "Examen para ver inmunidad con vacuna/exposición",
+        nota: "Examen para ver inmunidad post <b>vacuna</b>",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hepatitis B, Anticuerpos Anti-Core (IgM)",
         keywords: ['anticore', 'ac anticore', 'vhb'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1261,6 +1403,7 @@ const datos = [
         nota: "Evaluación etapa aguda VHB",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hepatitis B, Anticuerpos Anti-Core Totales (IgG+IgM)",
         keywords: ['anticore', 'ac anticore', 'vhb'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1269,6 +1412,7 @@ const datos = [
         nota: "Evaluación de la memoria inmunológica",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hepatitis B, Antígeno E",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306078",
@@ -1276,6 +1420,7 @@ const datos = [
         nota: "Indicador de infección activa y replicación viral",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hepatitis B, Anticuerpos Anti-antígeno E",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306075",
@@ -1296,6 +1441,7 @@ const datos = [
         codigoBK: "",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Zika Serología IgG, IgM",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "sin codigo, ingresar Examen barnafi",
@@ -1303,18 +1449,21 @@ const datos = [
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK.",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Bordetella pertusis IgG",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "BOG",
         codigoBK: "BOG"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Bordetella pertusis IgM",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "BOM",
         codigoBK: "BOM",
       },
       {
+        tubo: "<img src='trosa.png' height='32px'/>",
         examen: "Panel de Infecciones de Transmision Sexual, 6 Antígenos (PCR-RT)",
         keywords: ['ITS', 'panelits', 'panel its','ETS', 'panel enfermedades de transmision', 'enfermedades de transmision'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1324,12 +1473,14 @@ const datos = [
         img: "<img src='trosa.png' height='150px'>",
       },
     {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Cadenas Livianas Libres, razon kappa/lambda",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305300",
         codigoBK: "CUANTIKALA",
       },
-  {
+      {
+        tubo: "<img src='rcm.png' height='32px'/>",
         examen: "Virus Papiloma Humano PCR-RT (VPH 14 subtipos) MUJER",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306123",
@@ -1337,7 +1488,8 @@ const datos = [
         nota: "Frasco y Cepillo Citoliq<br><i>Toma de muestra</i>: por profesional médico o matrona.",
         img: "<img src='rcm.png'  height='150px'>",
       },
-  {
+      {
+        tubo: "<img src='trosa.png' height='32px'/>",
         examen: "Virus Papiloma Humano PCR-Microarray (VPH 30 subtipos) Hombre o Mujer",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306123-1",
@@ -1352,18 +1504,21 @@ const datos = [
         codigoBK: "",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Receptores de Acetilcolina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "ACERTILRECE",
         codigoBK: "ACETILRECE",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Apolipoproteina A1",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302070-1",
         codigoBK: "APOA",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Apolipoproteina B",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302070-2",
@@ -1376,18 +1531,21 @@ const datos = [
         codigoBK: "ARSOA",
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Arsénico en sangre",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302134",
         codigoBK: "ARSESANGRE",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Beta 2 Microglobulina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305010",
         codigoBK: "BETA2",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Parathormona (PTH)",
         keywords: ['hormona', 'pth', 'paratiroidea', 'parato'],
         establecimiento: "<img src='adv.png' /> Clinala",
@@ -1396,6 +1554,7 @@ const datos = [
         nota: "Hormona Paratiroidea"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Toxocara IgG",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306061-6",
@@ -1403,6 +1562,7 @@ const datos = [
         nota: "Serología IgG para <i>Toxocara canis</i>",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Toxoplasmosis Anticuerpos IgG",
         keywords: ['toxoplasma igg'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1411,6 +1571,7 @@ const datos = [
         nota: "Serología IgG para Toxoplasma",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Toxoplasmosis Anticuerpos IgM",
         keywords: ['toxoplasma igm'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1419,6 +1580,7 @@ const datos = [
         nota: "Serología IgM para Toxoplasma",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Peptido C",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "303052",
@@ -1426,13 +1588,15 @@ const datos = [
         nota: "",
       },
       {
-        examen: "Lamotrigina",
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Lamotrigina, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "LAMO",
         codigoBK: "LAMO",
         nota: "",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Parotiditis IgG",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "PARAG",
@@ -1440,6 +1604,7 @@ const datos = [
         nota: "",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Parotiditis IgM",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "PARAM",
@@ -1447,6 +1612,7 @@ const datos = [
         nota: "",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Subclases de IgG (I, II, III, IV)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "SUBIGG",
@@ -1454,6 +1620,7 @@ const datos = [
         nota: "Incluye Clases IgG1, IgG2, IgG3 e IgG4 (Sin cod. Fonasa)",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Subclase de IgG 1",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "IGG1",
@@ -1461,6 +1628,7 @@ const datos = [
         nota: "(Sin cod. Fonasa)",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Subclase de IgG 2",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "IGG2",
@@ -1468,6 +1636,7 @@ const datos = [
         nota: "(Sin cod. Fonasa)",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Subclase de IgG 3",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "IGG3",
@@ -1475,6 +1644,7 @@ const datos = [
         nota: "(Sin cod. Fonasa)",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Subclase de IgG 4",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "IGG4",
@@ -1482,6 +1652,7 @@ const datos = [
         nota: "(Sin cod. Fonasa)",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Triquinosis, Anticuerpos IgG",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306061-5",
@@ -1489,18 +1660,22 @@ const datos = [
         nota: "<i>Trichinella spiralis</i>",
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Test Genético de Intolerancia a la Lactosa (PCR-RT)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "8003687",
         codigoBK: "LACTOGEN",
+        nota: "Sangre total EDTA, Tubo Lila"
       },
       {
-        examen: "Teofilina",
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Teofilina, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302035-7",
         codigoBK: "TEO",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Triyodotironina 3 Libre (T3 Libre)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303057",
@@ -1512,9 +1687,10 @@ const datos = [
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306299",
         codigoBK: "PCRSTREP",
-        nota: "<i>Streptococcus agalactiae</i> (Grupo B) por PCR - Biología Molecular"
+        nota: "<i>Streptococcus agalactiae</i> (Grupo B) por PCR - Biología Molecular<br>Tubo ENAT, Transporte refrigerado"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Rubeola IgG, IgM",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306069-4",
@@ -1522,6 +1698,7 @@ const datos = [
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK.",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Sarampión IgG, IgM",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306069-6",
@@ -1529,13 +1706,15 @@ const datos = [
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK.",
       },
       {
-        examen: "Selenio",
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
+        examen: "Selenio en sangre",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302135",
         codigoBK: "SELESANGRE",
         nota: "",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Primidona, nivel plsmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302035-6",
@@ -1543,6 +1722,7 @@ const datos = [
         nota: "",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Primidona libre, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
@@ -1550,6 +1730,7 @@ const datos = [
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Ácido Acetilsalicílico, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
@@ -1557,6 +1738,7 @@ const datos = [
         nota: "Aspirina.<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Ácido Micofenólico, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
@@ -1564,6 +1746,7 @@ const datos = [
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Alprazolam, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
@@ -1571,6 +1754,7 @@ const datos = [
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Citalopram, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
