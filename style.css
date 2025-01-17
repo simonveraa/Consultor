@@ -10,7 +10,9 @@ h1 {
 
 .asv {
     font-size: small;
+    color: rgb(129, 129, 129);
     text-align: right;
+    font-family: monospace;
 }
 
 .asvbot {
@@ -20,7 +22,8 @@ h1 {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    font-size: 12px;
 }
 
 body, html {
