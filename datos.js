@@ -695,7 +695,7 @@ const datos = [
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>s/c Fonasa, cobro particular",
       },
       {
-        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Tacrolimus, Nivel Plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "TAC",
