@@ -15,7 +15,7 @@ const datos = [
         nota: "<ol><li>Rto. Leucocitos<li>Rto. Eritrocitos<li>Rto. Plaquetas<li>Hemoglobina<li>Hematocrito<li>VHS<li>Indices corpusculares<li>Formula diferencial</ol>"
       },
       {
-        tubo: "<img src='img/forina32.png' height='32px'/>",
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Espermiograma",
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0308029",
@@ -119,6 +119,7 @@ const datos = [
         nota: "Hormona Tiroidea/Tiroestimulate"
       },
       {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Orina Completa",
         establecimiento: "<img src='adv.png' /> Clinala",
       },
@@ -428,6 +429,7 @@ const datos = [
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Proteinuria",
         establecimiento: "<img src='adv.png' /> Clinala",
       },
@@ -436,10 +438,12 @@ const datos = [
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Ratio microalbuminuria (RAC)",
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Microalbuminuria",
         keywords: ['ualb',],
         establecimiento: "<img src='adv.png' /> Clinala",
@@ -486,6 +490,85 @@ const datos = [
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302018",
         codigoBK: ""
+      },
+      {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
+        examen: "Calcio en orina",
+        keywords: ['calciuria', 'calcio orina', 'ca orina'],
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0309008",
+        nota: "Calciuria"
+      },
+      {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
+        examen: "Uricosuria",
+        keywords: ['ac urico',],
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0309004",
+        nota: "Ácido Úrico en orina aislada"
+      },
+      {
+        examen: "Uricosuria 24h",
+        keywords: ['ac urico 24h',],
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0309004-1",
+        nota: "Ácido Úrico en orina de 24"
+      },
+      {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
+        examen: "Fosforo en orina",
+        keywords: ['fosfaturia', 'fosforo orina',],
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0309015",
+        nota: "Fosfaturia"
+      },
+      {
+        examen: "Fosforo en orina 24h",
+        keywords: ['fosfaturia 24', 'fosforo orina 24',],
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0309015-1",
+        nota: "Fosfaturia en 24 h"
+      },
+      {
+        examen: "Calcio en orina 24h",
+        keywords: ['calciuria 24h', 'calcio orina', 'calcio 24', 'ca 24'],
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0309008-1",
+        nota: "Calciuria en 24 horas"
+      },
+      {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
+        examen: "Citrato en orina 24h",
+        keywords: ['citraturia 24h', 'citrato orina', 'citrato 24'],
+        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0309008-1",
+        codigoBK: "CITRATO",
+        nota: "Citraturia en 24 horas"
+      },
+      {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
+        examen: "Oxalato en orina 24h",
+        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0309051",
+        codigoBK: "OXALATO",
+        nota: "Paciente no deba haber ingerido vitamina C (ácido ascórbico)"
+      },
+      {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
+        examen: "Oxalato en orina aislada",
+        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "s/c",
+        codigoBK: "OXALATOA",
+        nota: "Paciente no deba haber ingerido vitamina C (ácido ascórbico)"
+      },
+      {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
+        examen: "Citrato en orina aislada",
+        keywords: ['citraturia', 'citrato orina',],
+        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "s/c",
+        codigoBK: "CITRATOA",
+        nota: "Citraturia"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -588,6 +671,7 @@ const datos = [
         codigoBK: "MG",
       },
       {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Magnesio en orina",
         keywords: ['mg', 'mgo', 'magensiuria'],
         establecimiento: "<img src='adv.png' /> Clinala",
