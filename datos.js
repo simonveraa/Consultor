@@ -687,7 +687,7 @@ const datos = [
         nota: "",
       },
       {
-        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Sirolimus, Nivel Plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
