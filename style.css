@@ -8,6 +8,12 @@ h1 {
     margin-bottom: 20px;
 }
 
+.svg-img {
+    height: 50px;
+    fill: white;
+    align-items: end;
+}
+
 .asv {
     font-size: small;
     color: rgb(129, 129, 129);

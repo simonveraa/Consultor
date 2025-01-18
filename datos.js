@@ -107,7 +107,7 @@ const datos = [
         examen: "Chlamydia trachomatis ",
         establecimiento: "<img src='adv.png' /> Clinala",
         nota: "Mujer: Flujo vaginal<br>Hombre: Orina",
-        img: "<img src='img/tstuart32.png' height='32px'/><br><img src='img/forina32.png' height='32px'/>"
+        img: "<img src='img/tstuart32.png' height='32px'/><br><img src='img/forina32.png' height='24px'/>"
       }, 
       {
         examen: "Neonatal GSS (TSH Recién Nacido)",
@@ -334,7 +334,7 @@ const datos = [
         establecimiento: "<img src='adv.png' /> Clinala",
       },
       {
-        tubo: "<img src='img/forina32.png' height='32px'/>",
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "IgA Secretora",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305026"
@@ -665,7 +665,7 @@ const datos = [
         codigoBK: "EFHBG"
       },
       {
-        tubo: "<img src='img/forina32.png' height='32px'/>",
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Electroforesis de Proteínas en Orina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
       },
@@ -753,7 +753,7 @@ const datos = [
         codigoBK: "CARB",
       },
       {
-        tubo: "<img src='img/forina32.png' height='32px'/>",
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Benzodiazepinas en Orina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0309106",
@@ -798,7 +798,7 @@ const datos = [
         nota: "Niveles de plomo en sangre total"
       },
       {
-        tubo: "<img src='img/forina32.png' height='32px'/>",
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Plomo en Orina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302084",
@@ -860,7 +860,7 @@ const datos = [
         codigoBK: "ZN",
       },
       {
-        tubo: "<img src='img/forina32.png' height='32px'/>",
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Zinc en Orina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302198",
@@ -936,14 +936,14 @@ const datos = [
           codigoBK: "CORT",
       },
       {
-        tubo: "<img src='img/forina32.png' height='32px'/>",
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Cortisol Libre Urinario",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303035",
         codigoBK: "CORTOA",
       },
       {
-        tubo: "<img src='img/forina32.png' height='32px'/>",
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Cortisol en Orina 24h",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303035",
@@ -1010,7 +1010,7 @@ const datos = [
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>s/c Fonasa, cobro particular",
       },
       {
-        tubo: "<img src='img/forina32.png' height='32px'/>",
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Metanefrinas Urinarias",
         keywords: ['metanefrinas en orina',],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
@@ -1579,7 +1579,7 @@ const datos = [
         nota: "Indicador de infección activa y replicación viral",
       },
       {
-        tubo: "<img src='img/forina32.png' height='32px'/>",
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "17-Cetosteroides Orina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303043",
@@ -1677,7 +1677,7 @@ const datos = [
         codigoBK: "APOB",
       },
       {
-        tubo: "<img src='img/forina32.png' height='32px'/>",
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Arsénico en Orina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0309034",
