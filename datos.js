@@ -844,7 +844,7 @@ const datos = [
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
-        examen: "Sirolimus, Nivel Plasmático (Fármaco)",
+        examen: "Sirolimus, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
         codigoBK: "SIR",
@@ -852,7 +852,7 @@ const datos = [
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
-        examen: "Tacrolimus, Nivel Plasmático (Fármaco)",
+        examen: "Tacrolimus, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "TAC",
         codigoBK: "TAC",
@@ -1886,7 +1886,7 @@ const datos = [
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
-        examen: "Primidona, nivel plsmático (Fármaco)",
+        examen: "Primidona, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0302035-6",
         codigoBK: "PRI",
