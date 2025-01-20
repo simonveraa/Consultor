@@ -8,6 +8,14 @@ const datos = [
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
+        examen: "Estudio de Líquido Sinovial (Articular)",
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0308014",
+        nota: "Estudio completo:<br><ol><li>Frasco esteril: Microbiología<li>Tubo Lila: Citología<li>Tubo Rojo: Bioquímica ",
+        img: "<ol><li><img src='img/forina32.png' height='32px'/><li><img src='img/tlila32.png' height='32px'/><li><img src='img/trojo32.png' height='32px'/>"
+      },
+      {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Hemograma",
         keywords: ['recuento', 'leucocitos', 'eritrocitos', 'plaquetas', 'VHS', 'hto', 'hematocrito', 'hb', 'hemoglobina' ],
         establecimiento: "<img src='adv.png' /> Clinala",
