@@ -1511,7 +1511,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Epstein Barr Virus Serología IgG, IgM ",
-        keywords: "Virus Epstein Barr, mononucleosis",
+        keywords: ['Virus Epstein Barr', 'mononucleosis'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306069-5",
         codigoBK: "IgG: <strong>EBG</strong><br> IgM: <strong>EBM</strong>",
