@@ -399,6 +399,15 @@ const datos = [
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Virus Linfotrópico Humano, tipo I y II (HTLV)",
+        keywords: ['htlv1', 'htlv2'],
+        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0306111",
+        codigoBK: "HTLV", 
+        nota: "Anticuerpos IgG-IgM-IgA contra HTLV I y HTLV II<br>En caso de reactividad, Bklab solicitará nueva muestra con EDTA para envío a ISPCH.",
+      },
+      {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
         examen: "Calprotectina",
         establecimiento: "<img src='adv.png' /> Clinala",
