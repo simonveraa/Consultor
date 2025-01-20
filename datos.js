@@ -1586,11 +1586,13 @@ const datos = [
         codigoBK: "",
       },
       {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "17-Hidroxicorticosteroides",
         keywords: ['17 oh corticosteroides'],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303044",
         codigoBK: "",
+        nota: "Orina de 24 h"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
