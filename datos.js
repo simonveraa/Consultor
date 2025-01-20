@@ -1103,7 +1103,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti DNA",
-        keywords: ['ac anti dna', 'ac anti adn', 'ac anti adn',],
+        keywords: ['ac anti dna', 'ac anti adn', 'ac anti adn', "antidna", "antiadn"],
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305005-3",
         codigoBK: "ADNA",

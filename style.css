@@ -1,19 +1,39 @@
 h1 {
     background-color: rgb(79, 98, 184);
     color: white;
-    text-align: center;
     line-height: 75px;
     height: 80px;
     border-radius: 5px;
     margin-bottom: 20px;
+   /*  display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; */
+    
+    
+
+    
 }
 
+.titulo {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+/* .svg-container {
+    position: absolute;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    margin-right: 50%;
+    left: 90%;
+    transform: translateY(-10%);
+}
 .svg-img {
     height: 50px;
     fill: white;
-    align-items: end;
 }
-
+ */
 .asv {
     font-size: small;
     color: rgb(129, 129, 129);
