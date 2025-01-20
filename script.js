@@ -45,6 +45,12 @@ input.addEventListener('input', (event) => {
     previews.forEach((preview) => {
       const option = document.createElement('option')
       option.textContent = preview
+
+      option.addEventListener('click', () => { //agregando una escucha al click del preview
+        input.value = preview; //meter al input el valor del preview clickeado
+        handleSearch();
+      });
+
       previewList.appendChild(option)
     })
   } else {
@@ -55,6 +61,11 @@ input.addEventListener('input', (event) => {
 buscarForm.addEventListener("submit", function (event) {
   event.preventDefault()
 
+  handleSearch()
+
+}); //cerrando buscarForm
+
+function handleSearch() { //función de handleSearch añadir resultados a y crear tabla
   const examenBuscado = normalizarTexto(input.value)
 
   tabla.classList.add("d-none")
@@ -94,4 +105,4 @@ buscarForm.addEventListener("submit", function (event) {
       <div class="fs-4">Busque una variante de <i>"${examenBuscado}"</i>.</div>
       `
   }
-})
+}

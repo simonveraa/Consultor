@@ -61,3 +61,10 @@ body, html {
     min-height: 100%;
     position: relative;
 }
+
+#preview option:hover {
+    background-color: rgba(79, 98, 184, 0.8);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
