@@ -683,6 +683,9 @@ const datos = [
         tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Electroforesis de Proteínas en Orina",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "s/c",
+        codigoBK: "EFPO",
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
         examen: "Fenilalanina neonatal (PKU)",
