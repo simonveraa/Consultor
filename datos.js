@@ -1095,7 +1095,7 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Antinucleares (ANA)",
         keywords: ['aan', 'ac antinucleares', 'anticuerpos nucleares', 'ac antinucleares', 'anticuerpos anti nucleares'],
-        establecimiento: "<img src='adv.png' /> Clinala",
+        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0305005",
         codigoBK: "ANAS",
         nota: "AAN (en inglés), Patrones de Anticuerpos Anti-Nucleo/Citoplasma para detección de autoinmunidad"
