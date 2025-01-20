@@ -617,6 +617,21 @@ const datos = [
         codigoBK: "CU",
       },
       {
+        tubo: "<img src='img/forina32.png' height='32px'/>",
+        examen: "Cobre en orina",
+        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0306036",
+        codigoBK: "COBOA",
+      },
+      {
+        tubo: "<img src='img/forina32.png' height='32px'/>",
+        examen: "Cobre en orina 24 h",
+        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0306036",
+        codigoBK: "CUO",
+        nota: "Escribir en notas que es de 24 h"
+      },
+      {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Colinesterasa en suero o plasma",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
