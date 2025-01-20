@@ -358,7 +358,7 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Hepatitis B (HBsAg)",
         keywords: ['VHB', 'superficie'],
-        establecimiento: "<img src='adv.png' /> Clinala",
+        establecimiento: "<img src='adv.png' /> Clinala - <img src='img/ispchs32.png' width='20'/> ISPCH",
         codigo: "0306079",
         nota: "Antígeno de superficie de Hepatitis B",
       },
@@ -384,7 +384,7 @@ const datos = [
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Virus Inmunodeficiencia Humana (VIH SIDA)",
-        establecimiento: "<img src='adv.png' /> Clinala",
+        establecimiento: "<img src='adv.png' /> Clinala - <img src='img/ispchs32.png' width='20'/> ISPCH",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
