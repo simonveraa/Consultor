@@ -950,9 +950,9 @@ const datos = [
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Sirolimus, nivel plasmático (Fármaco)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
-        codigo: "s/c",
+        codigo: "SIR",
         codigoBK: "SIR",
-        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>s/c Fonasa, cobro particular",
+        nota: "",
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
