@@ -7,6 +7,20 @@ const datos = [
         nota: "Resultado en la tarde",
       },
       {
+        tubo: "<img src='img/tstuart32.png' height='32px'/>",
+        examen: "Secreción Uretral (Gonococo)",
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0308044",
+        nota: "Sin aseo, toma de muestra uretral + Orina de primer chorro.",
+      },
+      {
+        tubo: "<img src='img/tstuart32.png' height='32px'/>",
+        examen: "Flujo Vaginal",
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0308044-1",
+        nota: "Muestra tomada por la paciente o profesional",
+      },
+      {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Estudio de Líquido Sinovial (Articular)",
         establecimiento: "<img src='adv.png' /> Clinala",
