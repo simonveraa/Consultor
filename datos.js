@@ -414,12 +414,24 @@ const datos = [
         examen: "Virus Hepatitis C (VHC)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0306081",
-          nota: "Solo si tiene otros exámenes a barnafi, de lo contrario: Lab. Cordillera",
+        nota: "Solo si tiene otros exámenes a barnafi, de lo contrario: Lab. Cordillera",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Hepatitis A (VHA IgM)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0306074",
+        codigoBK: "HAV",
+        nota: "Diagnóstico de infección VHA"
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Virus Hepatitis A, Anticuerpos totales (IgG, IgM)",
+        keywords: ['vha', 'anticuerpos hepatitis a'],
+        establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
+        codigo: "0306074",
+        codigoBK: "HAVG",
+        nota: "Memoria inmunológica"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
