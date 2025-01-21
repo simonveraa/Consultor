@@ -8,10 +8,19 @@ const datos = [
       },
       {
         tubo: "<img src='img/tstuart32.png' height='32px'/>",
-        examen: "Secreción Uretral (Gonococo)",
+        examen: "Secreción Uretral",
+        keywords: ['gonococo', 'neisseria gonorrhoeae'],
         establecimiento: "<img src='adv.png' /> Clinala",
         codigo: "0308044",
-        nota: "Sin aseo, toma de muestra uretral + Orina de primer chorro.",
+        nota: "Estudio de <i>Neisseria gonorrhoeae</i><br>Sin aseo, toma de muestra uretral + Orina de primer chorro.",
+      },
+      {
+        tubo: "<img src='img/tstuart32.png' height='32px'/>",
+        examen: "Cultivo Gonococo (mujer)",
+        keywords: ['gonococo', 'neisseria gonorrhoeae'],
+        establecimiento: "<img src='adv.png' /> Clinala",
+        codigo: "0308016",
+        nota: "Toma de muestra por profesional médico",
       },
       {
         tubo: "<img src='img/tstuart32.png' height='32px'/>",
