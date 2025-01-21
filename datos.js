@@ -1004,14 +1004,15 @@ const datos = [
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303003",
         codigoBK: "ANDROD",
-        nota: "EDTA"
+        nota: "Muestra de EDTA o Suero"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Cortisol AM/PM",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303006",
-          codigoBK: "CORT",
+        codigoBK: "CORT",
+        nota: "AM: antes de las 10:00 am<br>PM: entre las 16:00 - 16:30 hrs"
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
