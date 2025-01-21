@@ -1048,12 +1048,12 @@ const datos = [
         nota: "Escribir en notas: ALDOSTERONA EN ORINA y cobrar con codigo Fonasa: 303002"
       },
       {
-        tubo: "<img src='img/tlila32.png' height='32px'/>",
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Androstenediona (4-androstenediona)",
         establecimiento: "<img src='bk.png' /> Barnafi (1 semana)",
         codigo: "0303003",
         codigoBK: "ANDROD",
-        nota: "Muestra de EDTA o Suero"
+        nota: "Muestra de Suero, EDTA o Heparina"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
