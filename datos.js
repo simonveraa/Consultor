@@ -48,6 +48,14 @@ const datos = [
         nota: "",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Índice Androgénico Libre",
+        establecimiento: "<img src='bk.png' /> Barnafi",
+        codigo: "0303123",
+        codigoBK: "IAL",
+        nota: "Incluye determinación de SHBG + Testosterona total",
+      },
+      {
         tubo: "<img src='img/tstuart32.png' height='32px'/>",
         examen: "Secreción Uretral",
         keywords: ['gonococo', 'neisseria gonorrhoeae'],
