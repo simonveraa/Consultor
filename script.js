@@ -53,8 +53,6 @@ input.addEventListener('input', (event) => {
 
       previewList.appendChild(option)
     })
-    previewList.style.maxHeight = '150px';
-    previewList.style.overflowY = 'auto';
   } else {
     previewList.classList.add('d-none')
   }

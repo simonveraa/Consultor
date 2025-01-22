@@ -26,16 +26,6 @@ h1 {
         padding: 2px;
     }
 
-    #buscar, #preview {
-        width: 100%;
-        font-size: 0.8em;
-    }
-    
-    #preview {
-        overflow-y: scroll;
-        max-height: 150px;
-    }
-
 /*
 *-------------------------------------------------------------------------*
 *                             Fin Query Tablas                            *
