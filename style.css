@@ -25,7 +25,16 @@ h1 {
         font-size: 0.6rem;
         padding: 2px;
     }
+
+    #buscar, #preview {
+        width: 100%;
+        font-size: 1.2em;
+    }
     
+    #preview {
+        overflow-y: scroll;
+        max-height: 150px;
+    }
 
 /*
 *-------------------------------------------------------------------------*
