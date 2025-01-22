@@ -1,25 +1,61 @@
 h1 {
     background-color: rgb(79, 98, 184);
     color: white;
-    line-height: 75px;
-    height: 80px;
+    line-height: 1.5;
+    height: auto;
     border-radius: 5px;
     margin-bottom: 20px;
-   /*  display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px; */
-    
-    
-
+    text-align: center;
+    padding: 10px
     
 }
 
 .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex: 1;
     text-align: center;
     margin: 0 10px;
 }
+
+@media (max-width: 600px) {
+    
+    .table, .table thead, .table tbody, .table th, .table td, .table tr {
+        font-size: 0.6rem;
+        padding: 2px;
+    }
+    
+
+/*
+*-------------------------------------------------------------------------*
+*                             Fin Query Tablas                            *
+*-------------------------------------------------------------------------*
+*/
+    
+
+    h1 {
+        font-size: 1.5em;
+        padding: 5px;
+        line-height: 3;
+        height: auto;
+
+    }
+    .containerdos {
+        padding: 10px;
+    }
+    .form-control {
+        font-size: 1em;
+    }
+    .btn {
+        width: 100%;
+    }
+
+
+}
+
+
+
 
 /* .svg-container {
     position: absolute;
