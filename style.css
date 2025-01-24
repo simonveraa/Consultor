@@ -1,5 +1,5 @@
 h1 {
-    background-color: rgb(79, 98, 184);
+    background-color: rgb(66, 89, 189);
     color: white;
     line-height: 1.5;
     height: auto;
@@ -10,13 +10,17 @@ h1 {
     
 }
 
+input {
+    margin-top: 10px;
+}
+
 .titulo {
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 1;
     text-align: center;
-    margin: 0 10px;
+    margin: 0 1px;
 }
 
 @media (max-width: 600px) {
@@ -25,17 +29,10 @@ h1 {
         font-size: 0.6rem;
         padding: 2px;
     }
-
-/*
-*-------------------------------------------------------------------------*
-*                             Fin Query Tablas                            *
-*-------------------------------------------------------------------------*
-*/
     
 
     h1 {
         font-size: 1.5em;
-        padding: 5px;
         line-height: 3;
         height: auto;
 
@@ -63,12 +60,12 @@ h1 {
     margin-right: 50%;
     left: 90%;
     transform: translateY(-10%);
-}
+} */
 .svg-img {
-    height: 50px;
+    height: 1em;
     fill: white;
 }
- */
+
 .asv {
     font-size: small;
     color: rgb(129, 129, 129);

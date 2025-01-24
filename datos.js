@@ -588,6 +588,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
         codigoBK: "FOLERI",
+        nota: "<b>Cod. MK:</b> 8003631"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -596,7 +597,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
         codigoBK: "ADDA",
-        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
+        nota: "<b>Cod. MK:</b> 8003428<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -716,6 +717,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0302020",
         codigoBK: "CU",
+        nota: "<b>Cod. MK:</b> 8003426"
       },
       {
         tubo: "<img src='img/forina32.png' height='32px'/>",
@@ -758,6 +760,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
         codigoBK: "ISOFA",
+        nota: "<b>Cod. MK:</b> 8003407"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -765,6 +768,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0302033",
         codigoBK: "ECA",
+        nota: "<b>Cod. MK:</b> 8003607"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -825,7 +829,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
         codigoBK: "HIAA",
-        nota: "Se envía en: Contenedor para orina con Ácido Bórico"
+        nota: "<b>Cod. MK:</b> 8003611<br>Se envía en: Contenedor para orina con Ácido Bórico"
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
@@ -851,11 +855,11 @@ const datos = [
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
-        examen: "Leveteracetam, nivel plasmático (Fármaco)",
+        examen: "Levetiracetam, nivel plasmático (Fármaco)",
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
         codigoBK: "LEVE",
-        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
+        nota: "<b>Cod. MK:</b> 8003638<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -944,7 +948,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0305201",
         codigoBK: "TRIPTASA",
-        nota: "",
+        nota: "<b>Cod. MK:</b> 8003620",
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
@@ -952,7 +956,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "SIR",
         codigoBK: "SIR",
-        nota: "",
+        nota: "<b>Cod. MK:</b> 8003636"
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
@@ -960,7 +964,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "TAC",
         codigoBK: "TAC",
-        nota: "s/c Fonasa, cobro particular",
+        nota: "<b>Cod. MK:</b> 8003635",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -969,7 +973,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "VITA",
         codigoBK: "VITA",
-        nota: "Ácido Retinoico"
+        nota: "<b>Cod. MK:</b> 8003621<br>Ácido Retinoico"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -985,6 +989,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0302198",
         codigoBK: "ZN",
+        nota: "<b>Cod. MK:</b> 8003615"
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
@@ -1008,6 +1013,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0305081-2",
         codigoBK: "MEMBRA",
+        nota: "<b>Cod. MK:</b> 8003624"
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
@@ -1022,14 +1028,16 @@ const datos = [
         examen: "Catecolaminas Plasmáticas",
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0303049",
-        codigoBK: "CATEP"
+        codigoBK: "CATEP",
+        nota: "<b>Cod. MK:</b> 8003610",
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Catecolaminas en Orina",
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0303051",
-        codigoBK: "CATEOA"
+        codigoBK: "CATEOA",
+        nota: "<b>Cod. MK:</b> 8003428<br>"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1057,6 +1065,14 @@ const datos = [
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Parvovirus B19, anticuerpos IgG, IgM",
+        establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
+        codigo: "s/c",
+        codigoBK: "IgG: <b>PAVOG</b><br>IgM: <b>PAVOM</b>",
+        nota: "<b>Cod. MK:</b> 8003639 x2<br>"
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Cortisol AM/PM",
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0303006",
@@ -1076,6 +1092,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0303035",
         codigoBK: "CORTO",
+        nota: "<b>Cod. MK:</b> 8003606<br>"
       },
       {
         examen: "Cortisol en Saliva",
@@ -1144,6 +1161,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0303050",
         codigoBK: "METANEF",
+        nota: "<b>Cod. MK:</b> 8003431<br>"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1244,6 +1262,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0305099",
         codigoBK: "CCPP",
+        nota: "<b>Cod. MK:</b> 8003407"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1346,6 +1365,7 @@ const datos = [
         examen: "Anticoagulante Lupico",
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigoBK: "LUPI",
+        nota: "<b>Cod. MK:</b> 8003424"
         
       },
       {
@@ -1355,6 +1375,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0305124",
         codigoBK: "TRABB",
+        nota: "<b>Cod. MK:</b> 8003625"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1387,7 +1408,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
         codigoBK: "LKM",
-        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
+        nota: "<b>Cod. MK:</b> 8003434<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1404,6 +1425,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0305107",
         codigoBK: "MPO",
+        nota: "Cuantificación por ELISA de un tipo de anticuerpo ANCA"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1420,6 +1442,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0305007-10",
         codigoBK: "PR3",
+        nota: "<b>Cod. MK:</b> 8003634<br>Cuantificación por ELISA de un tipo de anticuerpo ANCA"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1428,6 +1451,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0305082",
         codigoBK: "ANCA",
+        nota: "Patones de fluorescencia c-ANCA y p-ANCA.<br> Anticuerpos ANCA reaccionan con antigenos MPO y PR3 presentesn en Neutrofilos "
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1491,6 +1515,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0305025",
         codigoBK: "INMUNOFIJA",
+        nota: "<b>Cod. MK:</b> 8003433"
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
@@ -1523,7 +1548,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0305004",
         codigoBK: "APANELDIAS",
-        nota: "<strong>Código FONASA: 0305106</strong><ol>Anticuerpos anti:<li> Tirosin Fosfatasa (IA2),<li> Células beta (ICA),<li> Insulina (IAA),<li> Descarboxilasa del ácido glutámico (GAD),<li> Transportador 8 del Zinc (ZNT8) "
+        nota: "<b>Código FONASA: 0305106</b><ol>Anticuerpos anti:<li> Tirosin Fosfatasa (IA2),<li> Células beta (ICA),<li> Insulina (IAA),<li> Descarboxilasa del ácido glutámico (GAD),<li> Transportador 8 del Zinc (ZNT8) "
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1548,6 +1573,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0305118",
         codigoBK: "HLAB27",
+        nota: "<b>Cod. MK:</b> 8003601",
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
@@ -1563,6 +1589,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0303030-1",
         codigoBK: "MULLE",
+        nota: "<b>Cod. MK:</b> 8003626"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1578,7 +1605,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
         codigoBK: "GALACTO",
-        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>Suero o lavado broncoalveolar",
+        nota: "<b>Cod. MK:</b> 8003612<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>Suero o lavado broncoalveolar",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1586,7 +1613,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "BARTH",
         codigoBK: "IgG: <strong>BARG</strong><br> IgM: <strong>BARM</strong>",
-        nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
+        nota: "<b>Cod. MK:</b> 8003629<br>Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1612,7 +1639,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
         codigoBK: "IgG: <strong>VARG</strong><br> IgM: <strong>VARM</strong>",
-        nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
+        nota: "<b>Cod. MK:</b> 8003436<br>Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1630,7 +1657,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0306041",
         codigoBK: "FTA",
-        nota: "Anticuerpos anti <i>T. pallidum</i> para diagnóstico de sífilis",
+        nota: "<b>Cod. MK:</b> 8003435<br>Anticuerpos anti <i>T. pallidum</i> para diagnóstico de sífilis",
       },
       {
         examen: "MHA-TP (Sífilis)",
@@ -1664,7 +1691,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "ANTIHBS",
         codigoBK: "ANTIHBS",
-        nota: "Examen para ver inmunidad post <b>vacuna</b>",
+        nota: "<b>Cod. MK:</b> 8003630<br>Examen para ver inmunidad post <b>vacuna</b>",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1690,7 +1717,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0306078",
         codigoBK: "HBE",
-        nota: "Indicador de infección activa y replicación viral",
+        nota: "<b>Cod. MK:</b> 8003437<br>Indicador de infección activa y replicación viral",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1706,6 +1733,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0303043",
         codigoBK: "",
+        nota: "<b>Cod. MK:</b> 8003441<br>"
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
@@ -1714,7 +1742,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0303044",
         codigoBK: "",
-        nota: "Orina de 24 h"
+        nota: "<b>Cod. MK:</b> 8003442<br>Orina de 24 h"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1722,14 +1750,15 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "sin codigo, ingresar Examen barnafi",
         codigoBK: "IgG: <strong>ZIKAG</strong><br> IgM: <strong>ZIKAM</strong>",
-        nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK.",
+        nota: "<b>Cod. MK:</b> 8003614<br>Especificar si se requiere uno o ambos anticuerpos con sus codigos BK.",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Bordetella pertusis IgG",
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "BOG",
-        codigoBK: "BOG"
+        codigoBK: "BOG",
+        nota: "<b>Cod. MK:</b> 8003628"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1737,6 +1766,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "BOM",
         codigoBK: "BOM",
+        nota: "<b>Cod. MK:</b> 8003628"
       },
       {
         tubo: "<img src='img/trosa.png' height='32px'/>",
@@ -1870,7 +1900,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "LAMO",
         codigoBK: "LAMO",
-        nota: "",
+        nota: "<b>Cod. MK:</b> 8003637"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1878,7 +1908,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "PARAG",
         codigoBK: "PARAG",
-        nota: "",
+        nota: "<b>Cod. MK:</b> 8003603",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
