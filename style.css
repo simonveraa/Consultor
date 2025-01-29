@@ -10,6 +10,34 @@ h1 {
     
 }
 
+.igeh1 {
+    background-color: rgb(134, 66, 189);
+    color: white;
+    line-height: 1.5;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px
+    
+}
+
+.igeresultado {
+    background-color: rgb(134, 66, 189);
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.igebotones {
+    display: flex;
+    justify-content: space-between;
+}
+
 input {
     margin-top: 10px;
 }

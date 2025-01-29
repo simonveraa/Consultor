@@ -1538,7 +1538,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0305029-1",
         codigoBK: "PCHILE35",
-        nota: "Leche de vaca, entre otros alérgenos"
+        nota: "<button class='btn btn-primary' onclick=\"window.location.href='IgE.html'\">Ver Lista de Alérgenos</button>"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1581,6 +1581,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0305121",
         codigoBK: "DQ",
+        nota: "<b>Cod. MK:</b> 8003685",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
