@@ -2,7 +2,6 @@ const buscarForm = document.getElementById("buscarForm")
 const resultado = document.getElementById("resultado")
 const sinResultado = document.getElementById("sin-resultado")
 const resultadoTitulo = document.getElementById("resultado-titulo")
-const tabla = document.getElementById("tabla")
 const input = document.getElementById("buscar")
 const previewList = document.getElementById("preview")
 
@@ -66,7 +65,6 @@ buscarForm.addEventListener("submit", function (event) {
 function handleSearch() { //función de handleSearch añadir resultados a y crear tabla
   const examenBuscado = normalizarTexto(input.value)
 
-  tabla.classList.add("d-none")
   resultadoTitulo.classList.add("d-none")
   resultado.innerHTML = ""
   sinResultado.innerHTML = ""
@@ -79,7 +77,6 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
   })
   
   if (resultadoFiltrados.length > 0) {
-    tabla.classList.remove("d-none")
     resultadoTitulo.classList.remove("d-none")
 
     resultadoFiltrados.forEach((r) => {
