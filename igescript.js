@@ -60,7 +60,7 @@ buscarForm.addEventListener("submit", function (event) {
 
   handleSearch()
 
-}); //cerrando buscarForm
+}); 
 
 function handleSearch() { //función de handleSearch añadir resultados a y crear tabla
   const examenBuscado = normalizarTexto(input.value)
@@ -100,7 +100,7 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
             }
             if (r.panel) {
                 thHTML += '<th>Mezcla/Panel</th>'
-                tdHTML += `<td>${r.panel}</td>`
+                tdHTML += `<td><a href="#" class="panel-link" data-panel="${r.panel}">${r.panel}</a></td>`
             }
             if (r.nota) {
                 thHTML += '<th>Head5</th>'
@@ -126,9 +126,29 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
         }
     })
 
+    
+
   } else {
       sinResultado.innerHTML = `
       <div class="fs-3 text-danger mt-4"><strong>No se realiza el alergeno:</strong> "${examenBuscado}"</div>
       `
   }
 }
+
+document.querySelectorAll('.panel-link').forEach(link => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault()
+    input.value = event.target.dataset.panel
+    handleSearch()
+  })
+})
+
+window.onload = function() {
+  var inputValue = localStorage.getItem('inputValue');
+  console.log("Recuperado de localStorage", inputValue)
+  if (inputValue) {
+    input.value = inputValue;
+    handleSearch()
+    localStorage.removeItem('inputValue');  
+  }
+};

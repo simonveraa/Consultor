@@ -1530,7 +1530,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0305029",
         codigoBK: "IGEE",
-        nota: "<button class='btn btn-primary' onclick=\"window.location.href='IgE.html'\">Ver Lista de Alérgenos</button>"
+        nota: "<button class='btn btn-primary' onclick=\"window.location.href='IgE.html'\">Buscar Alérgenos</button>"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1538,7 +1538,12 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0305029-1",
         codigoBK: "PCHILE35",
-        nota: "<button class='btn btn-primary' onclick=\"window.location.href='IgE.html'\">Ver Lista de Alérgenos</button>"
+        nota: `
+      <button class='btn btn-primary' onclick="
+        localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos');
+        window.location.assign('IgE.html');
+      ">Ver Lista</button>
+    `
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",

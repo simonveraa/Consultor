@@ -179,7 +179,7 @@ const datos = [
       {
         examen: "Acacia",
         individual: "Alérgeno Invidual",
-        panel: "Panel Chile 35",
+        panel: "Panel Chile, 35 Alérgenos",
       },
       {
         examen: "Acaros",
@@ -192,7 +192,7 @@ const datos = [
       {
         examen: "Acedera",
         individual: "Alérgeno Invidual",
-        panel: "<ul><li>Panel Chile 35</li><li>Panel 22 Alérgenos</li></ul>",
+        panel: "<ul><li>Panel Chile, 35 Alérgenos</li><li>Panel 22 Alérgenos</li></ul>",
       },
       {
         examen: "Acelga",
