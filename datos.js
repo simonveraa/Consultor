@@ -1530,7 +1530,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "0305029",
         codigoBK: "IGEE",
-        nota: "Lacteos y Detergentes No se realizan"
+        nota: "<button class='btn btn-primary' onclick=\"window.location.href='IgE.html'\">Ver Lista de Alérgenos</button>"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
