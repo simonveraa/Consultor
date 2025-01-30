@@ -83,7 +83,7 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
     resultadoTitulo.classList.remove("d-none")
 
     resultadoFiltrados.forEach((r) => {
-        if (r.tubo || r.alergenos || r.codigo || r.codigoBK || r.nota || r.img) {
+        if (r.tubo || r.alergenos || r.individual || r.panel || r.nota || r.img) {
             const row = document.createElement("div")
             row.classList.add("table")
             let thHTML = ''
@@ -97,13 +97,13 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
                 thHTML += '<th>Alérgenos</th>'
                 tdHTML += `<td>${r.alergenos}</td>`
             }
-            if (r.codigo) {
-                thHTML += '<th>Head3</th>'
-                tdHTML += `<td>${r.codigo}</td>`
+            if (r.individual) {
+                thHTML += '<th>IgE específica c/u</th>'
+                tdHTML += `<td>${r.individual}</td>`
             }
-            if (r.codigoBK) {
-                thHTML += '<th>Head4</th>'
-                tdHTML += `<td>${r.codigoBK}</td>`
+            if (r.panel) {
+                thHTML += '<th>Mezcla/Panel</th>'
+                tdHTML += `<td>${r.panel}</td>`
             }
             if (r.nota) {
                 thHTML += '<th>Head5</th>'
@@ -131,8 +131,7 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
 
   } else {
       sinResultado.innerHTML = `
-      <div class="fs-3 text-danger mt-4"><strong>No se encontró el examen:</strong> "${examenBuscado}"</div>
-      <div class="fs-4">Busque una variante de <i>"${examenBuscado}"</i>.</div>
+      <div class="fs-3 text-danger mt-4"><strong>No se realiza el alergeno:</strong> "${examenBuscado}"</div>
       `
   }
 }
