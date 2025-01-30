@@ -173,35 +173,35 @@ const datos = [
       },
       {
         examen: "Abedul",
-        ige: "Alérgeno Invidual",
-        panel: "Mezcla de Árboles"
+        individual: "Alérgeno Invidual",
+        panel: "Mezcla de Árboles",
       },
       {
         examen: "Acacia",
-        ige: "Alérgeno Invidual",
+        individual: "Alérgeno Invidual",
         panel: "Panel Chile 35",
       },
       {
         examen: "Acaros",
-        ige: "Alérgeno Invidual",
+        individual: "Alérgeno Invidual",
       },
       {
         examen: "Acaro Siro",
-        ige: "Alérgeno Invidual",
+        individual: "Alérgeno Invidual",
       },
       {
         examen: "Acedera",
-        ige: "Alérgeno Invidual",
+        individual: "Alérgeno Invidual",
         panel: "<ul><li>Panel Chile 35</li><li>Panel 22 Alérgenos</li></ul>",
       },
       {
         examen: "Acelga",
-        ige: "Alérgeno Invidual",
+        individual: "Alérgeno Invidual",
         
       },
       {
         examen: "Ajo",
-        ige: "Alérgeno Invidual",
+        individual: "Alérgeno Invidual",
       },
       {
         examen: "Alamo",
