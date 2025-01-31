@@ -179,7 +179,7 @@ const datos = [
       {
         examen: "Acacia",
         individual: "Alérgeno Invidual",
-        panel: `<a onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); if (inputValue) { input.value = inputValue; handleSearch(); localStorage.removeItem('inputValue'); };">hola</a>`
+        panel: `<ul><li onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); if (inputValue) { input.value = inputValue; handleSearch(); localStorage.removeItem('inputValue'); };">hola</li><ul>`
       },
            
       {
