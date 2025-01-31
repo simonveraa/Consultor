@@ -196,11 +196,11 @@ const datos = [
         examen: "Acedera",
         individual: "Alérgeno Invidual",
         panel: `<ul>
-                    <li onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                     if (inputValue) { input.value = inputValue; handleSearch(); 
                     localStorage.removeItem('inputValue'); };">Panel Chile 35 Alérgenos
                     </li>
-                    <li onclick="localStorage.setItem('inputValue', 'Panel 22 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel 22 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                     if (inputValue) { input.value = inputValue; handleSearch(); 
                     localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
                     </li>

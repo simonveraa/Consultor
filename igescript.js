@@ -75,7 +75,8 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
       dato.keywords?.some(keyword => normalizarTexto(keyword).includes(examenBuscado))
     )
   })
-  
+
+   
   if (resultadoFiltrados.length > 0) {
     resultadoTitulo.classList.remove("d-none")
 
@@ -134,7 +135,8 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
 
   } else {
       sinResultado.innerHTML = `
-      <div class="fs-3 text-danger mt-4"><strong>No se realiza el alergeno:</strong> "${examenBuscado}"</div>
+      <div class="fs-3 text-danger mt-4"><b>No se encuentra el alergeno:</b> "${examenBuscado}"</div>
+      <div class="fs-3 text-danger mt-4"> "App en construcción, aún no son agregados todos los alérgenos disponibles"</div>
       `
   }
 }
@@ -156,3 +158,9 @@ window.onload = function() {
     localStorage.removeItem('inputValue');  
   }
 };
+
+const tdpanel = document.getElementById("tdpanel")
+
+if (tdpanel) {
+  tdpanel.classList.add("igepanel")
+}

@@ -30,6 +30,8 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
     
 }
 
@@ -141,4 +143,11 @@ body, html {
     cursor: pointer;
 }
 
-/* .panel-link:hover */
+.panelpoint {
+    cursor: pointer ;
+}
+
+.panelpoint:hover {
+    color: rgb(134, 66, 189);
+    text-decoration: underline;
+}
