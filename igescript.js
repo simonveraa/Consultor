@@ -80,7 +80,7 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
     resultadoTitulo.classList.remove("d-none")
 
     resultadoFiltrados.forEach((r) => {
-        if (r.alergenos || r.panel || r.individual || r.comida || r.animal || r.arbol) {
+        if (r.alergenos || r.individual || r.panel || r.comida || r.animal || r.arbol) {
             const row = document.createElement("div")
             row.classList.add("table")
             let thHTML = ''
@@ -90,13 +90,13 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
                 thHTML += '<th>Alérgenos</th>'
                 tdHTML += `<td>${r.alergenos}</td>`
             }
-            if (r.panel) {
-              thHTML += '<th>Mezcla/Panel</th>'
-              tdHTML += `<td><a href="#" class="panel-link" data-panel="${r.panel}">${r.panel}</a></td>`
-            }
             if (r.individual) {
               thHTML += '<th>IgE específica c/u</th>'
               tdHTML += `<td>${r.individual}</td>`
+            }
+            if (r.panel) {
+              thHTML += '<th>Incluido en:</th>'
+              tdHTML += `<td><a href="#" class="panel-link" data-panel="${r.panel}">${r.panel}</a></td>`
             }
             if (r.veg) {
                 thHTML += '<th>Vegetal</th>'

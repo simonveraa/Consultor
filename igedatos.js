@@ -14,7 +14,7 @@ const datos = [
       },
       {
         examen: "Mezcla de Alimentos Calidos",
-        keywords: ['Avellana',  'Coco', 'Almendra', 'Mani'],
+        keywords: ['Coco', 'Almendra', 'Mani'],
         alergenos: `<ol>
                     <li>Avellana</li>
                     <li>Coco</li>
@@ -53,7 +53,7 @@ const datos = [
       },
       {
         examen: "Mezcla de Cereales",
-        keywords: ['Harina de Trigo',  'Avena', 'Gluten',],
+        keywords: ['Harina de Trigo', 'Gluten',],
         alergenos: `<ol>
                     <li>Harina de Trigo</li>
                     <li>Avena</li>
@@ -83,7 +83,7 @@ const datos = [
       },
       {
         examen: "Mezcla de Hongos",
-        keywords: ['Penicillium',  'Cladosporium', 'Aspergillus', 'Candida',],
+        keywords: ['Penicillium',  'Cladosporium', 'Aspergillus',],
         alergenos: `<ol>
                     <li><i>Penicillium notatum</li>
                     <li><i>Cladosporium herbarum</li>
@@ -93,10 +93,10 @@ const datos = [
       },
       {
         examen: "Mezcla de Inhalantes",
-        keywords: ['Bermuda',  'Festuca Elatior', 'Ballico', 'Pasto Tymothy', 'Poa Pratensis', 'Espiguilla', 'Pasto Azul', 'Chenopodium'],
+        keywords: ['Pasto Tymothy', 'Poa Pratensis', 'Espiguilla', 'Pasto Azul', 'Chenopodium'],
         alergenos: `<ol>
                     <li>Bermuda</li>
-                    <li>Festuca Elatior</li>
+                    <li>Festuca elatior</li>
                     <li>Ballico</li>
                     <li>Pasto Tymothy</li>
                     <li>Poa Pratensis (Espiguilla, Pasto Azul)</li>
@@ -114,7 +114,7 @@ const datos = [
       },
       {
         examen: "Mezcla de Pastos",
-        keywords: ['Graminea',  'Ballico', 'Chepica',],
+        keywords: ['Graminea',  'Chepica',],
         alergenos: `<ol>
                     <li>Graminea</li>
                     <li>Ballico</li>
@@ -123,9 +123,9 @@ const datos = [
       },
       {
         examen: "Mezcla de Pescado",
-        keywords: ['Camaron',  'Atun', 'Salmon', 'Centolla'],
+        keywords: ['Salmon', 'Centolla'],
         alergenos: `<ol>
-                    <li>Camaron</li>
+                    <li>Camarón</li>
                     <li>Atun</li>
                     <li>Salmon</li>
                     <li>Centolla</li>
@@ -142,9 +142,9 @@ const datos = [
       },
       {
         examen: "Mezcla de Polen",
-        keywords: ['Festuca Elatior', 'Ballico', 'Pasto Tymothy', 'Poa Pratensis', 'Espiguilla', 'Pasto Azul', ],
+        keywords: [ 'Pasto Tymothy', 'Poa Pratensis', 'Espiguilla', 'Pasto Azul', ],
         alergenos: `<ol>
-                    <li>Festuca Elatior</li>
+                    <li>Festuca elatior</li>
                     <li>Ballico</li>
                     <li>Pasto Tymothy</li>
                     <li>Poa Pratensis (Espiguilla, Pasto Azul)</li>
@@ -163,7 +163,7 @@ const datos = [
       },
       {
         examen: "Mezcla de Frutos Secos",
-        keywords: ['Avellana',  'Coco', 'Almendra', 'Mani'],
+        keywords: ['Coco', 'Almendra', 'Mani'],
         alergenos: `<ol>
                     <li>Avellana</li>
                     <li>Coco</li>
@@ -243,12 +243,103 @@ const datos = [
         individual: "Alérgeno Invidual",
       },
       {
-        examen: "Apio",
+        examen: "Acer Negundo Arce",
         individual: "Alérgeno Invidual",
       },
       {
+        examen: "Arroz",
+        individual: "Alérgeno Invidual",
+        panel: "Panel Chile 35"
+      },
+      {
+        examen: "Arvejas",
+        individual: "Alérgeno Invidual",
+        
+      },
+      {
+        examen: "Aspergillus spp.",
+        individual: "Alérgeno Invidual",
+        panel: "<ul><li>Panel Chile 35</li><li>Panel 22 Alérgenos</li>",
+      },
+      {
+        examen: "Aspergillus flavus",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Aspergillus fumigatus",
+        individual: "Alérgeno Invidual",
+        panel: "Mezcla de Hongos",
+      },
+      {
+        examen: "Aspirina",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Atún",
+        individual: "Alérgeno Invidual",
+        panel: "<ul><li>Panel Chile 35</li><li>Panel 22 Alérgenos</li><li>Mezcla de Pescado</li></ul>",
+      },
+      {
+        examen: "Avellana",
+        individual: "Alérgeno Invidual",
+        panel: "Mezcla de Alimentos Calidos",
+      },
+      {
+        examen: "Avena",
+        individual: "Alérgeno Invidual",
+        panel: "Mezcla de Cereales",
+      },
+      {
+        examen: "Ballico (Lolium perenne)",
+        individual: "Alérgeno Invidual",
+        panel: "<ul><li>Mezcla de Polen</li><li>Mezcla de Pastos</li><li>Mezcla de Inhalantes</li></ul>",
+      },
+      {
+        examen: "Bermuda (Pasto)",
+        individual: "Alérgeno Invidual",
+        panel: "<ul><li>Panel Chile 35</li><li>Mezcla de Inhalantes</li></ul>",
+      },
+      {
+        examen: "Alpha-Lactoalbúmina",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Brócoli",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Beta-Lactoglobulina (Bovina)",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Cacao",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Café",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Cafeína",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Camarón",
+        individual: "Alérgeno Invidual",
+        panel: "Mezcla de Pescados",
+      },
+      {
+        examen: "Candida albicans",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Canuela (Festuca elatior)",
+        individual: "Alérgeno Invidual",
+        panel: "<ul><li>Mezcla de Polen</li><li>Mezcla de Inhalantes</li></ul>",
+      },
+      {
         examen: "Panel 22 Alérgenos",
-        keywords: ['Platano oriental', 'Chocolate', 'alamo', 'clara de huevo', 'acedera', 'atun', 'aspergillus', 'mariscos', 'cladosporium', 'plumas', 
+        keywords: ['Platano oriental', 'Chocolate', 'alamo', 'clara de huevo', 'acedera', 'mariscos', 'cladosporium', 'plumas', 
           'maiz', 'dermatoph. farinae', 'darmatoph. pterony', 'pastos', 'trigo', 'polen', 'leche', 'hongos', 'caspa de pelo de gato', 
           'CASPA, PELO DE PERRO', 'TOMATE'
          ],
@@ -274,7 +365,7 @@ const datos = [
                   </ul>
                           `,
         veg:      `<ul>
-                    <li>Mezcla de pastos</li>
+                    <li>Mezcla de Pastos</li>
                     <li>Mezcla de Polen</li>
                     <li>Chocolate</li>
                     <li>Plátano</li>
@@ -295,9 +386,9 @@ const datos = [
       {
         
         examen: "Panel Chile, 35 Alérgenos",
-        keywords: ['ACACIA', 'FRESNO', 'Platano oriental', 'Chocolate', 'ALAMO', 'CLARA DE HUEVO', 'YEMA DE HUEVO', 'ACEDERA', 'ATUN', 'ASPERGILLUS', 'MEZCLA DE MARISCOS', 'CLADOSPORIUM', 
-          'MEZCLA PLUMAS DE AVE', 'MAIZ', 'DERMATOPH. FARINAE', 'DERMATOPH. PTERONY', 'TRIGO', 'LECHE', 'CASPA, PELO DE GATO', 'CASPA, PELO DE PERRO', 'TOMATE', 'BALLICA', 'BERMUDA',
-          'FESTUCA', 'LLANTEN', 'ALTERNARIA', 'MANZANA', 'NARANJA', 'PALTA', 'ARROZ', 'SOYA', 'MANI', 'CASEINA', 'SALMON', 'POLLO'],
+        keywords: ['ACACIA', 'FRESNO', 'Platano oriental', 'Chocolate', 'ALAMO', 'CLARA DE HUEVO', 'YEMA DE HUEVO', 'ACEDERA', 'MEZCLA DE MARISCOS', 'CLADOSPORIUM', 
+          'MEZCLA PLUMAS DE AVE', 'MAIZ', 'DERMATOPH. FARINAE', 'DERMATOPH. PTERONY', 'TRIGO', 'LECHE', 'CASPA, PELO DE GATO', 'CASPA, PELO DE PERRO', 'TOMATE', 'BALLICA',
+          'FESTUCA', 'LLANTEN', 'ALTERNARIA', 'MANZANA', 'NARANJA', 'PALTA', 'SOYA', 'MANI', 'CASEINA', 'SALMON', 'POLLO'],
         arbol: `  <ul>
                     <li>Acacia</li>
                     <li>Fresno</li>
