@@ -135,7 +135,7 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
 
   } else {
       sinResultado.innerHTML = `
-      <div class="fs-3 text-danger mt-4"><b>No se encuentra el alergeno:</b> "${examenBuscado}"</div>
+      <div class="fs-3 text-danger mt-4"><b>No se encuentra el alérgeno:</b> "${examenBuscado}"</div>
       <div class="fs-3 text-danger mt-4"> "App en construcción, aún no son agregados todos los alérgenos disponibles"</div>
       `
   }

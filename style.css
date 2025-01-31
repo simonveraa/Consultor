@@ -52,6 +52,24 @@ h1 {
     background-color: rgb(113, 55, 160);
 }
 
+.btn-morado2 {
+    color: #fff;
+    background-color: rgba(134, 66, 189, 0.2);
+    color: rgb(113, 55, 160);
+    border: solid 1px rgb(133, 66, 189);
+    
+}
+
+.btn-morado2:hover {
+    color: #fff;
+    background-color: rgb(134, 66, 189);
+}
+
+.btn-morado2:active {
+    color: #fff;
+    background-color: rgb(165, 79, 235);
+}
+
 input {
     margin-top: 10px;
 }
@@ -145,9 +163,14 @@ body, html {
 
 .panelpoint {
     cursor: pointer ;
+
 }
 
 .panelpoint:hover {
     color: rgb(134, 66, 189);
-    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgba(134, 37, 175, 0.5);
+}
+.panelpoint:active {
+    color: rgb(219, 97, 250);
+    
 }
