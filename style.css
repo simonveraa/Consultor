@@ -33,9 +33,21 @@ h1 {
     
 }
 
-.igebotones {
+.display-between {
     display: flex;
     justify-content: space-between;
+}
+
+.btn-morado {
+    color: #fff;
+    background-color: rgb(134, 66, 189);
+
+    
+}
+
+.btn-morado:hover {
+    color: #fff;
+    background-color: rgb(113, 55, 160);
 }
 
 input {

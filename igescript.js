@@ -80,36 +80,40 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
     resultadoTitulo.classList.remove("d-none")
 
     resultadoFiltrados.forEach((r) => {
-        if (r.tubo || r.alergenos || r.individual || r.panel || r.nota || r.img) {
+        if (r.alergenos || r.panel || r.individual || r.comida || r.animal || r.arbol) {
             const row = document.createElement("div")
             row.classList.add("table")
             let thHTML = ''
             let tdHTML = ''
 
-            if (r.tubo) {
-                thHTML += '<th>Head1</th>'
-                tdHTML += `<td>${r.tubo}</td>`
-            }
             if (r.alergenos) {
                 thHTML += '<th>Alérgenos</th>'
                 tdHTML += `<td>${r.alergenos}</td>`
             }
-            if (r.individual) {
-                thHTML += '<th>IgE específica c/u</th>'
-                tdHTML += `<td>${r.individual}</td>`
-            }
             if (r.panel) {
-                thHTML += '<th>Mezcla/Panel</th>'
-                tdHTML += `<td><a href="#" class="panel-link" data-panel="${r.panel}">${r.panel}</a></td>`
+              thHTML += '<th>Mezcla/Panel</th>'
+              tdHTML += `<td><a href="#" class="panel-link" data-panel="${r.panel}">${r.panel}</a></td>`
             }
-            if (r.nota) {
-                thHTML += '<th>Head5</th>'
-                tdHTML += `<td>${r.nota}</td>`
+            if (r.individual) {
+              thHTML += '<th>IgE específica c/u</th>'
+              tdHTML += `<td>${r.individual}</td>`
             }
-            if (r.img) {
-                thHTML += '<th>Head6</th>'
-                tdHTML += `<td>${r.img}</td>`
+            if (r.veg) {
+                thHTML += '<th>Vegetal</th>'
+                tdHTML += `<td>${r.veg}</td>`
             }
+            if (r.animal) {
+                thHTML += '<th>Alérgeno Animal</th>'
+                tdHTML += `<td>${r.animal}</td>`
+            }
+            if (r.arbol) {
+                thHTML += '<th>Árboles</th>'
+                tdHTML += `<td>${r.arbol}</td>`
+            }
+            if (r.micro) {
+              thHTML += '<th>Microorganismos</th>'
+              tdHTML += `<td>${r.micro}</td>`
+          }
 
             row.innerHTML = `
                 <h4 class="igeresultado">${r.examen}</h4><br>
@@ -134,7 +138,7 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
       `
   }
 }
-
+//intentando hacer dinámica la propiedad de panel, que sea insertada y buscada.
 document.querySelectorAll('.panel-link').forEach(link => {
   link.addEventListener('click', (event) => {
     event.preventDefault()
@@ -142,7 +146,7 @@ document.querySelectorAll('.panel-link').forEach(link => {
     handleSearch()
   })
 })
-
+// función para insertar y buscar paneles desde el index.html (Panel Chile)
 window.onload = function() {
   var inputValue = localStorage.getItem('inputValue');
   console.log("Recuperado de localStorage", inputValue)

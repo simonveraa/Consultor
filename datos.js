@@ -1547,6 +1547,19 @@ const datos = [
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "IgE Especificas, Panel 22 Alérgenos",
+        establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
+        codigo: "s/c",
+        codigoBK: "PANEL22",
+        nota: `
+      <button class='btn btn-primary' onclick="
+        localStorage.setItem('inputValue', 'Panel 22 Alérgenos');
+        window.location.assign('IgE.html');
+      ">Ver Lista</button>
+    `
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Marcadores Inmunologicos en Diabetes",
         keywords: ['tirosin', 'fosfatasa', 'IA2', 'células beta', 'ICA', 'IAA', 'descarboxilasa',
             'acido glutamico', 'gad', 'transportador 8', 'znt8',],

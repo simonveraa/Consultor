@@ -243,40 +243,48 @@ const datos = [
         individual: "Alérgeno Invidual",
       },
       {
+        examen: "Apio",
+        individual: "Alérgeno Invidual",
+      },
+      {
         examen: "Panel 22 Alérgenos",
         keywords: ['Platano oriental', 'Chocolate', 'alamo', 'clara de huevo', 'acedera', 'atun', 'aspergillus', 'mariscos', 'cladosporium', 'plumas', 
           'maiz', 'dermatoph. farinae', 'darmatoph. pterony', 'pastos', 'trigo', 'polen', 'leche', 'hongos', 'caspa de pelo de gato', 
           'CASPA, PELO DE PERRO', 'TOMATE'
          ],
-        tubo: "Columna 1",
-        alergenos: `<ol>
-                    <li>Platano oriental</li>
-                    <li>Chocolate</li>
-                    <li>Alamo</li>
-                    <li>Clara de Huevo</li>
-                    <li>Acedera</li>
-                    <li>Atún</li>
-                    <li>Trigo</li>
-                    <li>Maíz</li>
+        micro: `<ul>
                     <li>Dermatoph. farinae</li>
                     <li>Dermatoph. pterony</li>
                     <li>Cladosporium</li>
                     <li>Aspergillus</li>
-                    <li>Mezcla de Mariscos</li>
-                    <li>Mezcla de Plumas de Ave</li>
                     <li>Mezcla de Hongos</li>
+                  </ul>`,
+        arbol: `  <ul>
+                    <li>Platano oriental</li>
+                    <li>Alamo</li>
+                  </ul>`,
+        animal: ` <ul>
+                    <li>Leche</li>
+                    <li>Clara de Huevo</li>
+                    <li>Mezcla de Mariscos</li>
+                    <li>Atún</li>
+                    <li>Caspa, Pelo de Gato</li>
+                    <li>Caspa, Pelo de Perro</li>
+                    <li>Mezcla de Plumas de Ave</li>
+                  </ul>
+                          `,
+        veg:      `<ul>
                     <li>Mezcla de pastos</li>
                     <li>Mezcla de Polen</li>
-                    <li>Leche</li>
-                    <li>Caspa, Pelo de Gato</li>
-                    <li>CASPA, Pelo de Perro</li>
+                    <li>Chocolate</li>
                     <li>Plátano</li>
                     <li>Tomate</li>
-                  </ol>`,
-        codigo: "Columna 3",
-        codigoBK: "Columna 4",
-        nota: "Columna 5",
-      },
+                    <li>Trigo</li>
+                    <li>Maíz</li>
+                    <li>Acedera</li>
+                  </ul>
+                `,
+       },
       {
         examen: "IgE Especificas c/u",
         tubo: "Columna 1",
@@ -290,44 +298,52 @@ const datos = [
         keywords: ['ACACIA', 'FRESNO', 'Platano oriental', 'Chocolate', 'ALAMO', 'CLARA DE HUEVO', 'YEMA DE HUEVO', 'ACEDERA', 'ATUN', 'ASPERGILLUS', 'MEZCLA DE MARISCOS', 'CLADOSPORIUM', 
           'MEZCLA PLUMAS DE AVE', 'MAIZ', 'DERMATOPH. FARINAE', 'DERMATOPH. PTERONY', 'TRIGO', 'LECHE', 'CASPA, PELO DE GATO', 'CASPA, PELO DE PERRO', 'TOMATE', 'BALLICA', 'BERMUDA',
           'FESTUCA', 'LLANTEN', 'ALTERNARIA', 'MANZANA', 'NARANJA', 'PALTA', 'ARROZ', 'SOYA', 'MANI', 'CASEINA', 'SALMON', 'POLLO'],
-        alergenos: `<ol>
+        arbol: `  <ul>
                     <li>Acacia</li>
                     <li>Fresno</li>
                     <li>Platano oriental</li>
-                    <li>Chocolate</li>
-                    <li>Alamo</li>
+                    <li>Alamo</li>  
+                  </ul>`,
+        animal: ` <ul>
+                    <li>Leche</li>
                     <li>Clara de Huevo</li>
                     <li>Yema de Huevo</li>
-                    <li>Acedera</li>
-                    <li>Atún</li>
-                    <li>Aspergillus</li>
+                    <li>Salmón</li>
+                    <li>Pollo</li>
                     <li>Mezcla de Mariscos</li>
-                    <li>Cladosporium</li>
-                    <li>Mezcla de Plumas de Ave</li>
-                    <li>Maíz</li>
-                    <li>Dermatoph. farinae</li>
-                    <li>Dermatoph. pterony</li>
-                    <li>Trigo</li>
-                    <li>Leche</li>
+                    <li>Atún</li>
+                    <li>Caseína</li>
                     <li>Caspa, Pelo de Gato</li>
                     <li>Caspa, Pelo de Perro</li>
-                    <li>Plátano</li>
-                    <li>Tomate</li>
+                    <li>Mezcla de Plumas de Ave</li>
                     <li>Ballica</li>
+                  </ul>
+                `,
+        veg: `<ul>
                     <li>Bermuda</li>
                     <li>Festuca</li>
                     <li>Llantén</li>
-                    <li>Alternaria</li>
                     <li>Manzana</li>
                     <li>Naranja</li>
                     <li>Palta</li>
                     <li>Arroz</li>
                     <li>Soya</li>
                     <li>Maní</li>
-                    <li>Caseína</li>
-                    <li>Salmón</li>
-                    <li>Pollo</li>
-                  </ol>`,
-        codigo: "PANEL35"
+                    <li>Chocolate</li>
+                    <li>Plátano</li>
+                    <li>Tomate</li>
+                    <li>Trigo</li>
+                    <li>Maíz</li>
+                    <li>Acedera</li>
+                </ul>
+                `,
+        micro: `<ul>
+                    <li>Aspergillus</li>
+                    <li>Cladosporium</li>
+                    <li>Dermatoph. farinae</li>
+                    <li>Dermatoph. pterony</li>
+                    <li>Alternaria</li>
+                    </ul>
+                    `
       },
 ]
