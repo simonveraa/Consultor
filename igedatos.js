@@ -179,8 +179,9 @@ const datos = [
       {
         examen: "Acacia",
         individual: "Alérgeno Invidual",
-        panel: "Panel Chile, 35 Alérgenos",
+        panel: `<a onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); if (inputValue) { input.value = inputValue; handleSearch(); localStorage.removeItem('inputValue'); };">hola</a>`
       },
+           
       {
         examen: "Acaros",
         individual: "Alérgeno Invidual",
@@ -376,13 +377,6 @@ const datos = [
                   </ul>
                 `,
        },
-      {
-        examen: "IgE Especificas c/u",
-        tubo: "Columna 1",
-        alergenos: "Columna 2",
-        codigoBK: "Columna 4",
-        nota: "Columna 5"
-      },
       {
         
         examen: "Panel Chile, 35 Alérgenos",
