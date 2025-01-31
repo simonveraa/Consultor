@@ -96,7 +96,7 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
             }
             if (r.panel) {
               thHTML += '<th>Incluido en:</th>'
-              tdHTML += `<td><a href="#" class="panel-link">${r.panel}</a></td>`
+              tdHTML += `<td href="#" class="panel-link">${r.panel}</td>`
             }
             if (r.veg) {
                 thHTML += '<th>Vegetal</th>'

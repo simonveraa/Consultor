@@ -179,7 +179,9 @@ const datos = [
       {
         examen: "Acacia",
         individual: "Alérgeno Invidual",
-        panel: `<ul><li onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); if (inputValue) { input.value = inputValue; handleSearch(); localStorage.removeItem('inputValue'); };">hola</li><ul>`
+        panel: `<ul><li onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
+                        if (inputValue) { input.value = inputValue; handleSearch(); 
+                        localStorage.removeItem('inputValue'); };">Panel Chile 35 Alérgenos</li><ul>`
       },
            
       {
@@ -193,7 +195,16 @@ const datos = [
       {
         examen: "Acedera",
         individual: "Alérgeno Invidual",
-        panel: "<ul><li>Panel Chile, 35 Alérgenos</li><li>Panel 22 Alérgenos</li></ul>",
+        panel: `<ul>
+                    <li onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel Chile 35 Alérgenos
+                    </li>
+                    <li onclick="localStorage.setItem('inputValue', 'Panel 22 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
+                    </li>
+                <ul>`
       },
       {
         examen: "Acelga",
@@ -340,7 +351,7 @@ const datos = [
       },
       {
         examen: "Panel 22 Alérgenos",
-        keywords: ['Platano oriental', 'Chocolate', 'alamo', 'clara de huevo', 'acedera', 'mariscos', 'cladosporium', 'plumas', 
+        keywords: ['Platano oriental', 'Chocolate', 'alamo', 'clara de huevo', 'mariscos', 'cladosporium', 'plumas', 
           'maiz', 'dermatoph. farinae', 'darmatoph. pterony', 'pastos', 'trigo', 'polen', 'leche', 'hongos', 'caspa de pelo de gato', 
           'CASPA, PELO DE PERRO', 'TOMATE'
          ],
@@ -380,7 +391,7 @@ const datos = [
       {
         
         examen: "Panel Chile, 35 Alérgenos",
-        keywords: ['ACACIA', 'FRESNO', 'Platano oriental', 'Chocolate', 'ALAMO', 'CLARA DE HUEVO', 'YEMA DE HUEVO', 'ACEDERA', 'MEZCLA DE MARISCOS', 'CLADOSPORIUM', 
+        keywords: ['ACACIA', 'FRESNO', 'Platano oriental', 'Chocolate', 'ALAMO', 'CLARA DE HUEVO', 'YEMA DE HUEVO', 'MEZCLA DE MARISCOS', 'CLADOSPORIUM', 
           'MEZCLA PLUMAS DE AVE', 'MAIZ', 'DERMATOPH. FARINAE', 'DERMATOPH. PTERONY', 'TRIGO', 'LECHE', 'CASPA, PELO DE GATO', 'CASPA, PELO DE PERRO', 'TOMATE', 'BALLICA',
           'FESTUCA', 'LLANTEN', 'ALTERNARIA', 'MANZANA', 'NARANJA', 'PALTA', 'SOYA', 'MANI', 'CASEINA', 'SALMON', 'POLLO'],
         arbol: `  <ul>
