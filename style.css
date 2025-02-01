@@ -163,6 +163,8 @@ body, html {
 
 .panelpoint {
     cursor: pointer ;
+    text-decoration: underline;
+    color: #007bff;
 
 }
 

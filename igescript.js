@@ -8,6 +8,7 @@ const previewList = document.getElementById("preview")
 function normalizarTexto(texto) {
   texto = texto.toLowerCase()
   texto = texto.replace(/-/g, ' ')
+  texto = texto.replace(/,/g, '')
   texto = texto.replace(/\./g, '')
   texto = texto.normalize("NFD").replace(/[\u0300-\u036f]/g, '')
   

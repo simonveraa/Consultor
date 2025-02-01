@@ -185,14 +185,16 @@ const datos = [
       {
         examen: "Abedul",
         individual: "Alérgeno Invidual",
-        panel: "Mezcla de Árboles",
-      },
+        panel:  `<ul><li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Mezcla de Árboles'); var inputValue = localStorage.getItem('inputValue'); 
+        if (inputValue) { input.value = inputValue; handleSearch(); 
+        localStorage.removeItem('inputValue'); };">Mezcla de Árboles</li><ul>`
+   },
       {
         examen: "Acacia",
         individual: "Alérgeno Invidual",
         panel: `<ul><li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                         if (inputValue) { input.value = inputValue; handleSearch(); 
-                        localStorage.removeItem('inputValue'); };">Panel Chile 35 Alérgenos</li><ul>`
+                        localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos</li><ul>`
       },
            
       {
@@ -209,7 +211,7 @@ const datos = [
         panel: `<ul>
                     <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                     if (inputValue) { input.value = inputValue; handleSearch(); 
-                    localStorage.removeItem('inputValue'); };">Panel Chile 35 Alérgenos
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
                     </li>
                     <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel 22 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                     if (inputValue) { input.value = inputValue; handleSearch(); 
@@ -235,7 +237,7 @@ const datos = [
                     </li>
                     <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                     if (inputValue) { input.value = inputValue; handleSearch(); 
-                    localStorage.removeItem('inputValue'); };">Panel Chile 35 Alérgenos
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
                     </li>
                     <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel 22 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                     if (inputValue) { input.value = inputValue; handleSearch(); 
@@ -266,7 +268,7 @@ const datos = [
         individual: "Alérgeno Invidual",
         panel: `<ul><li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                         if (inputValue) { input.value = inputValue; handleSearch(); 
-                        localStorage.removeItem('inputValue'); };">Panel Chile 35 Alérgenos</li><ul>`,
+                        localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos</li><ul>`,
       },
       {
         examen: "Ambrosia común",
@@ -293,7 +295,12 @@ const datos = [
       {
         examen: "Arroz",
         individual: "Alérgeno Invidual",
-        panel: "Panel Chile 35"
+        panel: `<ul>
+        <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
+        if (inputValue) { input.value = inputValue; handleSearch(); 
+        localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+        </li>
+        </ul>`
       },
       {
         examen: "Arvejas",
@@ -306,7 +313,7 @@ const datos = [
         panel: `<ul>
                     <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                     if (inputValue) { input.value = inputValue; handleSearch(); 
-                    localStorage.removeItem('inputValue'); };">Panel Chile 35 Alérgenos
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
                     </li>
                     <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel 22 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                     if (inputValue) { input.value = inputValue; handleSearch(); 
@@ -334,7 +341,7 @@ const datos = [
         panel: `<ul>
                     <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                     if (inputValue) { input.value = inputValue; handleSearch(); 
-                    localStorage.removeItem('inputValue'); };">Panel Chile 35 Alérgenos
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
                     </li>
                     <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel 22 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                     if (inputValue) { input.value = inputValue; handleSearch(); 
@@ -375,7 +382,7 @@ const datos = [
         panel: `<ul>
                     <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                     if (inputValue) { input.value = inputValue; handleSearch(); 
-                    localStorage.removeItem('inputValue'); };">Panel Chile 35 Alérgenos
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
                     </li>
                     <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'inhalantes'); var inputValue = localStorage.getItem('inputValue'); 
                     if (inputValue) { input.value = inputValue; handleSearch(); 
@@ -464,7 +471,7 @@ const datos = [
                     </li>
                      <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                     if (inputValue) { input.value = inputValue; handleSearch(); 
-                    localStorage.removeItem('inputValue'); };">Panel Chile 35 Alérgenos
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
                     </li>
                 <ul>`,
       },
@@ -482,7 +489,7 @@ const datos = [
                     </li>
                      <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                     if (inputValue) { input.value = inputValue; handleSearch(); 
-                    localStorage.removeItem('inputValue'); };">Panel Chile 35 Alérgenos
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
                     </li>
                 <ul>`,
       },
@@ -522,9 +529,9 @@ const datos = [
         examen: "Carne de Pollo",
         individual: "Alérgeno Invidual",
         panel: `<ul>
-                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel Chile 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
                     if (inputValue) { input.value = inputValue; handleSearch(); 
-                    localStorage.removeItem('inputValue'); };">Panel Chile 35 Alérgenos
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
                     </li>
                 <ul>`,
       },
@@ -614,7 +621,7 @@ const datos = [
                 <ul>`,
       },
       {
-        examen: "Chorito (Mytilus chilensis",
+        examen: "Chorito (Mytilus chilensis)",
         individual: "Alérgeno Invidual",
         panel: `<ul>
                     <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mariscos'); var inputValue = localStorage.getItem('inputValue'); 
