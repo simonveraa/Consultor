@@ -522,8 +522,9 @@ const datos = [
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
-        examen: "Estradiol",
+        examen: "Estradiol (Estrógenos)",
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0303030",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
