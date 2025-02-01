@@ -12,7 +12,7 @@ const datos = [
                     </ol>`,
       },
       {
-        examen: "Mezcla de Alimentos Calidos",
+        examen: "Alimentos Calidos",
        
         alergenos: `<ol>
                     <li>Avellana</li>
@@ -74,7 +74,7 @@ const datos = [
         examen: "Mezcla de Frutas",
         
         alergenos: `<ol>
-                    <li>Platano</li>
+                    <li>Plátano</li>
                     <li>Naranja</li>
                     <li>Manzana</li>
                     <li>Durazno</li>
@@ -110,6 +110,18 @@ const datos = [
                     <li>Centolla</li>
                     <li>Ostra</li>
                     </ol>`,
+                           
+        panel: `<ul>
+                   <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'panel 22'); var inputValue = localStorage.getItem('inputValue'); 
+                   if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
+                   </li>
+                   <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                   if (inputValue) { input.value = inputValue; handleSearch(); 
+                   localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                   </li>
+                  <ul>`,
+                    
       },
       {
         examen: "Mezcla de Pastos",
@@ -564,6 +576,14 @@ const datos = [
                     if (inputValue) { input.value = inputValue; handleSearch(); 
                     localStorage.removeItem('inputValue'); };">Mezcla de Mariscos
                     </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel 22 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
+                    </li>
                 <ul>`,
       },
       {
@@ -577,20 +597,837 @@ const datos = [
                 <ul>`,
       },
       {
-        examen: "Centeno Salvaje",
+        examen: "Chocolate",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'panel 22'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                    </li>
+                <ul>`,
+      },
+      {
+        examen: "Chorito (Mytilus chilensis",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mariscos'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Mezcla de Mariscos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'panel 22'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                    </li>
+                <ul>`,
+      },
+      {
+        examen: "Citricos",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Cladosporium herbarum",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de hongos'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Mezcla de Hongos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'panel 22'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                    </li>
+                <ul>`,
+      },
+      {
+        examen: "Clara de Huevo",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de alimentos'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Mezcla de Alimentos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'panel 22'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                    </li>
+                <ul>`,
+      },
+      {
+        examen: "Coco",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'alimentos calidos'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Mezcla de Alimentos Calidos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Frutos Secos'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Mezcla de Frutos Secos
+                    </li>
+                <ul>`,
+      },
+      {
+        examen: "Cordero",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Mezcla de Carnes'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Mezcla de Carnes
+                    </li>
+                 <ul>`,
+      },
+      {
+        examen: "Carne de Res Cocida",
+        individual: "Alérgeno Invidual",
+       
+      },
+      {
+        examen: "Cucaracha",
+        individual: "Alérgeno Invidual",
+        },
+      {
+          examen: "Dermatofagoides",
+          individual: "Alérgeno Invidual",
+          panel: `<ul>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'panel 22'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                    </li>
+                <ul>`,
+      },
+      {
+        examen: "Dermatophagoides farinae",
+        keywords: ['dermatofagoides farinae'],
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                  <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'panel 22'); var inputValue = localStorage.getItem('inputValue'); 
+                  if (inputValue) { input.value = inputValue; handleSearch(); 
+                  localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
+                  </li>
+                  <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                  if (inputValue) { input.value = inputValue; handleSearch(); 
+                  localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                  </li>
+              <ul>`,
+    },
+    {
+      examen: "Dermatofagoides pteronyssinus",
+      keywords: ['dermatofagoides pteronyssinus', 'dermatofagoides pteronissinus'],
+      individual: "Alérgeno Invidual",
+      panel: `<ul>
+                <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'panel 22'); var inputValue = localStorage.getItem('inputValue'); 
+                if (inputValue) { input.value = inputValue; handleSearch(); 
+                localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
+                </li>
+                <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                if (inputValue) { input.value = inputValue; handleSearch(); 
+                localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                </li>
+            <ul>`,
+      },
+      {
+        examen: "Diclofenaco",
+        keywords: ['medicamentos'],
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Diente de León",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Durazno",
+        keywords: ['melocoton'],
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+        <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Mezcla de frutas'); var inputValue = localStorage.getItem('inputValue'); 
+        if (inputValue) { input.value = inputValue; handleSearch(); 
+        localStorage.removeItem('inputValue'); };">Mezcla de Frutas
+        </li></ul>`
+      },
+      {
+        examen: "Encina (Roble)",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Epitelio de Caballo",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+        <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Mezcla de Epitelio Animal'); var inputValue = localStorage.getItem('inputValue'); 
+        if (inputValue) { input.value = inputValue; handleSearch(); 
+        localStorage.removeItem('inputValue'); };">Mezcla de Epitelio Animal
+        </li></ul>`
+      },
+      {
+        examen: "Epitelio de Gato",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+        <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Mezcla de Epitelio Animal'); var inputValue = localStorage.getItem('inputValue'); 
+        if (inputValue) { input.value = inputValue; handleSearch(); 
+        localStorage.removeItem('inputValue'); };">Mezcla de Epitelio Animal
+        </li></ul>`
+      },
+      {
+        examen: "Epitelio de Perro",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+        <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Mezcla de Epitelio Animal'); var inputValue = localStorage.getItem('inputValue'); 
+        if (inputValue) { input.value = inputValue; handleSearch(); 
+        localStorage.removeItem('inputValue'); };">Mezcla de Epitelio Animal
+        </li></ul>`
+      },
+      {
+        examen: "Epitelio de Vaca",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+        <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Mezcla de Epitelio Animal'); var inputValue = localStorage.getItem('inputValue'); 
+        if (inputValue) { input.value = inputValue; handleSearch(); 
+        localStorage.removeItem('inputValue'); };">Mezcla de Epitelio Animal
+        </li></ul>`
+      },
+      {
+        examen: "Espinaca",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+        <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Mezcla de Vegetales'); var inputValue = localStorage.getItem('inputValue'); 
+        if (inputValue) { input.value = inputValue; handleSearch(); 
+        localStorage.removeItem('inputValue'); };">Mezcla de Vegetales
+        </li></ul>`
+      },
+      {
+        examen: "Eucaliptus",
+        individual: "Alérgeno Invidual",
+        
+      },
+      {
+        examen: "Feca de Paloma",
+        keywords: ['heces de paloma', 'deposicion de paloma'],
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Formaldehido - HSA",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Frambuesa",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Fresno",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+        <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
+        if (inputValue) { input.value = inputValue; handleSearch(); 
+        localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+        </li></ul>`
+      },
+      {
+        examen: "Frutillas",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Gamba (Camarón)",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Garbanzo",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Gentamicina",
+        keywords: ['antibioticos'],
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Gluten / Gliadin",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+        <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Mezcla de cereales'); var inputValue = localStorage.getItem('inputValue'); 
+        if (inputValue) { input.value = inputValue; handleSearch(); 
+        localStorage.removeItem('inputValue'); };">Mezcla de Cereales
+        </li></ul>`
+      },
+      {
+        examen: "Grama de olor (Gramineas-Cynodon)",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Graminea",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+        <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Mezcla de Pastos'); var inputValue = localStorage.getItem('inputValue'); 
+        if (inputValue) { input.value = inputValue; handleSearch(); 
+        localStorage.removeItem('inputValue'); };">Mezcla de Pastos
+        </li></ul>`
+      },
+      {
+        examen: "Harina de Trigo",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                  <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Mezcla de cereales'); var inputValue = localStorage.getItem('inputValue'); 
+                  if (inputValue) { input.value = inputValue; handleSearch(); 
+                  localStorage.removeItem('inputValue'); };">Mezcla de Cereales
+                  </li>
+                  <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Mezcla de alimentos'); var inputValue = localStorage.getItem('inputValue'); 
+                  if (inputValue) { input.value = inputValue; handleSearch(); 
+                  localStorage.removeItem('inputValue'); };">Mezcla de Alimentos
+                  </li>
+              </ul>`
+      },
+      {
+        examen: "HDI Isocianato - HSA",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Hierba Timotea (Phleum pratense)",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Hormiga Roja",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Huevo",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+        <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel Chile, 35 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
+        if (inputValue) { input.value = inputValue; handleSearch(); 
+        localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+        </li><ul>`
+      },
+      {
+        examen: "Ibuprofeno",
+        keywords: ['medicamentos'],
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Jaiba",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Kiwi",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Lana",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Langosta",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Látex",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Leche de Soya",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Leche de Vaca",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Mezcla de Alimentos'); var inputValue = localStorage.getItem('inputValue'); 
+                if (inputValue) { input.value = inputValue; handleSearch(); 
+                localStorage.removeItem('inputValue'); };">Mezcla de Alimentos
+                </li><ul>`
+      },
+      {
+        examen: "Lechuga",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Mezcla de Vegetales'); var inputValue = localStorage.getItem('inputValue'); 
+                if (inputValue) { input.value = inputValue; handleSearch(); 
+                localStorage.removeItem('inputValue'); };">Mezcla de Vegetales
+                </li><ul>`
+      },
+      {
+        examen: "Lentejas (Legumbres)",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Levadura",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Lidocaína",
+        keywords: ['farmaco'],
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Limón",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Llantén (Plantago inglés)",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Maíz",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'panel 22'); var inputValue = localStorage.getItem('inputValue'); 
+                if (inputValue) { input.value = inputValue; handleSearch(); 
+                localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
+                </li>
+                <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                if (inputValue) { input.value = inputValue; handleSearch(); 
+                localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                </li>
+            <ul>`,
+      },
+      {
+        examen: "Malezas",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Mango",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Maní",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'frutos secos'); var inputValue = localStorage.getItem('inputValue'); 
+                if (inputValue) { input.value = inputValue; handleSearch(); 
+                localStorage.removeItem('inputValue'); };">Mezcla de Frutos Secos
+                </li>
+                <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                if (inputValue) { input.value = inputValue; handleSearch(); 
+                localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                </li>
+            <ul>`,
+      },
+      {
+        examen: "Manzana",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de frutas'); var inputValue = localStorage.getItem('inputValue'); 
+                if (inputValue) { input.value = inputValue; handleSearch(); 
+                localStorage.removeItem('inputValue'); };">Mezcla de Frutas
+                </li>
+                <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                if (inputValue) { input.value = inputValue; handleSearch(); 
+                localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                </li>
+            <ul>`,
+      },
+      {
+        examen: "MDI Isocianato - HSA",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Melon",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Merluza",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Metamizol",
+        keywords: ['Metamizole', 'medicamentos'],
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Pimiento Morrón",
+        keywords: ['Pimenton'],
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Mostaza",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Naproxeno",
+        keywords: ['medicamento'],
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Naranja",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de frutas'); var inputValue = localStorage.getItem('inputValue'); 
+                if (inputValue) { input.value = inputValue; handleSearch(); 
+                localStorage.removeItem('inputValue'); };">Mezcla de Frutas
+                </li>
+                <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                if (inputValue) { input.value = inputValue; handleSearch(); 
+                localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                </li>
+            <ul>`,
+      },
+      {
+        examen: "Nogal",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Nuez",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Olivo",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Ostión",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Ostra",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mariscos'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Mezcla de Mariscos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel 22 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
+                    </li>
+                <ul>`,
+      },
+      {
+        examen: "Ovoalbúmina",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Ovomucoide",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Palta",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                  <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                  if (inputValue) { input.value = inputValue; handleSearch(); 
+                  localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                  </li><ul>`,
+      },
+      {
+        examen: "Papa (Solanum tuberosum)",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Pimiento Paprika (Ají de Color)",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Paracetamol",
+        keywords: ['medicamento'],
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Parietaria officinalis",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Pasto Tymothy",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                  <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de inhalantes'); var inputValue = localStorage.getItem('inputValue'); 
+                  if (inputValue) { input.value = inputValue; handleSearch(); 
+                  localStorage.removeItem('inputValue'); };">Mezcla de Inhalantes
+                  </li>
+                  <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de polen'); var inputValue = localStorage.getItem('inputValue'); 
+                  if (inputValue) { input.value = inputValue; handleSearch(); 
+                  localStorage.removeItem('inputValue'); };">Mezcla de Polen
+                  </li>
+                <ul>`,
+      },
+      {
+        examen: "Penicilina G-HSA",
+        keywords: ['antibioticos'],
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Penicilina V-HSA",
+        keywords: ['antibioticos'],
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Penicilina",
+        keywords: ['antibioticos'],
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Penicillium notatum",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                  <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de hongos'); var inputValue = localStorage.getItem('inputValue'); 
+                  if (inputValue) { input.value = inputValue; handleSearch(); 
+                  localStorage.removeItem('inputValue'); };">Mezcla de Hongos
+                  </li><ul>`,
+      },
+      {
+        examen: "Pera",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Picada de Mosquito",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Piña",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Plantago",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Plátano",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de frutas'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Mezcla de Frutas
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel 22 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
+                    </li>
+                <ul>`,
+      },
+      {
+        examen: "Plátano Oriental",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de arboles'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Mezcla de Árboles
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Panel 22 Alérgenos'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
+                    </li>
+                <ul>`,
+      },
+      {
+        examen: "Pluma de Ganso",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+        <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de plumas'); var inputValue = localStorage.getItem('inputValue'); 
+        if (inputValue) { input.value = inputValue; handleSearch(); 
+        localStorage.removeItem('inputValue'); };">Mezcla de Plumas
+        </li><ul>`,
+      },
+      {
+        examen: "Poa pratensis (Espiguilla, Pasto Azul)",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                  <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de inhalantes'); var inputValue = localStorage.getItem('inputValue'); 
+                  if (inputValue) { input.value = inputValue; handleSearch(); 
+                  localStorage.removeItem('inputValue'); };">Mezcla de Inhalantes
+                  </li>
+                  <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de polen'); var inputValue = localStorage.getItem('inputValue'); 
+                  if (inputValue) { input.value = inputValue; handleSearch(); 
+                  localStorage.removeItem('inputValue'); };">Mezcla de Polen
+                  </li>
+                <ul>`,
+      },
+      {
+        examen: "Polvo de Habitación",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Poroto Burro",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Poroto Verde",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+        <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de vegetales'); var inputValue = localStorage.getItem('inputValue'); 
+        if (inputValue) { input.value = inputValue; handleSearch(); 
+        localStorage.removeItem('inputValue'); };">Mezcla de Vegetales
+        </li><ul>`,
+      },
+      {
+        examen: "Proteína Leche de Vaca",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Quéso Cheddar",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Rabano",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Rye Grass-Centeno Salvaje",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Salmón",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                  <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de pescados'); var inputValue = localStorage.getItem('inputValue'); 
+                  if (inputValue) { input.value = inputValue; handleSearch(); 
+                  localStorage.removeItem('inputValue'); };">Mezcla de Pescados
+                  </li>
+                  <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de polen'); var inputValue = localStorage.getItem('inputValue'); 
+                  if (inputValue) { input.value = inputValue; handleSearch(); 
+                  localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                  </li>
+                <ul>`,
+      },
+      {
+        examen: "Sandía",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Sauce",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Soya",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                  <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de alimentos'); var inputValue = localStorage.getItem('inputValue'); 
+                  if (inputValue) { input.value = inputValue; handleSearch(); 
+                  localStorage.removeItem('inputValue'); };">Mezcla de Alimentos
+                  </li>
+                  <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de polen'); var inputValue = localStorage.getItem('inputValue'); 
+                  if (inputValue) { input.value = inputValue; handleSearch(); 
+                  localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                  </li>
+                <ul>`,
+      },
+      {
+        examen: "Stemphylium botryosum",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Cenizas de Tabaco",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Tabano",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Tamarugo",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Tartrazina-HSA",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "TDI Isocianato - HSA",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Tomate (Lycopersicon esculentum)",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Tricophyton mentagrophytes",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Trigo",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'mezcla de alimentos'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Mezcla de Alimentos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'panel 22'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel 22 Alérgenos
+                    </li>
+                    <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                    </li>
+                <ul>`,
+      },
+      {
+        examen: "Grano Molido de Trigo",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Uva",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Veneno de Abeja",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Veneno de Avispa",
+        individual: "Alérgeno Invidual",
+      },
+      {
+        examen: "Yema de Huevo",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'chile, 35'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Panel Chile, 35 Alérgenos
+                    </li>
+                <ul>`,
+      },
+      {
+        examen: "Zanahoria",
+        individual: "Alérgeno Invidual",
+        panel: `<ul>
+                <li class='panelpoint' onclick="localStorage.setItem('inputValue', 'Mezcla de Vegetales'); var inputValue = localStorage.getItem('inputValue'); 
+                    if (inputValue) { input.value = inputValue; handleSearch(); 
+                    localStorage.removeItem('inputValue'); };">Mezcla de Vegetales
+                    </li>
+                <ul>`,
+      },
+      {
+        examen: "Zapallo",
         individual: "Alérgeno Invidual",
       },
       {
         examen: "Panel 22 Alérgenos",
         micro: `<ul>
-                    <li>Dermatoph. farinae</li>
-                    <li>Dermatoph. pterony</li>
+                    <li>Dermatophagoides farinae</li>
+                    <li>Dermatophagoides pteronyssinus</li>
                     <li>Cladosporium</li>
                     <li>Aspergillus</li>
                     <li>Mezcla de Hongos</li>
                   </ul>`,
         arbol: `  <ul>
-                    <li>Platano oriental</li>
+                    <li>Plátano oriental</li>
                     <li>Alamo</li>
                   </ul>`,
         animal: ` <ul>
@@ -621,7 +1458,7 @@ const datos = [
         arbol: `  <ul>
                     <li>Acacia</li>
                     <li>Fresno</li>
-                    <li>Platano oriental</li>
+                    <li>Plátano oriental</li>
                     <li>Alamo</li>  
                   </ul>`,
         animal: ` <ul>
@@ -660,8 +1497,8 @@ const datos = [
         micro: `<ul>
                     <li>Aspergillus</li>
                     <li>Cladosporium</li>
-                    <li>Dermatoph. farinae</li>
-                    <li>Dermatoph. pterony</li>
+                    <li>Dermatophagoides farinae</li>
+                    <li>Dermatophagoides pteronyssinus</li>
                     <li>Alternaria</li>
                     </ul>
                     `
