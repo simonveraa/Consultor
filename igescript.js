@@ -114,7 +114,11 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
             if (r.micro) {
               thHTML += '<th>Microorganismos</th>'
               tdHTML += `<td>${r.micro}</td>`
-          }
+            }
+            if (r.codigo) {
+              thHTML += '<th>Código</th>'
+              tdHTML += `<td>${r.codigo}</td>`
+          }  
 
             row.innerHTML = `
                 <h4 class="igeresultado">${r.examen}</h4><br>
@@ -136,7 +140,6 @@ function handleSearch() { //función de handleSearch añadir resultados a y crea
   } else {
       sinResultado.innerHTML = `
       <div class="fs-3 text-danger mt-4"><b>No se encuentra el alérgeno:</b> "${examenBuscado}"</div>
-      <div class="fs-3 text-danger mt-4"> "App en construcción, aún no son agregados todos los alérgenos disponibles"</div>
       `
   }
 }

@@ -274,10 +274,12 @@ const datos = [
       },
       {
         examen: "Amoxicilina",
+        keywords: ['antibioticos'],
         individual: "Alérgeno Invidual",
       },
       {
         examen: "Ampicilina",
+        keywords: ['antibioticos'],
         individual: "Alérgeno Invidual",
       },
       {
@@ -323,6 +325,7 @@ const datos = [
       },
       {
         examen: "Aspirina",
+        keywords: ['medicamentos'],
         individual: "Alérgeno Invidual",
       },
       {
@@ -1501,6 +1504,7 @@ const datos = [
                     <li>Dermatophagoides pteronyssinus</li>
                     <li>Alternaria</li>
                     </ul>
-                    `
+                    `,
+        codigo: "0305029-1"
       },
 ]
