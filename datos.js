@@ -164,8 +164,16 @@ const datos = [
       {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
         examen: "Antígeno Helicobacter pylori en Deposición",
+        codigo: "Tecnigen:<ul><li>103</ul>MK:<ul><li>8003250",
         establecimiento: "<img src='img/adv.png' /> Clinala",
-        nota: "<b>Cod. MK:</b> 8003250<br>",
+        nota: "",
+      },
+      {
+        tubo: "<img src='img/fdep32.png' height='32px'/>",
+        examen: "Helicobacter pylori, Serología IgG",
+        codigo: "Tecnigen:<ul><li>0306300</ul>MK:<ul><li>8003398",
+        establecimiento: "<img src='img/bk.png' /> Barnafi",
+        nota: "",
       },
       {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
@@ -177,6 +185,7 @@ const datos = [
         tubo: "<img src='img/fdep32.png' height='32px'/>",
         examen: "Clostridioides difficile, GDH Toxina A y B",
         keywords: ['clostridium'],
+        codigo: "0306098",
         establecimiento: "<img src='img/adv.png' /> Clinala",
         nota: "Antes: Clostridium difficile"
       },
@@ -590,18 +599,18 @@ const datos = [
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Ácido Fólico Eritrocitario",
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
-        codigo: "s/c",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003631",
         codigoBK: "FOLERI",
-        nota: "<b>Cod. MK:</b> 8003631"
+        nota: ""
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Adenosindeaminasa (ADA)",
         keywords: ['deaminase',],
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
-        codigo: "s/c",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003428",
         codigoBK: "ADDA",
-        nota: "<b>Cod. MK:</b> 8003428<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -719,9 +728,9 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Cobre en sangre",
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
-        codigo: "0302020",
+        codigo: "Tecnigen:<ul><li>0302020</ul>MK:<ul><li>8003426",
         codigoBK: "CU",
-        nota: "<b>Cod. MK:</b> 8003426"
+        nota: ""
       },
       {
         tubo: "<img src='img/forina32.png' height='32px'/>",
@@ -762,17 +771,17 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Fosfatasas Alcalinas c/separación de isoenzimas",
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
-        codigo: "s/c",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003407",
         codigoBK: "ISOFA",
-        nota: "<b>Cod. MK:</b> 8003407<br>"
+    
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Enzima Convertidora De Angiotensina (ECA)",
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
-        codigo: "0302033",
+        codigo: "Tecnigen:<ul><li>0302033</ul>MK:<ul><li>8003607",
         codigoBK: "ECA",
-        nota: "<b>Cod. MK:</b> 8003607"
+  
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -831,9 +840,9 @@ const datos = [
         examen: "Ácido 5 Hidroxindol acético (orina 24h)",
         keywords: ['5 OH indol', 'indol', 'ac 5 hidroxi'],
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
-        codigo: "s/c",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003611",
         codigoBK: "HIAA",
-        nota: "<b>Cod. MK:</b> 8003611<br>Se envía en: Contenedor para orina con Ácido Bórico"
+        nota: "Se envía en: Contenedor para orina con Ácido Bórico"
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
@@ -1761,11 +1770,11 @@ const datos = [
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
-        examen: "17-Cetosteroides Orina",
-        establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
-        codigo: "0303043",
+        examen: "17-Cetosteroides (No se realiza)",
+        establecimiento: "No se realiza",
+        codigo: "",
         codigoBK: "",
-        nota: "<b>Cod. MK:</b> 8003441<br>"
+        nota: ""
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
@@ -2115,7 +2124,7 @@ const datos = [
         tubo: "<img src='img/fdep32.png' height='32px'/>",
         examen: "Panel Gastroenteritis Bacteriano (PCR-RT)",
         establecimiento: "<img src='img/bk.png' /> Barnafi",
-        codigo: "Tecnigen:<ul><li>0303120-1</ul><br>MK:<ul><li>8003451",
+        codigo: "Tecnigen:<ul><li>0303120-1</ul>MK:<ul><li>8003451",
         codigoBK: "PCRBAGAS",
         nota: "<ol><li><i>Campylobacter spp.<li><i>Clostridiodes difficile<li><i>E. coli verotixina</li><li><i>E. coli Enteroinvasiva<li><i>Salmonella spp.<li><i>Shigella spp.<li>Yersinia enterocolitica",
       },
@@ -2123,7 +2132,7 @@ const datos = [
         tubo: "<img src='img/fdep32.png' height='32px'/>",
         examen: "Panel Gastroenteritis BACTERIANO - VIRAL (PCR-RT)",
         establecimiento: "<img src='img/bk.png' /> Barnafi",
-        codigo: "Tecnigen:<ul><li>0303120-2</ul><br>MK:<ul><li>8003452",
+        codigo: "Tecnigen:<ul><li>0303120-2</ul>MK:<ul><li>8003452",
         codigoBK: "PCRGASTRO",
         nota: "<ol><li><i>Campylobacter spp.<li><i>Clostridiodes difficile<li><i>E. coli Enteroinvasiva<li><i>Salmonella spp.<li><i>Shigella spp.<li>Yersinia enterocolitica</i><li>Norovirus G1<li>Norovirus G2<li>Astrovirus<li>Rotavirus<li>Adenovirus",
       },
@@ -2132,7 +2141,7 @@ const datos = [
         examen: "Panel Gastroenteritis BACTERIANO - PARASITARIO - VIRAL (PCR-RT)",
         keywords: ['gastro15'],
         establecimiento: "<img src='img/bk.png' /> Barnafi",
-        codigo: "Tecnigen:<ul><li>0303120-3</ul><br>MK:<ul><li>8003453",
+        codigo: "Tecnigen:<ul><li>0303120-3</ul>MK:<ul><li>8003453",
         codigoBK: "GASTRO15",
         nota: `<ol><li><i>Campylobacter spp.<li><i>Clostridiodes difficile<li><i>E. coli Enteroinvasiva<li><i>Salmonella spp.<li><i>Shigella spp.
               <li>E. coli<li>Yersinia enterocolitica</i><li>Norovirus G1<li>Norovirus G2<li>Astrovirus<li>Rotavirus<li>Adenovirus<li>Sapovirus<li>E. histolytica
