@@ -157,12 +157,15 @@ const datos = [
       {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
         examen: "Sangre Oculta en Deposición (FOB)",
+        keywords: ['Test inmunologico en deposicion'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        nota: "(Test inmunológico en deposición)"
       },
       {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
         examen: "Antígeno Helicobacter pylori en Deposición",
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        nota: "<b>Cod. MK:</b> 8003250<br>",
       },
       {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
@@ -761,7 +764,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi (1 semana)",
         codigo: "s/c",
         codigoBK: "ISOFA",
-        nota: "<b>Cod. MK:</b> 8003407"
+        nota: "<b>Cod. MK:</b> 8003407<br>"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1039,6 +1042,15 @@ const datos = [
         codigo: "0303051",
         codigoBK: "CATEOA",
         nota: "<b>Cod. MK:</b> 8003428<br>"
+      },
+      {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
+        examen: "Drogas de Abuso (THC, COC, ANF) c/u",
+        keywords: ['marihuana', 'cocaina', 'anfetaminas'], 
+        establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0309105",
+        codigoBK: "",
+        nota: "<b>Cod. MK:</b> 8003255 c/u<br><ul><li>Marihuana<li>Cocaína<li>Anfetaminas"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -2087,5 +2099,43 @@ const datos = [
         codigo: "s/c",
         codigoBK: "CITA",
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
+      },
+      {
+        examen: "Hepatitis E (no se realiza)",
+      },
+      {
+        tubo: "<img src='img/fdep32.png' height='32px'/>",
+        examen: "Panel Gastroenteritis Viral (PCR-RT)",
+        establecimiento: "<img src='img/bk.png' /> Barnafi",
+        codigo: "0303120<br>(Fonasa)",
+        codigoBK: "PCRVIGAS",
+        nota: "<ol><li>Norovirus G1<li>Norovirus G2<li>Astrovirus<li>Rotavirus<li>Adenovirus<li>Sapovirus",
+      },
+      {
+        tubo: "<img src='img/fdep32.png' height='32px'/>",
+        examen: "Panel Gastroenteritis Bacteriano (PCR-RT)",
+        establecimiento: "<img src='img/bk.png' /> Barnafi",
+        codigo: "Tecnigen:<ul><li>0303120-1</ul><br>MK:<ul><li>8003451",
+        codigoBK: "PCRBAGAS",
+        nota: "<ol><li><i>Campylobacter spp.<li><i>Clostridiodes difficile<li><i>E. coli verotixina</li><li><i>E. coli Enteroinvasiva<li><i>Salmonella spp.<li><i>Shigella spp.<li>Yersinia enterocolitica",
+      },
+      {
+        tubo: "<img src='img/fdep32.png' height='32px'/>",
+        examen: "Panel Gastroenteritis BACTERIANO - VIRAL (PCR-RT)",
+        establecimiento: "<img src='img/bk.png' /> Barnafi",
+        codigo: "Tecnigen:<ul><li>0303120-2</ul><br>MK:<ul><li>8003452",
+        codigoBK: "PCRGASTRO",
+        nota: "<ol><li><i>Campylobacter spp.<li><i>Clostridiodes difficile<li><i>E. coli Enteroinvasiva<li><i>Salmonella spp.<li><i>Shigella spp.<li>Yersinia enterocolitica</i><li>Norovirus G1<li>Norovirus G2<li>Astrovirus<li>Rotavirus<li>Adenovirus",
+      },
+      {
+        tubo: "<img src='img/fdep32.png' height='32px'/>",
+        examen: "Panel Gastroenteritis BACTERIANO - PARASITARIO - VIRAL (PCR-RT)",
+        keywords: ['gastro15'],
+        establecimiento: "<img src='img/bk.png' /> Barnafi",
+        codigo: "Tecnigen:<ul><li>0303120-3</ul><br>MK:<ul><li>8003453",
+        codigoBK: "GASTRO15",
+        nota: `<ol><li><i>Campylobacter spp.<li><i>Clostridiodes difficile<li><i>E. coli Enteroinvasiva<li><i>Salmonella spp.<li><i>Shigella spp.
+              <li>E. coli<li>Yersinia enterocolitica</i><li>Norovirus G1<li>Norovirus G2<li>Astrovirus<li>Rotavirus<li>Adenovirus<li>Sapovirus<li>E. histolytica
+              <li>Crystosporidium spp.`,
       },
 ]
