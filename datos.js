@@ -1835,7 +1835,7 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Cadenas Livianas Libres, razon kappa/lambda",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0305300",
+        codigo: "Tecnigen:<ul><li>0305300</ul>MK:<ul><li>8003450",
         codigoBK: "CUANTIKALA",
       },
       {
@@ -1904,6 +1904,13 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "0305010",
         codigoBK: "BETA2",
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Anticuerpos Anti Neumococo (23 serotipos)",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003448",
+        codigoBK: "NEUMO",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
