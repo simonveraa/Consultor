@@ -501,7 +501,7 @@ const datos = [
         examen: "Virus Linfotrópico Humano, tipo I y II (HTLV)",
         keywords: ['htlv1', 'htlv2'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0306111",
+        codigo: "Tecnigen:<ul><li>0306111</ul>MK:<ul><li>8003617",
         codigoBK: "HTLV", 
         nota: "Anticuerpos IgG-IgM-IgA contra HTLV I y HTLV II<br>En caso de reactividad, Bklab solicitará nueva muestra con EDTA para envío a ISPCH.",
       },
@@ -1506,9 +1506,9 @@ const datos = [
         examen: "Anticuerpos Anti Proteinasa 3 (ANTI-PR3)",
         keywords: ['ac proteinasa3', 'antiproteinasa',],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0305007-10",
+        codigo: "Tecnigen:<ul><li>0305007-10</ul>MK:<ul><li>8003634",
         codigoBK: "PR3",
-        nota: "<b>Cod. MK:</b> 8003634<br>Cuantificación por ELISA de un tipo de anticuerpo ANCA"
+        nota: "Cuantificación por ELISA de un tipo de anticuerpo ANCA",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1630,9 +1630,9 @@ const datos = [
         keywords: ['tirosin', 'fosfatasa', 'IA2', 'células beta', 'ICA', 'IAA', 'descarboxilasa',
             'acido glutamico', 'gad', 'transportador 8', 'znt8',],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0305004",
+        codigo: "0305106<br>(Fonasa)",
         codigoBK: "APANELDIAS",
-        nota: "<b>Código FONASA: 0305106</b><ol>Anticuerpos anti:<li> Tirosin Fosfatasa (IA2),<li> Células beta (ICA),<li> Insulina (IAA),<li> Descarboxilasa del ácido glutámico (GAD),<li> Transportador 8 del Zinc (ZNT8) "
+        nota: "<ol>Anticuerpos anti:<li> Tirosin Fosfatasa (IA2),<li> Células beta (ICA),<li> Insulina (IAA),<li> Descarboxilasa del ácido glutámico (GAD),<li> Transportador 8 del Zinc (ZNT8) "
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1841,15 +1841,15 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Zika Serología IgG, IgM",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "sin codigo, ingresar Examen barnafi",
+        codigo: "Tecnigen:<ul><li>S/C</ul>MK:<ul><li>8003614",
         codigoBK: "IgG: <b>ZIKAG</b><br>IgM: <b>ZIKAM</b>",
-        nota: "<b>Cod. MK:</b> 8003614<br>Especificar si se requiere uno o ambos anticuerpos con sus codigos BK.",
+        nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK.",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Bordetella pertusis IgG",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "BOG",
+        codigo: "BTecnigen:<ul><li>BOG</ul>MK:<ul><li>8003628",
         codigoBK: "BOG",
         nota: "<b>Cod. MK:</b> 8003628"
       },
@@ -1857,9 +1857,9 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Bordetella pertusis IgM",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "BOM",
+        codigo: "Tecnigen:<ul><li>BOM</ul>MK:<ul><li>8003628",
         codigoBK: "BOM",
-        nota: "<b>Cod. MK:</b> 8003628"
+        nota: ""
       },
       {
         tubo: "<img src='img/trosa.png' height='32px'/>",
