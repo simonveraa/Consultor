@@ -738,16 +738,16 @@ const datos = [
         tubo: "<img src='img/forina32.png' height='32px'/>",
         examen: "Cobre en orina",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0306036",
+        codigo: "Tecnigen:<ul><li>0306036</ul>MK:<ul><li>8003457",
         codigoBK: "COBOA",
       },
       {
         tubo: "<img src='img/forina32.png' height='32px'/>",
         examen: "Cobre en orina 24 h",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0306036",
+        codigo: "Tecnigen:<ul><li>0306036</ul>MK:<ul><li>8003457",
         codigoBK: "CUO",
-        nota: "Escribir en notas que es de 24 h"
+        nota: "<b>Escribir en notas que es de 24 h"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -804,7 +804,7 @@ const datos = [
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Electroforesis de Hemoglobina",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0301044",
+        codigo: "Tecnigen:<ul><li>0301044</ul>MK:<ul><li>8003454",
         codigoBK: "EFHBG"
       },
       {
@@ -814,6 +814,30 @@ const datos = [
         codigo: "s/c",
         codigoBK: "EFPO",
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
+      },
+      {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
+        examen: "Arsénico en Orina",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>0309034</ul>MK:<ul><li>8003456",
+        codigoBK: "ARSOA",
+        nota: "",
+      },
+      {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
+        examen: "Arsénico en Sangre",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>0302134</ul>MK:<ul><li>8003456",
+        codigoBK: "ARSESANGRE",
+        nota: "",
+      },
+      {
+        tubo: "<img src='img/trosa.png' height='32px'/>",
+        examen: "Panel Candida (PCR-RT)",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003455",
+        codigoBK: "PANELCANDI",
+        nota: "Tubo ENAT<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br><ol><li><i>Candida albicans<li>Candida glabrata<li>Candida krusei",
       },
       {
         examen: "Fenilalanina neonatal (PKU)",
@@ -1050,9 +1074,9 @@ const datos = [
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Catecolaminas Plasmáticas",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0303049",
+        codigo: "Tecnigen:<ul><li>0303049</ul>MK:<ul><li>8003610",
         codigoBK: "CATEP",
-        nota: "<b>Cod. MK:</b> 8003610",
+        nota: "",
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
@@ -1099,9 +1123,9 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Parvovirus B19, anticuerpos IgG, IgM",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "s/c",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003639 x2",
         codigoBK: "IgG: <b>PAVOG</b><br>IgM: <b>PAVOM</b>",
-        nota: "<b>Cod. MK:</b> 8003639 x2<br>"
+        nota: ""
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1115,23 +1139,24 @@ const datos = [
         tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Cortisol Libre Urinario",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0303035",
+        codigo: "Tecnigen:<ul><li>0303035</ul>MK:<ul><li>8003606",
         codigoBK: "CORTOA",
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Cortisol en Orina 24h",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0303035",
+        codigo: "Tecnigen:<ul><li>0303035</ul>MK:<ul><li>8003606",
         codigoBK: "CORTO",
-        nota: "<b>Cod. MK:</b> 8003606<br>"
+        nota: "Escribir en notas que es ORINA 24 H"
       },
       {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Cortisol en Saliva",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0303056",
+        codigo: "Tecnigen:<ul><li>0303056</ul>MK:<ul><li>s/c",
         codigoBK: "CORTS",
-        nota: "Las muestras tienen que congelarse, descongelarse y centrifugarse al menos una vez para separar las mucinas. Luego enviar."
+        nota: "Particular $ 23.912.-<br><br>Las muestras tienen que congelarse, descongelarse y centrifugarse al menos una vez para separar las mucinas. Luego enviar."
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1266,8 +1291,15 @@ const datos = [
         examen: "Panel ANA 23 Autoanticuerpos IgG",
         keywords: ['ac antinucleares', 'anticuerpos nucleares', 'ac antinucleares'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0305005-5",
+        codigo: "Tecnigen:<ul><li>0305005-5</ul>MK:<ul><li>8003458",
         codigoBK: "ANA23",
+      },
+      {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
+        examen: "Factor V Leiden",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>s/c-5</ul>MK:<ul><li>8003460",
+        codigoBK: "FV",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1623,9 +1655,9 @@ const datos = [
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Tipificación HLA-B27",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0305118",
+        codigo: "Tecnigen:<ul><li>0305118</ul>MK:<ul><li>8003601",
         codigoBK: "HLAB27",
-        nota: "<b>Cod. MK:</b> 8003601",
+        nota: "",
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
@@ -1656,9 +1688,17 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Antígeno Galactomanano de Aspergillus",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "s/c",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003612",
         codigoBK: "GALACTO",
-        nota: "<b>Cod. MK:</b> 8003612<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>Suero o lavado broncoalveolar",
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>Suero o lavado broncoalveolar",
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Anticuerpos Anti-Saccharomyces Cerevisiae IgA e IgG",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003613",
+        codigoBK: "ASCA",
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1690,9 +1730,9 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Varicela Zoster, Serología IgG, IgM ",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "s/c",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003602",
         codigoBK: "IgG: <strong>VARG</strong><br> IgM: <strong>VARM</strong>",
-        nota: "<b>Cod. MK:</b> 8003436<br>Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
+        nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1700,7 +1740,7 @@ const datos = [
         keywords: ['Virus Epstein Barr', 'mononucleosis'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "0306069-5",
-        codigoBK: "IgG: <strong>EBG</strong><br> IgM: <strong>EBM</strong>",
+        codigoBK: "IgG: <b>EBG</b><br> IgM: <b>EBM</b>",
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
@@ -1768,15 +1808,15 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hepatitis B, Antígeno E",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0306078",
+        codigo: "Tecnigen:<ul><li>0306078</ul>MK:<ul><li>8003437",
         codigoBK: "HBE",
-        nota: "<b>Cod. MK:</b> 8003437<br>Indicador de infección activa y replicación viral",
+        nota: "Indicador de infección activa y replicación viral",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hepatitis B, Anticuerpos Anti-antígeno E",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0306075",
+        codigo: "Tecnigen:<ul><li>0306075</ul>MK:<ul><li>8003449",
         codigoBK: "ANTIHBE",
         nota: "Indicador de infección activa y replicación viral",
       },
@@ -1802,7 +1842,7 @@ const datos = [
         examen: "Virus Zika Serología IgG, IgM",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "sin codigo, ingresar Examen barnafi",
-        codigoBK: "IgG: <strong>ZIKAG</strong><br> IgM: <strong>ZIKAM</strong>",
+        codigoBK: "IgG: <b>ZIKAG</b><br>IgM: <b>ZIKAM</b>",
         nota: "<b>Cod. MK:</b> 8003614<br>Especificar si se requiere uno o ambos anticuerpos con sus codigos BK.",
       },
       {
@@ -1857,6 +1897,14 @@ const datos = [
         img: "<img src='img/trosa.png' height='150px'>",     
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Estrona",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>s/c",
+        codigoBK: "ESTRO",
+        nota: "Particular $ 9.044.-<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
+      },
+      {
         examen: "ONCOGEN: Estudio Genético Oncológico",
         establecimiento: "<img src='img/bk.png' /> Barnafi",
         codigo: "ONC",
@@ -1882,20 +1930,6 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "0302070-2",
         codigoBK: "APOB",
-      },
-      {
-        tubo: "<img src='img/forina32.png' height='24px'/>",
-        examen: "Arsénico en Orina",
-        establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0309034",
-        codigoBK: "ARSOA",
-      },
-      {
-        tubo: "<img src='img/tlila32.png' height='32px'/>",
-        examen: "Arsénico en sangre",
-        establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0302134",
-        codigoBK: "ARSESANGRE",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1967,15 +2001,15 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Parotiditis IgG",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "PARAG",
+        codigo: "Tecnigen:<ul><li>PARAG</ul>MK:<ul><li>8003603",
         codigoBK: "PARAG",
-        nota: "<b>Cod. MK:</b> 8003603",
+        nota: "",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Parotiditis IgM",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "PARAM",
+        codigo: "Tecnigen:<ul><li>PARAM</ul>MK:<ul><li>8003603",
         codigoBK: "PARAM",
         nota: "",
       },
