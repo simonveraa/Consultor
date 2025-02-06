@@ -1896,7 +1896,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hepatitis B, Anticuerpos Anti-Core (IgM)",
-        keywords: ['anticore', 'ac anticore', 'vhb'],
+        keywords: ['anticore', 'ac anticore', 'anti-hbc igm', 'vhb'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "0306080",
         codigoBK: "HEV",
@@ -1905,7 +1905,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hepatitis B, Anticuerpos Anti-Core Totales (IgG+IgM)",
-        keywords: ['anticore', 'ac anticore', 'vhb'],
+        keywords: ['anticore', 'ac anticore','anti-hbc total', 'vhb'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "0306080",
         codigoBK: "HBC",
