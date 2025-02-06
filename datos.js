@@ -1937,12 +1937,12 @@ const datos = [
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
-        examen: "17-Hidroxicorticosteroides",
+        examen: "17-Hidroxicorticosteroides (No se realiza)",
         keywords: ['17 oh corticosteroides'],
-        establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0303044",
+        establecimiento: "",
+        codigo: "",
         codigoBK: "",
-        nota: "<b>Cod. MK:</b> 8003442<br>Orina de 24 h"
+        nota: ""
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
