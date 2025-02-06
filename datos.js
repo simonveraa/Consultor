@@ -16,7 +16,7 @@ const datos = [
         examen: "PCR-RT Tuberculosis (TBC)",
         keywords: ['baciloscopia', 'mycoplasma tuberculosis'],
         establecimiento: "<img src='img/ispchs32.png' width='20'/> Hospital",
-        codigo: "",
+        codigo: "0306182",
         nota: "<i>Mycoplasma tuberculosis</i><br>Cultivo y Baciloscopía para TBC, se envía con solicitud de PCR al Hospital",
       },
       {
@@ -24,7 +24,7 @@ const datos = [
         examen: "Cultivo Tuberculosis (TBC)",
         keywords: ['baciloscopia', 'mycoplasma tuberculosis'],
         establecimiento: "<img src='img/ispchs32.png' width='20'/> Hospital",
-        codigo: "",
+        codigo: "0306182",
         nota: "Se envía con solicitud de PCR-RT Tuberculosis (TBC)",
       },
       {
@@ -68,7 +68,7 @@ const datos = [
         examen: "Cultivo Gonococo (mujer)",
         keywords: ['gonococo', 'neisseria gonorrhoeae'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
-        codigo: "0308016",
+        codigo: "0306016",
         nota: "Toma de muestra por profesional médico",
       },
       {
@@ -79,12 +79,12 @@ const datos = [
         nota: "Muestra tomada por la paciente o profesional",
       },
       {
-        tubo: "<img src='img/tlila32.png' height='32px'/>",
+        tubo: "<img src='img/tverde32.png' height='32px'/>",
         examen: "Estudio de Líquido Sinovial (Articular)",
         establecimiento: "<img src='img/adv.png' /> Clinala",
-        codigo: "0308014",
-        nota: "Estudio completo:<br><ol><li>Frasco esteril: Microbiología<li>Tubo Lila: Citología<li>Tubo Rojo: Bioquímica ",
-        img: "<ol><li><img src='img/forina32.png' height='32px'/><li><img src='img/tlila32.png' height='32px'/><li><img src='img/trojo32.png' height='32px'/>"
+        codigo: "Tecnigen:<ul><li>0308014</ul>MK: Cobrar los 2 códigos.<ul><li>0308014<li>0308010",
+        nota: "Estudio completo:<br><ol><li>Frasco esteril: Microbiología<li>Tubo Verde: Citología y Bioquímica ",
+        img: "<ol><li><img src='img/forina32.png' height='32px'/><li><img src='img/tverde32.png' height='32px'/>"
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
@@ -203,9 +203,9 @@ const datos = [
         img: "<img src='img/tstuart32.png' height='32px'/><br><img src='img/forina32.png' height='24px'/>"
       }, 
       {
-        examen: "Neonatal GSS (TSH Recién Nacido)",
+        examen: "TSH Neonatal (GSS)",
         keywords: ['tiroestimulante', 'TSH', 'tiroidea',],
-        establecimiento: "<img src='img/adv.png' /> Clinala",
+        establecimiento: "<img src='img/bk.png' /> Barnafi",
         codigo: "0302097",
         codigoBK: "TSHN",
         nota: "",
@@ -225,7 +225,7 @@ const datos = [
       },
       {
         examen: "Perfil de Aminoácidos y Acilcarnitinas",
-        establecimiento: "<img src='img/adv.png' /> Clinala",
+        establecimiento: "<img src='img/bk.png' /> Barnafi",
         codigo: "0302098",
         codigoBK: "ACILPLUS",
         nota: "Muestra: Gotas de sangre total sobre papel filtro especial",
@@ -1158,9 +1158,9 @@ const datos = [
         tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Aldosterona en orina",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "s/c - Ingresar: 0307099",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>0303002",
         codigoBK: "ALDOO",
-        nota: "Escribir en notas: ALDOSTERONA EN ORINA y cobrar con codigo Fonasa: 303002"
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas: ALDOSTERONA EN ORINA"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
