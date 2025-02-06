@@ -484,7 +484,7 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Hepatitis A (VHA IgM)",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0306074",
+        codigo: "0306074<br>(Fonasa)",
         codigoBK: "HAV",
         nota: "Diagnóstico de infección VHA"
       },
@@ -493,9 +493,25 @@ const datos = [
         examen: "Virus Hepatitis A, Anticuerpos totales (IgG, IgM)",
         keywords: ['vha', 'anticuerpos hepatitis a'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0306074",
+        codigo: "0306074<br>(Fonasa)",
         codigoBK: "HAVG",
         nota: "Memoria inmunológica"
+      },
+      {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
+        examen: "Mercurio en Sangre",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003681",
+        codigoBK: "MERCSANGRE",
+        nota: "EDTA<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
+      },
+      {
+        tubo: "<img src='img/forina32.png' height='32px'/>",
+        examen: "Mercurio en Orina",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003681",
+        codigoBK: "MERCUOA",
+        nota: "Orina Aislada.<br>Prohíbir la ingesta de agua previo a la toma de muestra (mas de un Litro en 4 horas)<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -686,7 +702,7 @@ const datos = [
         tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Oxalato en orina 24h",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0309051",
+        codigo: "Tecnigen:<ul><li>0309051</ul>MK:<ul><li>8003646",
         codigoBK: "OXALATO",
         nota: "Paciente no deba haber ingerido vitamina C (ácido ascórbico)"
       },
@@ -694,18 +710,35 @@ const datos = [
         tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Oxalato en orina aislada",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "s/c",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003646",
         codigoBK: "OXALATOA",
-        nota: "Paciente no deba haber ingerido vitamina C (ácido ascórbico)"
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>Paciente no deba haber ingerido vitamina C (ácido ascórbico)"
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Citrato en orina aislada",
         keywords: ['citraturia', 'citrato orina',],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "s/c",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003647",
         codigoBK: "CITRATOA",
-        nota: "Citraturia"
+        nota: "Citraturia<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
+      },
+      {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
+        examen: "Citrato en orina 24h",
+        keywords: ['citraturia', 'citrato orina',],
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003647",
+        codigoBK: "CITRATO",
+        nota: "50 mL, volumen mínimo.<br>Citraturia<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
+      },
+      {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
+        examen: "L-Cistina (orina 24h)",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>0309007</ul>MK:<ul><li>8003648",
+        codigoBK: "CISTINA",
+        nota: "50 mL, volumen mínimo.<br>Transporte refrigerado<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -890,7 +923,7 @@ const datos = [
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Magnesio en orina",
-        keywords: ['mg', 'mgo', 'magensiuria'],
+        keywords: ['mg', 'mgo', 'magnesiuria'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
         codigo: "0302052-1",
         codigoBK: "MGO",
@@ -899,7 +932,7 @@ const datos = [
         examen: "Magnesio en orina 24h",
         keywords: ['mg', 'mgo', 'magensiuria'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
-        codigo: "0302052-2",
+        codigo: "Tecnigen:<ul><li>0302052-2</ul>MK:<ul><li>8003645",
         codigoBK: "",
       },
       {
@@ -950,7 +983,7 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Oxcarbazepina, nivel plasmático (Fármaco)",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "s/c",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8004032",
         codigoBK: "OXCAR",
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
@@ -1152,6 +1185,14 @@ const datos = [
         codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003640",
         codigoBK: "PCRPARV",
         nota: "Sangre EDTA, Líquido amniótico o LCR<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>"
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Cortisona",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003644",
+        codigoBK: "CORTISONA",
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1430,7 +1471,7 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Células Parietales IgG",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "PARIELISA",
+        codigo: "Tecnigen:<ul><li>PARIELISA</ul>MK:<ul><li>8003688",
         codigoBK: "PARIELISA",
       },
       {
@@ -1474,7 +1515,7 @@ const datos = [
         examen: "Anticuerpos Anti B2 Glicoproteina IgG",
         keywords: ['anti b2', 'ac antiglicoproteina', 'ac anti glicoproteina', 'ac antib2', 'ac anti b2 glicoproteina'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "Tecnigen:<ul><li>0305105</ul>MK:<ul><li>8003632",
+        codigo: "Tecnigen:<ul><li>0305105</ul>MK:<ul><li>8004035",
         codigoBK: "B2G",
       },
       {
@@ -1482,7 +1523,7 @@ const datos = [
         examen: "Anticuerpos Anti B2 Glicoproteina IgM",
         keywords: ['anti b2', 'ac antiglicoproteina', 'ac anti glicoproteina', 'ac antib2', 'ac anti b2 glicoproteina'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "Tecnigen:<ul><li>0305105-1</ul>MK:<ul><li>8003625",
+        codigo: "Tecnigen:<ul><li>0305105-1</ul>MK:<ul><li>8004036",
         codigoBK: "B2M",
       },
       {
@@ -1515,9 +1556,25 @@ const datos = [
         examen: "Anticuerpos Anti Mieloperoxidasa (MPO)",
         keywords: ['ac anti mielopero', 'anti mielopero', 'antimielopero', 'antimpo', 'anti mpo',],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0305107",
+        codigo: "Tecnigen:<ul><li>0305107</ul>MK:<ul><li>8003651",
         codigoBK: "MPO",
         nota: "Cuantificación por ELISA de un tipo de anticuerpo ANCA"
+      },
+      {
+        tubo: "<img src='img/fdep32.png' height='32px'/>",
+        examen: "Elastasa en deposiciones (Cuantitativa)",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003653",
+        codigoBK: "ELASTASA",
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Clozapina, nivel plasmático (Fármaco)",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003654",
+        codigoBK: "CLOZA",
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1628,7 +1685,7 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "IgE Especificas, Panel Chile (35 Alérgenos)",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0305029-1",
+        codigo: "Tecnigen:<ul><li>0305029-1</ul>MK:<ul><li>8004033",
         codigoBK: "PCHILE35",
         nota: `
       <button class='btn btn-primary' onclick="
@@ -1697,9 +1754,9 @@ const datos = [
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Tipificación HLA-DQ2 y HLA-DQ8",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0305121",
+        codigo: "Tecnigen:<ul><li>0305121</ul>MK:<ul><li>8003685",
         codigoBK: "DQ",
-        nota: "<b>Cod. MK:</b> 8003685",
+        nota: "Biología Molecular",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1941,9 +1998,9 @@ const datos = [
         tubo: "<img src='img/trosa.png' height='32px'/>",
         examen: "Virus Papiloma Humano PCR-Microarray (VPH 30 subtipos) Hombre o Mujer",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0306123-1",
+        codigo: "Tecnigen:<ul><li>0306123-1</ul>MK:<ul><li>8003686",
         codigoBK: "PCRPAPI",
-        nota: "<i>Se cobra particular.</i><br>Tubo rosado con tórula de dacron.<i>Toma de muestra</i>:",
+        nota: "<i>Se cobra particular</i><br><br>Tubo rosado con tórula de dacron.",
         img: "<img src='img/trosa.png' height='150px'>",     
       },
       {
@@ -2115,7 +2172,7 @@ const datos = [
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Test Genético de Intolerancia a la Lactosa (PCR-RT)",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "8003687",
+        codigo: "Tecnigen:<ul><li>8003687</ul>MK:<ul><li>8003687",
         codigoBK: "LACTOGEN",
         nota: "Sangre total EDTA, Tubo Lila"
       },
@@ -2161,7 +2218,7 @@ const datos = [
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Selenio en sangre",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0302135",
+        codigo: "Tecnigen:<ul><li>0302135</ul>MK:<ul><li>8003650",
         codigoBK: "SELESANGRE",
         nota: "",
       },
