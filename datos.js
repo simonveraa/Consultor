@@ -180,6 +180,8 @@ const datos = [
         tubo: "<img src='img/fdep32.png' height='32px'/>",
         examen: "Rotavirus / Adenovirus en Deposición",
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "Tecnigen/MK:<ul><li>0306170<li>0306070</ul>",
+        nota: "Deben ser ingresados y cobrados ambos códigos."
       },
       
       {
@@ -208,7 +210,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi",
         codigo: "0302097",
         codigoBK: "TSHN",
-        nota: "",
+        nota: "Muestra: Gotas de sangre total sobre papel filtro especial",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -704,7 +706,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>0309051</ul>MK:<ul><li>8003646",
         codigoBK: "OXALATO",
-        nota: "Paciente no deba haber ingerido vitamina C (ácido ascórbico)"
+        nota: "Paciente no debe haber ingerido vitamina C (ácido ascórbico)"
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
@@ -794,9 +796,9 @@ const datos = [
         tubo: "<img src='img/tgris32.png' height='32px'/>",
         examen: "Lactato",
         establecimiento: "Lab. Cordillera",
-        codigo: "s/c",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003425",
         codigoBK: "LAC",
-        nota: "Cod. MK: 8003425<br>Tubo gris: Fluoruro u Oxalato<br>Transporte en frío (2 - 8 °C)"
+        nota: "Tubo gris: Fluoruro u Oxalato<br>Transporte en frío (2 - 8 °C)"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -975,9 +977,17 @@ const datos = [
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Benzodiazepinas en Orina",
-        establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0309106",
+        establecimiento: "<img src='img/adv.png' /> Clinala ",
+        codigo: "Tecnigen:<ul><li>0309106</ul>MK:<ul><li>8003255",
         codigoBK: "BENZ",
+        nota: "Detección por 7 días."
+      },
+      {
+        tubo: "<img src='img/forina32.png' height='24px'/>",
+        examen: "Alcohol en Orina",
+        establecimiento: "<img src='img/adv.png' /> Clinala ",
+        codigo: "Tecnigen:<ul><li>0309107</ul>MK:<ul><li>8003255",
+        codigoBK: "",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1043,17 +1053,17 @@ const datos = [
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Sirolimus, nivel plasmático (Fármaco)",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "SIR",
+        codigo: "Tecnigen:<ul><li>SIR</ul>MK:<ul><li>8003636",
         codigoBK: "SIR",
-        nota: "<b>Cod. MK:</b> 8003636"
+        nota: ""
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Tacrolimus, nivel plasmático (Fármaco)",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "TAC",
+        codigo: "Tecnigen:<ul><li>TAC</ul>MK:<ul><li>8003635",
         codigoBK: "TAC",
-        nota: "<b>Cod. MK:</b> 8003635",
+        nota: "",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1107,7 +1117,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti-Membrana Basal Glomerular (AAMBG)",
-        keywords: ['ac antimembrana basal'],
+        keywords: ['ac antimembrana basal', 'anti mb basal glomerular'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>0305081-2</ul>MK:<ul><li>8003624",
         codigoBK: "MEMBRA",
