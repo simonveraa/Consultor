@@ -1142,9 +1142,9 @@ const datos = [
         examen: "Drogas de Abuso (THC, COC, ANF) c/u",
         keywords: ['marihuana', 'cocaina', 'anfetaminas'], 
         establecimiento: "<img src='img/adv.png' /> Clinala",
-        codigo: "0309105",
+        codigo: "Tecnigen:<ul><li>0309105</ul>MK:<ul><li>8003255 c/u",
         codigoBK: "",
-        nota: "<b>Cod. MK:</b> 8003255 c/u<br><ul><li>Marihuana<li>Cocaína<li>Anfetaminas"
+        nota: "<ul><li>Marihuana:<br>Detección por 7 días<li>Cocaína:<br>Detección por 48h<li>Anfetaminas:<br>Detección por 48h<li>Benzodiazepinas:<br>Detección por 7 días."
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
