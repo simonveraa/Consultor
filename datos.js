@@ -64,6 +64,14 @@ const datos = [
         nota: "Estudio de <i>Neisseria gonorrhoeae</i><br>Sin aseo, toma de muestra uretral + Orina de primer chorro.",
       },
       {
+        tubo: "",
+        examen: "Gases Sanguíneos Arteriales/Venosos",
+        keywords: ['gsa', 'gsv'],
+        establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "",
+        nota: "Muestra con jeringa hepatinizada",
+      },
+      {
         tubo: "<img src='img/tstuart32.png' height='32px'/>",
         examen: "Cultivo Gonococo (mujer)",
         keywords: ['gonococo', 'neisseria gonorrhoeae'],
