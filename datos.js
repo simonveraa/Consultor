@@ -56,6 +56,15 @@ const datos = [
         nota: "Incluye determinación de SHBG + Testosterona total",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Anticuerpos Anti Receptor de Fosfolipasa A2",
+        keywords: ['pla 2r',],
+        establecimiento: "<img src='img/bk.png' /> Barnafi",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>s/c",
+        codigoBK: "A2",
+        nota: "Cobrar Particular $ 48.380.-",
+      },
+      {
         tubo: "<img src='img/tstuart32.png' height='32px'/>",
         examen: "Secreción Uretral",
         keywords: ['gonococo', 'neisseria gonorrhoeae'],
