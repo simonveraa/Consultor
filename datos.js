@@ -58,9 +58,9 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Receptor de Fosfolipasa A2",
-        keywords: ['pla 2r',],
+        keywords: ['pla 2r', 'pla2r'],
         establecimiento: "<img src='img/bk.png' /> Barnafi",
-        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>s/c",
+        codigo: "Tecnigen:<ul><li>0305150</ul>MK:<ul><li>s/c",
         codigoBK: "A2",
         nota: "Cobrar Particular $ 48.380.-",
       },
@@ -575,6 +575,14 @@ const datos = [
         examen: "Estradiol (Estrógenos)",
         establecimiento: "<img src='img/adv.png' /> Clinala",
         codigo: "0303030",
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Estradiol No Conjugado",
+        establecimiento: "<img src='img/bk.png' /> Barnafi",
+        codigo: "Tecnigen:<ul><li>033091</ul>MK:<ul><li>s/c",
+        codigoBK: "",
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -2034,7 +2042,7 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Estrona",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>s/c",
+        codigo: "Tecnigen:<ul><li>0303090</ul>MK:<ul><li>s/c",
         codigoBK: "ESTRO",
         nota: "Particular $ 9.044.-<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
       },
