@@ -74,10 +74,18 @@ const datos = [
       },
       {
         tubo: "",
-        examen: "Gases Sanguíneos Arteriales/Venosos",
-        keywords: ['gsa', 'gsv'],
+        examen: "Gases Sanguíneos Arteriales",
+        keywords: ['gsa', ],
         establecimiento: "<img src='img/adv.png' /> Clinala",
-        codigo: "",
+        codigo: "0302046-2",
+        nota: "Muestra con jeringa hepatinizada",
+      },
+      {
+        tubo: "",
+        examen: "Gases Sanguíneos Venosos",
+        keywords: [ 'gsv'],
+        establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0302046-1",
         nota: "Muestra con jeringa hepatinizada",
       },
       {
@@ -170,12 +178,14 @@ const datos = [
         tubo: "<img src='img/fdep32.png' height='32px'/>",
         examen: "Leucocitos Fecales",
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0308005",
       },
       {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
         examen: "Sangre Oculta en Deposición (FOB)",
         keywords: ['Test inmunologico en deposicion'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0308004",
         nota: "(Test inmunológico en deposición)"
       },
       {
@@ -213,11 +223,13 @@ const datos = [
         examen: "Panel Viral (8 Virus Respiratorios)",
         establecimiento: "<img src='img/adv.png' /> Clinala",
         nota: "IFI/IFD Para Virus Influenza A+B, VRS, ADV, MPV, Parainfluenza 1, 2 y 3.",
+        codigo: "Tecnigen:<ul><li>0306070-8</ul>MK:<ul><li>0306070 (x8)",
       },
       {
         tubo: "<img src='img/tstuart32.png' height='32px'/>",
         examen: "Chlamydia trachomatis ",
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "Tecnigen:<ul><li>0306034-1</ul>MK:<ul><li>0306034",
         nota: "Mujer: Flujo vaginal<br>Hombre: Orina",
         img: "<img src='img/tstuart32.png' height='32px'/><br><img src='img/forina32.png' height='24px'/>"
       }, 
@@ -241,6 +253,7 @@ const datos = [
         tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Orina Completa",
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0309022",
       },
       {
         examen: "Perfil de Aminoácidos y Acilcarnitinas",
@@ -253,6 +266,7 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Perfil Lipídico",
         keywords: ['Colesterol','LDL','HD','Trigliceridos'],
+        codigo: "0302034",
         establecimiento: "<img src='img/adv.png' /> Clinala",
         nota: "<ol><li>Colesterol Total<li>LDL<li>HDL<li>Trigliceridos",
       },
@@ -261,6 +275,7 @@ const datos = [
         examen: "Perfil Bioquímico",
         keywords: ['Bilirrubina','ALP','AST', 'GOT', 'LDH','Glicemia','glucosa','Urea','BUN','Calcio','Fosforo','Colesterol','Proteinas','Albumina','acido Urico',],
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0302075",
         nota: "<ol><li>Bilirrubina Total<li>ALP<li>AST/GOT<li>LDH<li>Glicemia<li>Urea/BUN<li>Calcio<li>Fosforo<li>Colesterol Total<li>Proteínas Totales<li>Albúmina<li>Fracción A/G<li>Ácido Urico",
       },
       {
@@ -268,12 +283,14 @@ const datos = [
         examen: "Perfil Hepático",
         keywords: ['Bilirrubina','ALP','ALT','GPT','AST','GOT','GGT', 'protrombina', 'tp'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0302076",
         nota: "<ol><li>Bilirrubina Total<li>Bilirrubina Directa<li>ALP<li>ALT/GPT<li>AST/GOT<li>GGT<li>Protrombina",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Fierro sérico (Hierro)",
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0301028",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -296,32 +313,38 @@ const datos = [
         examen: "Grupo Sanguíneo (ABO, Rh-D)",
         keywords: ['Grupo y rh'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0301034",
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Hemoglobina glicosilada (HbA1c)",
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0301041",
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Recuento de Reticulocitos",
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0301068",
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Test de Coombs Indirecto (TCI)",
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0702207",
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Test de Coombs Directo (TCD)",
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0301014",
       },
       {
         tubo: "<img src='img/tcel32.png' height='32px'/>",
         examen: "Tiempo de Protrombina (TP)",
         keywords: ['porcentaje de protrombina', 'tiempos de coagulacion', 'coagulacion', 'inr'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0301059",
         nota: "<ol><li>Tiempo<li>Porcentaje<li>INR</ol>"
       },
       {
@@ -329,12 +352,14 @@ const datos = [
         examen: "Tiempo de Tromboplastina Activada (TTPA)",
         keywords: ['coagulacion', 'TTPK',],
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0301085",
         nota: "Antiguamente TTPK",
       },
       {
         tubo: "<img src='img/tmed32.png' height='18px'/>",
         examen: "Tiempo de sangría",
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0301072",
         nota: "Evaluación de la Hemostasia Primaria en el reclutamiento y activación plaquetaria",
       },
       {
@@ -357,6 +382,7 @@ const datos = [
         tubo: "<img src='img/tcel32.png' height='32px'/>",
         examen: "Dimero D",
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0301095",
         nota: "Tubo celéste: Sangre citratada"
       },
       {
@@ -378,12 +404,14 @@ const datos = [
         examen: "Péptido Natriurético tipo B (NT-proBNP)",
         keywords: ['pro bnp',],
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0303055",
         nota: "Tubo verde: Sangre heparinizada",
       },
       {
         tubo: "<img src='img/tverde32.png' height='32px'/>",
         examen: "Troponina",
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0302027",
         nota: "Tubo verde: Sangre heparinizada"
       },
       {
@@ -391,6 +419,7 @@ const datos = [
         examen: "Vitamina B12 (Cobalamina)",
         keywords: ['vit b12', 'vit12'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0302077",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -404,6 +433,7 @@ const datos = [
         examen: "Antígeno Prostatico Especifico (APE Total)",
         keywords: ['PSA'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0305070",
         nota: "Total Prostatic Specific Antigen (PSA Total)",
       },
       {
@@ -411,6 +441,7 @@ const datos = [
         examen: "Antígeno Prostatico Especifico Libre (APE Libre)",
         keywords: ['free PSA', 'psa'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0305104",
         nota: "Free Prostatic Specific Antigen (PSA Libre)",
       },
       {
@@ -445,6 +476,8 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Complemento C3 y C4",
         establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0305012 (x2)",
+        nota: "Ingreso individual:<br>0305012-3 (C3)<br>0305012-4 (C4)"
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
@@ -578,11 +611,11 @@ const datos = [
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
-        examen: "Estradiol No Conjugado",
+        examen: "Estriol No Conjugado",
         establecimiento: "<img src='img/bk.png' /> Barnafi",
-        codigo: "Tecnigen:<ul><li>033091</ul>MK:<ul><li>s/c",
-        codigoBK: "",
-        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
+        codigo: "Tecnigen:<ul><li>0303091</ul>MK:<ul><li>s/c",
+        codigoBK: "ESTRIOL",
+        nota: "Particular $ 4.942.-",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -2044,7 +2077,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>0303090</ul>MK:<ul><li>s/c",
         codigoBK: "ESTRO",
-        nota: "Particular $ 9.044.-<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
+        nota: "Particular $ 9.044.-"
       },
       {
         examen: "ONCOGEN: Estudio Genético Oncológico",
