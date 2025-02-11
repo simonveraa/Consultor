@@ -279,7 +279,7 @@ const datos = [
         nota: "<ol><li>Bilirrubina Total<li>ALP<li>AST/GOT<li>LDH<li>Glicemia<li>Urea/BUN<li>Calcio<li>Fosforo<li>Colesterol Total<li>Proteínas Totales<li>Albúmina<li>Fracción A/G<li>Ácido Urico",
       },
       {
-        tubo: "<div style='display: inline-bloc; margin-rigth: 3px'><img src='img/trojo32.png' height='32px'/><img src='img/tcel32.png' height='32px'/></div>",
+        tubo: "<div style='display: inline-block; padding-rigth: 3px'><img src='img/trojo32.png' height='32px'/><img src='img/tcel32.png' height='32px'/></div>",
         examen: "Perfil Hepático",
         keywords: ['Bilirrubina','ALP','ALT','GPT','AST','GOT','GGT', 'protrombina', 'tp'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
