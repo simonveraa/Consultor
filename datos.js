@@ -169,10 +169,10 @@ const datos = [
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
-        examen: "Globulinas Totales (Proteínas + Albúmina)",
+        examen: "Fracción Proteínas Albúmina/Globulinas",
         establecimiento: "<img src='img/adv.png' /> Clinala",
-        codigo: "0302100<br>0302101",
-        nota: "<u>Ingresar ambos códigos</u><br>Proteínas Totales: 0302100<br>Albumina: 0302101",
+        codigo: "Tecnigen:<ul><li>0302060</li></ul>MK:<ul><li>0302100<li>0302101",
+        nota: "",
       },
       {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
