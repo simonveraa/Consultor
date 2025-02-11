@@ -57,7 +57,7 @@ const datos = [
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
-        examen: "Anticuerpos Anti Receptor de Fosfolipasa A2",
+        examen: "Anticuerpos Anti Receptor de Fosfolipasa A2 (PLA2R)",
         keywords: ['pla 2r', 'pla2r'],
         establecimiento: "<img src='img/bk.png' /> Barnafi",
         codigo: "Tecnigen:<ul><li>0305150</ul>MK:<ul><li>s/c",
@@ -77,16 +77,16 @@ const datos = [
         examen: "Gases Sanguíneos Arteriales",
         keywords: ['gsa', ],
         establecimiento: "<img src='img/adv.png' /> Clinala",
-        codigo: "0302046-2",
-        nota: "Muestra con jeringa hepatinizada",
+        codigo: "Tecnigen:<ul><li>0302046-2</ul>MK:<ul><li>0302046",
+        nota: "Muestra con jeringa heparinizada",
       },
       {
         tubo: "",
         examen: "Gases Sanguíneos Venosos",
         keywords: [ 'gsv'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
-        codigo: "0302046-1",
-        nota: "Muestra con jeringa hepatinizada",
+        codigo: "Tecnigen:<ul><li>0302046-1</ul>MK:<ul><li>0302046",
+        nota: "Muestra con jeringa heparinizada",
       },
       {
         tubo: "<img src='img/tstuart32.png' height='32px'/>",
@@ -279,7 +279,7 @@ const datos = [
         nota: "<ol><li>Bilirrubina Total<li>ALP<li>AST/GOT<li>LDH<li>Glicemia<li>Urea/BUN<li>Calcio<li>Fosforo<li>Colesterol Total<li>Proteínas Totales<li>Albúmina<li>Fracción A/G<li>Ácido Urico",
       },
       {
-        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        tubo: "<div style='inli><img src='img/trojo32.png' height='32px'/><img src='img/tcel32.png' height='32px'/></div>",
         examen: "Perfil Hepático",
         keywords: ['Bilirrubina','ALP','ALT','GPT','AST','GOT','GGT', 'protrombina', 'tp'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
@@ -524,6 +524,7 @@ const datos = [
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Virus Inmunodeficiencia Humana (VIH SIDA)",
         establecimiento: "<img src='img/adv.png' /> Clinala - <img src='img/ispchs32.png' width='20'/> ISPCH",
+        codigo: "0306112 (Fonasa)"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
