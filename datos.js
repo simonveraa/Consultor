@@ -1007,9 +1007,9 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Levetiracetam, nivel plasmático (Fármaco)",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "s/c",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003638",
         codigoBK: "LEVE",
-        nota: "<b>Cod. MK:</b> 8003638<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
