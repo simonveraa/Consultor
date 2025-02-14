@@ -1533,8 +1533,9 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Células Parietales (IFI)",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "PARI",
+        codigo: "Tecnigen:<ul><li>PARI</ul>MK:<ul><li>0305007<br>(Fonasa)",
         codigoBK: "PARI",
+        nota: "IFI técnica cualitativa"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1542,6 +1543,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>PARIELISA</ul>MK:<ul><li>8003688",
         codigoBK: "PARIELISA",
+        nota: "ELISA técnica cuantitativa para IgG"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -2341,6 +2343,8 @@ const datos = [
       },
       {
         examen: "Hepatitis E (no se realiza)",
+        establecimiento: "No se deriva",
+        nota: "Sugerir al paciente ir a Toma de muestras UCChristus"
       },
       {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
