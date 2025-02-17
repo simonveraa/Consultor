@@ -614,9 +614,9 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Estriol No Conjugado",
         establecimiento: "<img src='img/bk.png' /> Barnafi",
-        codigo: "Tecnigen:<ul><li>0303091</ul>MK:<ul><li>s/c",
+        codigo: "Tecnigen:<ul><li>0303091</ul>MK:<ul><li>8003691",
         codigoBK: "ESTRIOL",
-        nota: "Particular $ 4.942.-",
+        nota: "",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -2078,9 +2078,9 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Estrona",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "Tecnigen:<ul><li>0303090</ul>MK:<ul><li>s/c",
+        codigo: "Tecnigen:<ul><li>0303090</ul>MK:<ul><li>8003690",
         codigoBK: "ESTRO",
-        nota: "Particular $ 9.044.-"
+        nota: ""
       },
       {
         examen: "ONCOGEN: Estudio Genético Oncológico",
