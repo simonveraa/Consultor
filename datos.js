@@ -2202,6 +2202,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Subclase de IgG 1",
+        keywords: ['igg1'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>IGG1</ul>MK:<ul><li>8003447",
         codigoBK: "IGG1",
@@ -2210,6 +2211,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Subclase de IgG 2",
+        keywords: ['igg2'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>IGG2</ul>MK:<ul><li>8003447",
         codigoBK: "IGG2",
@@ -2218,6 +2220,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Subclase de IgG 3",
+        keywords: ['igg3'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>IGG3</ul>MK:<ul><li>8003447",
         codigoBK: "IGG3",
@@ -2226,6 +2229,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Subclase de IgG 4",
+        keywords: ['igg4'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>IGG4</ul>MK:<ul><li>8003447",
         codigoBK: "IGG4",
