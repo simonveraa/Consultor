@@ -279,7 +279,7 @@ const datos = [
         nota: "<ol><li>Bilirrubina Total<li>ALP<li>AST/GOT<li>LDH<li>Glicemia<li>Urea/BUN<li>Calcio<li>Fosforo<li>Colesterol Total<li>Proteínas Totales<li>Albúmina<li>Fracción A/G<li>Ácido Urico",
       },
       {
-        tubo: "<div style='display: inline-block;'><img src='img/trojo32.png' height='32px'/><img src='img/tcel32.png' height='32px'/></div>",
+        tubo: "<div style='display: inline-block;'><img style='margin-right: 3px' src='img/trojo32.png' height='32px'/><img src='img/tcel32.png' height='32px'/></div>",
         examen: "Perfil Hepático",
         keywords: ['Bilirrubina','ALP','ALT','GPT','AST','GOT','GGT', 'protrombina', 'tp'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
@@ -1007,9 +1007,9 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Levetiracetam, nivel plasmático (Fármaco)",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "s/c",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003638",
         codigoBK: "LEVE",
-        nota: "<b>Cod. MK:</b> 8003638<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1533,8 +1533,9 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Células Parietales (IFI)",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "PARI",
+        codigo: "Tecnigen:<ul><li>PARI</ul>MK:<ul><li>0305007<br>(Fonasa)",
         codigoBK: "PARI",
+        nota: "IFI técnica cualitativa"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1542,6 +1543,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>PARIELISA</ul>MK:<ul><li>8003688",
         codigoBK: "PARIELISA",
+        nota: "ELISA técnica cuantitativa para IgG"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -2341,6 +2343,8 @@ const datos = [
       },
       {
         examen: "Hepatitis E (no se realiza)",
+        establecimiento: "No se deriva",
+        nota: "Sugerir al paciente ir a Toma de muestras UCChristus"
       },
       {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
