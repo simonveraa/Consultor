@@ -60,7 +60,7 @@ const datos = [
         examen: "Anticuerpos Anti Receptor de Fosfolipasa A2 (PLA2R)",
         keywords: ['pla 2r', 'pla2r'],
         establecimiento: "<img src='img/bk.png' /> Barnafi",
-        codigo: "Tecnigen:<ul><li>0305150</ul>MK:<ul><li>s/c",
+        codigo: "Tecnigen:<ul><li>0305150</ul>MK:<ul><li>8003689",
         codigoBK: "A2",
         nota: "Cobrar Particular $ 48.380.-",
       },
@@ -279,7 +279,7 @@ const datos = [
         nota: "<ol><li>Bilirrubina Total<li>ALP<li>AST/GOT<li>LDH<li>Glicemia<li>Urea/BUN<li>Calcio<li>Fosforo<li>Colesterol Total<li>Proteínas Totales<li>Albúmina<li>Fracción A/G<li>Ácido Urico",
       },
       {
-        tubo: "<div style='display: inline-block; padding-rigth: 3px'><img src='img/trojo32.png' height='32px'/><img src='img/tcel32.png' height='32px'/></div>",
+        tubo: "<div style='display: inline-block;'><img src='img/trojo32.png' height='32px'/><img src='img/tcel32.png' height='32px'/></div>",
         examen: "Perfil Hepático",
         keywords: ['Bilirrubina','ALP','ALT','GPT','AST','GOT','GGT', 'protrombina', 'tp'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
