@@ -62,7 +62,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi",
         codigo: "Tecnigen:<ul><li>0305150</ul>MK:<ul><li>8003689",
         codigoBK: "A2",
-        nota: "Cobrar Particular $ 48.380.-",
+        nota: "",
       },
       {
         tubo: "<img src='img/tstuart32.png' height='32px'/>",
