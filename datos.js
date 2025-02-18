@@ -281,7 +281,7 @@ const datos = [
       {
         tubo: "<div style='display: inline-block;'><img style='margin-right: 3px' src='img/trojo32.png' height='32px'/><img src='img/tcel32.png' height='32px'/></div>",
         examen: "Perfil Hepático",
-        keywords: ['Bilirrubina','ALP','ALT','GPT','AST','GOT','GGT', 'protrombina', 'tp'],
+        keywords: ['Bilirrubina','ALP','ALT','GPT','AST','GOT','GGT', 'protrombina', 'tp', 'prueba funcional hepatica', 'pfh'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
         codigo: "0302076",
         nota: "<ol><li>Bilirrubina Total<li>Bilirrubina Directa<li>ALP<li>ALT/GPT<li>AST/GOT<li>GGT<li>Protrombina",
