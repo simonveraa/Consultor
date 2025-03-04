@@ -1673,7 +1673,7 @@ const datos = [
         examen: "Ciclosporina, nivel plasmático (Fármaco)",
         keywords: ['niveles plasmaticos de ciclosporina',],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul>s/c<li>",
         codigoBK: "CICLO",
         nota: "Tubo con EDTA.<br>Particular: $ 55.916.-<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
       },
