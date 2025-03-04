@@ -1584,7 +1584,14 @@ const datos = [
         codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003424",
         codigoBK: "LUPI",
         nota: "Plasma citratado congelado"
-        
+      },
+      {
+        examen: "Mutación Jak2",
+        keywords: ['policitemia vera'],
+        establecimiento: "No se deriva",
+        codigo: "",
+        codigoBK: "",
+        nota: "Sugerir Laboratorio USChristus"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1660,6 +1667,15 @@ const datos = [
         codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003654",
         codigoBK: "CLOZA",
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
+      },
+      {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
+        examen: "Ciclosporina, nivel plasmático (Fármaco)",
+        keywords: ['niveles plasmaticos de ciclosporina',],
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>",
+        codigoBK: "CICLO",
+        nota: "Tubo con EDTA.<br>Particular: $ 55.916.-<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
