@@ -48,6 +48,13 @@ const datos = [
         nota: "",
       },
       {
+        examen: "Cuerpos Cetónicos (Acetona en Sangre)",
+        keywords: ['Acetona cualitativa'],
+        establecimiento: "No se realiza<br>No se deriva",
+        codigo: "",
+        nota: "",
+      },
+      {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Índice Androgénico Libre",
         establecimiento: "<img src='img/bk.png' /> Barnafi",
@@ -71,6 +78,13 @@ const datos = [
         establecimiento: "<img src='img/adv.png' /> Clinala",
         codigo: "0308044",
         nota: "Estudio de <i>Neisseria gonorrhoeae</i><br>Sin aseo, toma de muestra uretral + Orina de primer chorro.",
+      },
+      {
+        examen: "Parasitológico Seriado en Deposición (PSD)",
+        keywords: ['coproparasitologico', 'parasitologico', 'coprologico'],
+        establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0306048",
+        nota: "Coproparasitológico, busqueda de parásitos intestinales",
       },
       {
         tubo: "",
@@ -303,7 +317,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Fierro con Saturación de Transferrina (Porcentaje)",
-        keywords: ['Indice de saturación de transferrina', 'TIBC', 'capacidad total de fijacion del hierro'],
+        keywords: ['sobrecarga','fierro con prueba de sobrecarga', 'Indice de saturación de transferrina', 'TIBC', 'capacidad total de fijacion del hierro'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
         codigo: "0301029",
         nota: "Incluye Capacidad Total de Fijación del Hierro (TIBC) y Fierro Sérico",
@@ -1563,13 +1577,13 @@ const datos = [
         nota: "Especificar segun corresponda",
       },
       {
-        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        tubo: "<img src='img/tcel32.png' height='32px'/>",
         examen: "Anticoagulante Lupico",
         keywords: ['anticoagulantes circulantes'],
-        establecimiento: "<img src='img/bk.png' /> Barnafi",
-        codigo: "s/c",
+        establecimiento: "No se deriva",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003424",
         codigoBK: "LUPI",
-        nota: "<b>Cod. MK:</b> 8003424"
+        nota: "Plasma citratado congelado"
         
       },
       {
