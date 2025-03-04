@@ -67,9 +67,9 @@ const datos = [
         examen: "Anticuerpos Anti Receptor de Fosfolipasa A2 (PLA2R)",
         keywords: ['pla 2r', 'pla2r'],
         establecimiento: "<img src='img/bk.png' /> Barnafi",
-        codigo: "Tecnigen:<ul><li>0305150</ul>MK:<ul><li>s/c",
+        codigo: "Tecnigen:<ul><li>0305150</ul>MK:<ul><li>8003689",
         codigoBK: "A2",
-        nota: "Cobrar Particular $ 48.380.-",
+        nota: "",
       },
       {
         tubo: "<img src='img/tstuart32.png' height='32px'/>",
@@ -295,7 +295,7 @@ const datos = [
       {
         tubo: "<div style='display: inline-block;'><img style='margin-right: 3px' src='img/trojo32.png' height='32px'/><img src='img/tcel32.png' height='32px'/></div>",
         examen: "Perfil Hepático",
-        keywords: ['Bilirrubina','ALP','ALT','GPT','AST','GOT','GGT', 'protrombina', 'tp'],
+        keywords: ['Bilirrubina','ALP','ALT','GPT','AST','GOT','GGT', 'protrombina', 'tp', 'prueba funcional hepatica', 'pfh'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
         codigo: "0302076",
         nota: "<ol><li>Bilirrubina Total<li>Bilirrubina Directa<li>ALP<li>ALT/GPT<li>AST/GOT<li>GGT<li>Protrombina",
@@ -628,9 +628,9 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Estriol No Conjugado",
         establecimiento: "<img src='img/bk.png' /> Barnafi",
-        codigo: "Tecnigen:<ul><li>0303091</ul>MK:<ul><li>s/c",
+        codigo: "Tecnigen:<ul><li>0303091</ul>MK:<ul><li>8003691",
         codigoBK: "ESTRIOL",
-        nota: "Particular $ 4.942.-",
+        nota: "",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1940,9 +1940,18 @@ const datos = [
         examen: "FTA-ABS (Sífilis)",
         keywords: ['MHA-TP', 'treponema pallidum'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0306041",
+        codigo: "Tecnigen:<ul><li>0306041</ul>MK:<ul><li>8003435",
         codigoBK: "FTA",
-        nota: "<b>Cod. MK:</b> 8003435<br>Anticuerpos anti <i>T. pallidum</i> para diagnóstico de sífilis",
+        nota: "Anticuerpos anti <i>T. pallidum</i> para diagnóstico de sífilis",
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "VDRL (Sífilis)",
+        keywords: ['RPR', 'treponema pallidum'],
+        establecimiento: "<img src='img/adv.png' /> Clinala ",
+        codigo: "Tecnigen:<ul><li>0306042</ul>MK:<ul><li>0306042",
+        codigoBK: "",
+        nota: "Prueba no treponemica para el screening de sífilis",
       },
       {
         examen: "MHA-TP (Sífilis)",
@@ -2092,9 +2101,9 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Estrona",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "Tecnigen:<ul><li>0303090</ul>MK:<ul><li>s/c",
+        codigo: "Tecnigen:<ul><li>0303090</ul>MK:<ul><li>8003690",
         codigoBK: "ESTRO",
-        nota: "Particular $ 9.044.-"
+        nota: ""
       },
       {
         examen: "ONCOGEN: Estudio Genético Oncológico",
@@ -2216,6 +2225,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Subclase de IgG 1",
+        keywords: ['igg1'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>IGG1</ul>MK:<ul><li>8003447",
         codigoBK: "IGG1",
@@ -2224,6 +2234,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Subclase de IgG 2",
+        keywords: ['igg2'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>IGG2</ul>MK:<ul><li>8003447",
         codigoBK: "IGG2",
@@ -2232,6 +2243,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Subclase de IgG 3",
+        keywords: ['igg3'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>IGG3</ul>MK:<ul><li>8003447",
         codigoBK: "IGG3",
@@ -2240,6 +2252,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Subclase de IgG 4",
+        keywords: ['igg4'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>IGG4</ul>MK:<ul><li>8003447",
         codigoBK: "IGG4",
