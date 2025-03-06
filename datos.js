@@ -543,9 +543,9 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Hepatitis C (VHC)",
-        establecimiento: "<img src='img/adv.png' /> Clinala ",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "0306081",
-        nota: "Anticuerpos Anti Hepatitis C",
+        nota: "Laboratorio Cordillera si está sólo o BkLAB si tiene otros que van apara santiago",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
