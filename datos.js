@@ -543,9 +543,9 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Hepatitis C (VHC)",
-        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        establecimiento: "<img src='img/adv.png' /> Clinala ",
         codigo: "0306081",
-        nota: "Solo si tiene otros exámenes a barnafi, de lo contrario: Lab. Cordillera",
+        nota: "Anticuerpos Anti Hepatitis C",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1673,9 +1673,9 @@ const datos = [
         examen: "Ciclosporina, nivel plasmático (Fármaco)",
         keywords: ['niveles plasmaticos de ciclosporina',],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul>s/c<li>",
+        codigo: "Tecnigen:<ul><li>0302035-1</ul>MK:<ul>8003655<li>",
         codigoBK: "CICLO",
-        nota: "Tubo con EDTA.<br>Particular: $ 55.916.-<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
+        nota: "Tubo con EDTA.<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
