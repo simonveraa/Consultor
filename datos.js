@@ -2122,10 +2122,12 @@ const datos = [
         nota: ""
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "ONCOGEN: Estudio Genético Oncológico",
         establecimiento: "<img src='img/bk.png' /> Barnafi",
         codigo: "ONC",
         codigoBK: "",
+        nota: "Paciente no paga el estudio. Sólo toma de muestra<br>Adjuntar orden médica impresa al envío de la muestra.",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
