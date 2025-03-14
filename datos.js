@@ -1952,6 +1952,14 @@ const datos = [
         nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
+        examen: "Vitamina B1 (Tiamina)",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>0302136-800</ul>MK:<ul><li>8003657",
+        codigoBK: "VITB1",
+        nota: "ETDA. Transporte Refrigerado"
+      },
+      {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "FTA-ABS (Sífilis)",
         keywords: ['MHA-TP', 'treponema pallidum'],
