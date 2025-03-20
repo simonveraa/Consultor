@@ -1600,7 +1600,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>0305124</ul>MK:<ul><li>8003625",
         codigoBK: "TRABB",
-        nota: ""
+        nota: "<b>Imed: 0305139</b>"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
