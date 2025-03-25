@@ -2183,6 +2183,15 @@ const datos = [
         nota: "Hormona Paratiroidea"
       },
       {
+        tubo: "",
+        examen: "Panel Respiratorio Por Biología Molecular",
+        keywords: ['virus', 'bacterias', 'pcr'],
+        establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "Tecnigen:<ul><li>0306122</ul>MK:<ul><li>0306122",
+        codigoBK: "",
+        nota: "<ol><li><i>SARS-COV-2</i><li><i>Influeza A y B</i><li><i>Virus Sincicial Respiratorio</i><li><i>Adenovirus</i><li><i>Metapneumovirus</i><li><i>Parainfluenza 1, 2, 3</i><li><i>Rinovirus/Enterovirus</i><li><i>B. parapertussis</i><li><i>Mycoplasma pneumoniae</i></ol>"
+      },
+      {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Toxocara IgG",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
