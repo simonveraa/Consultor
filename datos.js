@@ -1598,9 +1598,9 @@ const datos = [
         examen: "Anticuerpos Anti Receptor de TSH (TRAB)",
         keywords: ['ac antireceptor', 'antireceptor', 'ac anti receptor', 'anti trab', 'ac anti trab',],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "Tecnigen:<ul><li>0305124</ul>MK:<ul><li>8003625",
+        codigo: "Tecnigen:<ul><li>0305124</ul>MK:<ul><li>0305139",
         codigoBK: "TRABB",
-        nota: "<b>Imed: 0305139</b>"
+        nota: ""
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
