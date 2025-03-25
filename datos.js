@@ -2087,14 +2087,14 @@ const datos = [
         nota: ""
       },
       {
-        tubo: "<img src='img/trosa.png' height='32px'/>",
+        /* tubo: "<img src='img/trosa.png' height='32px'/>", */
         examen: "Panel de Infecciones de Transmision Sexual, 6 Antígenos (PCR-RT)",
         keywords: ['ITS', 'panelits', 'panel its','ETS', 'panel enfermedades de transmision', 'enfermedades de transmision'],
         establecimiento: "<img src='img/adv.png' /> Clinala ",
         codigo: "0306097",
         codigoBK: "PANELSTI",
-        nota: "Panel ITS por PCR:<ol><li><i>Chlamydia trachomatis</i><li><i>Mycoplasma genitalum</i><li><i>Mycoplasma hominis</i><li><i>Neisseria gonorrhoeae</i><li><i>Ureaplasma spp.</i><li><i>Trichomonas vaginalis</i><br><b>Mujer:</b> Tubo rosado, tomado por profesional.<br><b>Hombre:</b> Frasco de orina (primer chorro)",
-        img: "<img src='img/trosa.png' height='150px'>",
+        nota: "Panel ITS por PCR:<ol><li><i>Chlamydia trachomatis</i><li><i>Mycoplasma genitalum</i><li><i>Mycoplasma hominis</i><li><i>Neisseria gonorrhoeae</i><li><i>Ureaplasma spp.</i><li><i>Trichomonas vaginalis</i><br><b>Mujer:</b> Torula seca, tomado por profesional.<br><b>Hombre:</b> Frasco de orina (primer chorro)",
+        /* img: "<img src='img/trosa.png' height='150px'>", */
       },
     {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
