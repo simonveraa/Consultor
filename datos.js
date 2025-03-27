@@ -205,6 +205,7 @@ const datos = [
       {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
         examen: "Antígeno Helicobacter pylori en Deposición",
+        keywords: ['pilori'],
         codigo: "Tecnigen:<ul><li>103</ul>MK:<ul><li>0308063",
         establecimiento: "<img src='img/adv.png' /> Clinala",
         nota: "",
@@ -212,6 +213,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Helicobacter pylori, anticuerpos IgG",
+        keywords: ['pilori'],
         establecimiento: "<img src='img/bk.png' /> Barnafi",
         codigo: "Tecnigen:<ul><li>0306300</ul>MK:<ul><li>8003398",
         codigoBK: "HELICO",
