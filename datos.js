@@ -205,7 +205,7 @@ const datos = [
       {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
         examen: "Antígeno Helicobacter pylori en Deposición",
-        codigo: "Tecnigen:<ul><li>103</ul>MK:<ul><li>8003250",
+        codigo: "Tecnigen:<ul><li>103</ul>MK:<ul><li>0308063",
         establecimiento: "<img src='img/adv.png' /> Clinala",
         nota: "",
       },
@@ -2007,9 +2007,9 @@ const datos = [
         examen: "Hepatitis B, Anticuerpos Anti-antígeno de superficie (VACUNA)",
         keywords: ['ac anti antigeno', 'anti hepatitis b', 'vhb', 'hepatitis b vacuna'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "ANTIHBS",
+        codigo: "Tecnigen:<ul><li>ANTIHBS</ul>MK:<ul><li>8003630",
         codigoBK: "ANTIHBS",
-        nota: "<b>Cod. MK:</b> 8003630<br>Examen para ver inmunidad post <b>vacuna</b>",
+        nota: "Examen para ver inmunidad post <b>vacuna</b>",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
