@@ -234,9 +234,9 @@ const datos = [
         nota: "Antes: Clostridium difficile"
       },
       {
-        examen: "Panel Viral (8 Virus Respiratorios)",
+        examen: "Panel Viral (8 Virus Respiratorios) por IFI",
         establecimiento: "<img src='img/adv.png' /> Clinala",
-        nota: "IFI/IFD Para Virus Influenza A+B, VRS, ADV, MPV, Parainfluenza 1, 2 y 3.",
+        nota: "Muestra: Hisopado Nasofaríngeo con Torula de dacron en buffer<br>IFI/IFD Para Virus Influenza A+B, VRS, ADV, MPV, Parainfluenza 1, 2 y 3.",
         codigo: "Tecnigen:<ul><li>0306070-8</ul>MK:<ul><li>0306070 (x8)",
       },
       {
@@ -2185,11 +2185,20 @@ const datos = [
       {
         tubo: "",
         examen: "Panel Respiratorio Por Biología Molecular (PCR-RT)",
-        keywords: ['virus', 'bacterias',],
+        keywords: ['virus respiratorios', 'influenza', 'covid', 'vrs', 'adenovirus', ' metapneumovirus', 'rhinovirus', 'enterovirus', 'bordetella', 'mycoplasma', 'nuemonia', 'pneumonia', 'flu', 'viral'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
         codigo: "Tecnigen:<ul><li>0306122</ul>MK:<ul><li>0306122",
         codigoBK: "",
-        nota: "Muestra: Hispado Nasofaríngeo<br><ol><li><i>SARS-COV-2</i><li><i>Influeza A y B</i><li><i>Virus Sincicial Respiratorio</i><li><i>Adenovirus</i><li><i>Metapneumovirus</i><li><i>Parainfluenza 1, 2, 3</i><li><i>Rinovirus/Enterovirus</i><li><i>B. parapertussis</i><li><i>Mycoplasma pneumoniae</i></ol>"
+        nota: "Muestra: Hispado Nasofaríngeo con torula de dacron en buffer<br><ol><li><i>SARS-COV-2</i><li><i>Influeza A y B</i><li><i>Virus Sincicial Respiratorio</i><li><i>Adenovirus</i><li><i>Metapneumovirus</i><li><i>Parainfluenza 1, 2, 3</i><li><i>Rinovirus/Enterovirus</i><li><i>B. parapertussis</i><li><i>Mycoplasma pneumoniae</i></ol>"
+      },
+      {
+        tubo: "",
+        examen: "SARS COV-2 por PCR-RT",
+        keywords: ['virus', 'covid19'],
+        establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "Tecnigen:<ul><li>0306082</ul>MK:<ul><li>0306082",
+        codigoBK: "",
+        nota: "Muestra: Hispado Nasofaríngeo con torula de dacron en buffer"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
