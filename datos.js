@@ -244,9 +244,10 @@ const datos = [
       {
         tubo: "<img src='img/tstuart32.png' height='32px'/>",
         examen: "Chlamydia trachomatis ",
+        keywords: ['clamidias', 'clamydias',],
         establecimiento: "<img src='img/adv.png' /> Clinala",
         codigo: "Tecnigen:<ul><li>0306034-1</ul>MK:<ul><li>0306034",
-        nota: "Mujer: Flujo vaginal<br>Hombre: Orina",
+        nota: "Mujer: Flujo vaginal<br>Hombre: Orina (Primer chorro)",
         img: "<img src='img/tstuart32.png' height='32px'/><br><img src='img/forina32.png' height='24px'/>"
       }, 
       {
@@ -2097,6 +2098,7 @@ const datos = [
         codigoBK: "PANELSTI",
         nota: "Panel ITS por PCR:<ol><li><i>Chlamydia trachomatis</i><li><i>Mycoplasma genitalum</i><li><i>Mycoplasma hominis</i><li><i>Neisseria gonorrhoeae</i><li><i>Ureaplasma spp.</i><li><i>Trichomonas vaginalis</i><br><b>Mujer:</b> Torula seca, tomado por profesional.<br><b>Hombre:</b> Frasco de orina (primer chorro)",
         /* img: "<img src='img/trosa.png' height='150px'>", */
+        img: "<br><br><br><br><br><img src='img/forina32.png' height='24px'/>"
       },
     {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
