@@ -249,7 +249,16 @@ const datos = [
         codigo: "Tecnigen:<ul><li>0306034-1</ul>MK:<ul><li>0306034",
         nota: "Mujer: Flujo vaginal<br>Hombre: Orina (Primer chorro)",
         img: "<img src='img/tstuart32.png' height='32px'/><br><img src='img/forina32.png' height='24px'/>"
-      }, 
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Test Torelacia a la Glucosa Oral (PTGO)",
+        keywords: ['Prueba de tolerancia a la','TTGO'],
+        establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0302048",
+        codigoBK: "",
+        nota: "Reposo absoluto durante 2 horas después de ingerir 75 g de glucosa (adulto)",
+      },
       {
         examen: "TSH Neonatal (GSS)",
         keywords: ['tiroestimulante', 'TSH', 'tiroidea',],
