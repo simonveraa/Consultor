@@ -455,6 +455,15 @@ const datos = [
         codigo: "0302078",
       },
       {
+        tubo: "<img src='img/tverde32.png' height='32px'/>",
+        examen: "Vitamina C (Ácido Ascórbico)",
+        keywords: ['vit c', 'vitc'],
+        establecimiento: "<img src='img/bk.png' /> Barnafi",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>s/c",
+        codigoBK: "VITC",
+        nota: "Particular $ 55.790.-<br>Se envía plasma heparinizado, <b>congelado</b>, con unidad refrigerante<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
+      },
+      {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Antígeno Prostatico Especifico (APE Total)",
         keywords: ['PSA'],
