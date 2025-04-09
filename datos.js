@@ -278,8 +278,10 @@ const datos = [
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Orina Completa",
+        keywords: ['cetonuria', 'Eritrocituria', 'Leucocituria', 'bilirrubinuria', 'urobilinógeno', 'nitritos'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
         codigo: "0309022",
+        nota: "Incluye:<br><ol><li>Color<li>Aspecto<li>PH<li>Gravedad específica<li>Glucosa<li>Cetonuria<li>Proteínas<li>Eritoocituria<li>Leucocituria<li>Urobilinógeno<li>Nitritos<li>Bilirrubinuria<li>Sedimento Urinario</ol>"
       },
       {
         examen: "Perfil de Aminoácidos y Acilcarnitinas",
