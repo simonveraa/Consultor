@@ -2172,14 +2172,14 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Apolipoproteina A1",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0302070-1",
+        codigo: "Tecnigen:<ul><li>0302070-1</ul>MK:<ul><li>0302070",
         codigoBK: "APOA",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Apolipoproteina B",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0302070-2",
+        codigo: "Tecnigen:<ul><li>0302070-2</ul>MK:<ul><li>0302070",
         codigoBK: "APOB",
       },
       {
