@@ -891,10 +891,10 @@ const datos = [
       {
         tubo: "<img src='img/tgris32.png' height='32px'/>",
         examen: "Lactato",
-        establecimiento: "Lab. Cordillera",
+        establecimiento: "No lo derivamos",
         codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003425",
         codigoBK: "LAC",
-        nota: "Tubo gris: Fluoruro u Oxalato<br>Transporte en frío (2 - 8 °C)"
+        nota: "Lo hace Lab. Cordillera. El paciente puede ir allá. Tubo gris: Fluoruro u Oxalato<br>Transporte en frío (2 - 8 °C)"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
