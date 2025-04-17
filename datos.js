@@ -2069,6 +2069,15 @@ const datos = [
         nota: "Indicador de infección activa y replicación viral",
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Panel Hepatitis Autoinmunes (9 Ag.)",
+        keywords: ['Panel de enfermedades hepaticas autoinmunes'],
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>s/c",
+        codigoBK: "HEPAPANEL",
+        nota: "Particular: $62.384.-<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>Determinación de 9 autoanticuerpos en la enfermedades autoinmunes del higado",
+      },
+      {
         tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "17-Cetosteroides (No se realiza)",
         establecimiento: "No se realiza",
