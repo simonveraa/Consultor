@@ -890,7 +890,7 @@ const datos = [
       },
       {
         tubo: "<img src='img/tgris32.png' height='32px'/>",
-        examen: "Lactato",
+        examen: "Lactato (No se deriva)",
         establecimiento: "No lo derivamos",
         codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003425",
         codigoBK: "LAC",
@@ -1601,7 +1601,7 @@ const datos = [
       },
       {
         tubo: "<img src='img/tcel32.png' height='32px'/>",
-        examen: "Anticoagulante Lupico",
+        examen: "Anticoagulante Lupico (No se deriva)",
         keywords: ['anticoagulantes circulantes'],
         establecimiento: "No se deriva",
         codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003424",
