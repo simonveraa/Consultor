@@ -437,7 +437,7 @@ const datos = [
       },
       {
         tubo: "<img src='img/tverde32.png' height='32px'/>",
-        examen: "Troponina",
+        examen: "Troponina i",
         establecimiento: "<img src='img/adv.png' /> Clinala",
         codigo: "0302027",
         nota: "Tubo verde: Sangre heparinizada"
