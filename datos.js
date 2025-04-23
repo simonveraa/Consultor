@@ -199,14 +199,14 @@ const datos = [
         examen: "Sangre Oculta en Deposición (FOB)",
         keywords: ['Test inmunologico en deposicion'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
-        codigo: "0308004",
+        codigo: "Tecnigen:<ul><li>0308004</li></ul>iMed:<ul><li>0308062",
         nota: "(Test inmunológico en deposición)"
       },
       {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
         examen: "Antígeno Helicobacter pylori en Deposición",
         keywords: ['pilori'],
-        codigo: "Tecnigen:<ul><li>103</ul>MK:<ul><li>0308063",
+        codigo: "Tecnigen:<ul><li>103</ul>iMed:<ul><li>0308063",
         establecimiento: "<img src='img/adv.png' /> Clinala",
         nota: "",
       },
@@ -1887,9 +1887,10 @@ const datos = [
         examen: "Hormona Anti Mulleriana (AMH)",
         keywords: ['antimulleriana'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0303030-1",
+        codigo: "Tecnigen:<ul><li>0303030-1</ul>iMed:<ul><li>0302881",
         codigoBK: "MULLE",
-        nota: "<b>Cod. MK:</b> 8003626"
+        /* nota: "<b>Cod. MK:</b> 8003626" condigo antiguo. Ahora FONASA 0303058 e iMed el que refiere (2025)*/
+        nota: ""
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
