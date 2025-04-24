@@ -2105,7 +2105,7 @@ const datos = [
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
-        examen: "Bordetella pertusis IgG",
+        examen: "Bordetella pertussis IgG",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>BOG</ul>MK:<ul><li>8003628",
         codigoBK: "BOG",
@@ -2113,7 +2113,7 @@ const datos = [
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
-        examen: "Bordetella pertusis IgM",
+        examen: "Bordetella pertussis IgM",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>BOM</ul>MK:<ul><li>8003628",
         codigoBK: "BOM",
@@ -2219,11 +2219,20 @@ const datos = [
       {
         tubo: "",
         examen: "Panel Respiratorio Por Biología Molecular (PCR-RT)",
-        keywords: ['virus respiratorios', 'influenza', 'covid', 'vrs', 'adenovirus', ' metapneumovirus', 'rhinovirus', 'enterovirus', 'bordetella', 'mycoplasma', 'nuemonia', 'pneumonia', 'flu', 'viral'],
+        keywords: ['virus respiratorios', 'influenza', 'covid', 'vrs', 'adenovirus', ' metapneumovirus', 'rhinovirus', 'enterovirus', 'bordetella', 'mycoplasma', 'nuemonia', 'pneumonia', 'flu', 'viral', 'coqueluche', 'tos ferina', 'pertussis'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
         codigo: "Tecnigen:<ul><li>0306122</ul>MK:<ul><li>0306122",
         codigoBK: "",
         nota: "Muestra: Hispado Nasofaríngeo con torula de dacron en buffer<br><ol><li><i>SARS-COV-2</i><li><i>Influeza A y B</i><li><i>Virus Sincicial Respiratorio</i><li><i>Adenovirus</i><li><i>Metapneumovirus</i><li><i>Parainfluenza 1, 2, 3</i><li><i>Rinovirus/Enterovirus</i><li><i>B. pertussis</i><li><i>Mycoplasma pneumoniae</i></ol>"
+      },
+      {
+        tubo: "",
+        examen: "Coqueluche (Tos Ferina)",
+        keywords: ['bordetella pertussis', 'pertussis', 'pertusis'],
+        establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "Tecnigen:<ul><li>0306122</ul>MK:<ul><li>0306122",
+        codigoBK: "",
+        nota: "Enfermedad causada por <i>Bordetella pertussis</i>, patógeno incluido en el<br><b>Panel Respiratorio Por Biología Molecular (PCR-RT)</b>"
       },
       {
         tubo: "",
