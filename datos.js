@@ -1306,7 +1306,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "0303006",
         codigoBK: "CORT",
-        nota: "AM: antes de las 10:00 am<br>PM: entre las 16:00 - 16:30 hrs"
+        nota: "AM: antes de las 10:00 am<br>PM: entre las 16:00 - 18:00 hrs"
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
