@@ -2461,6 +2461,11 @@ const datos = [
         nota: "Sugerir al paciente ir a Toma de muestras UCChristus"
       },
       {
+        examen: "Tiopurina metiltransferasa (no se realiza)",
+        establecimiento: "No se deriva",
+        nota: "Sugerir al paciente ir a Toma de muestras UCChristus"
+      },
+      {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
         examen: "Panel Gastroenteritis Viral (PCR-RT)",
         establecimiento: "<img src='img/bk.png' /> Barnafi",
