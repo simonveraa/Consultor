@@ -1429,7 +1429,21 @@ const datos = [
         examen: "Testosterona Total",
         establecimiento: "<img src='img/adv.png' /> Clinala",
         codigo: "0303022",
-          codigoBK: "",
+        codigoBK: "",
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Antistreptolisina O (ASO)",
+        establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0305008",
+        codigoBK: "",
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Factor Reumatoideo (FR)",
+        establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0305019",
+        codigoBK: "",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
