@@ -706,7 +706,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Ácido Fólico",
-        keywords: ['Ac Folico', 'Ac. Folico', 'folatos'],
+        keywords: ['Ac Folico','vitamina b9', 'Ac. Folico', 'folatos'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "0301002",
         codigoBK: "FOL", 
@@ -715,10 +715,11 @@ const datos = [
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Ácido Fólico Eritrocitario",
+        keywords: ['vitamina b9', 'folato eritrocitario'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003631",
         codigoBK: "FOLERI",
-        nota: ""
+        nota: "El ingreso debe ir junto con <b>hemograma</b>.<br>Para el envío anotar hematocrito en la orden."
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
