@@ -710,7 +710,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "0301002",
         codigoBK: "FOL", 
-        nota: "Muestra: Suero o Plasma, 500 ul<br>Folato<br>Vitamina B9",
+        nota: "Muestra: Suero o Plasma, 500 ul<br>(Folato o Vitamina B9)",
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
@@ -719,7 +719,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003631",
         codigoBK: "FOLERI",
-        nota: "El ingreso debe ir junto con <b>hemograma</b>.<br>Para el envío anotar hematocrito en la orden.<br>Folato eritrocitario",
+        nota: "El ingreso debe ir junto con <b>hemograma</b>.<br>Para el envío anotar hematocrito en la orden.<br>(Folato eritrocitario)",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
