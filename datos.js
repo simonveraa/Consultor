@@ -2303,18 +2303,20 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Parotiditis IgG",
+        keywords: ['paperas'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>PARAG</ul>MK:<ul><li>8003603",
         codigoBK: "PARAG",
-        nota: "",
+        nota: "Anticuerpo IgG del virus de las paperas",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Virus Parotiditis IgM",
+        keywords: ['paperas'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>PARAM</ul>MK:<ul><li>8003603",
         codigoBK: "PARAM",
-        nota: "",
+        nota: "Anticuerpo IgM del virus de las paperas",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
