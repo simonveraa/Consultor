@@ -2493,9 +2493,9 @@ const datos = [
         examen: "Cromogranina A",
         keywords: ['proteina secretora paratiroidea'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "s/c",
+        codigo: "Tecnigen:<ul>s/c</ul>MK:<ul><li>8003462",
         codigoBK: "CROMOGRA",
-        nota: "(Proteina Secretora Paratiroidea 1)<br><b>Particular: $ 152.292.-</b><br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>Suero, Plasma EDTA o Plasma Heparina.",
+        nota: "(Proteina Secretora Paratiroidea 1)git<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>Suero, Plasma EDTA o Plasma Heparina.",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
