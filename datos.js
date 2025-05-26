@@ -713,13 +713,13 @@ const datos = [
         nota: "Muestra: Suero o Plasma, 500 ul<br>(Folato o Vitamina B9)",
       },
       {
-        tubo: "<img src='img/tlila32.png' height='32px'/>",
+        tubo: "<img src='img/tlila32.png' height='32px'/><img src='img/tlila32.png' height='32px'/>",
         examen: "Ácido Fólico Eritrocitario",
         keywords: ['vitamina b9', 'folato eritrocitario'],
-        establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003631",
+        establecimiento: "<img src='img/bk.png' /> Barnafi<br><img src='img/adv.png' /> Clinala",
+        codigo: "Tecnigen:<ul><li>0301002-1</ul>MK:<ul><li>8003631",
         codigoBK: "FOLERI",
-        nota: "El ingreso debe ir junto con <b>hemograma</b>.<br>Para el envío anotar hematocrito en la orden.<br>(Folato eritrocitario)",
+        nota: "Un tubo para procesamiento local y otro para Barnafi<br>El ingreso debe ir junto con <b>hemograma</b>.<br>Para el envío anotar hematocrito en la orden.<br>(Folato eritrocitario)",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
