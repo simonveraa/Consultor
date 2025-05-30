@@ -1992,6 +1992,15 @@ const datos = [
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
+        examen: "Epstein Barr Virus por PCR-RT ",
+        keywords: ['Virus Epstein Barr', 'mononucleosis', 'ebv'],
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "s/c",
+        codigoBK: "PCREB",
+        nota: "Particular $ 84.924.-<br>Enviar plasma (EDTA) refrigerado<br>Otras muestras: Hisopado respiratorio en tubo ENAT <img src='img/trosa.png' height='32px'/>"
+      },
+      {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Vitamina B1 (Tiamina)",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>0302136-800</ul>MK:<ul><li>8003657",
