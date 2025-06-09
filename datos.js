@@ -199,14 +199,14 @@ const datos = [
         examen: "Sangre Oculta en Deposición (FOB)",
         keywords: ['Test inmunologico en deposicion'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
-        codigo: "Tecnigen:<ul><li>0308004</li></ul>iMed:<ul><li>0308062",
+        codigo: "Tecnigen:<ul><li>0308062</li></ul>iMed:<ul><li>0308062",
         nota: "(Test inmunológico en deposición)"
       },
       {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
         examen: "Antígeno Helicobacter pylori en Deposición",
         keywords: ['pilori'],
-        codigo: "Tecnigen:<ul><li>103</ul>iMed:<ul><li>0308063",
+        codigo: "Tecnigen:<ul><li>0308063</ul>iMed:<ul><li>0308063",
         establecimiento: "<img src='img/adv.png' /> Clinala",
         nota: "",
       },
