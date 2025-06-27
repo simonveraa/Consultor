@@ -526,7 +526,7 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hantavirus (IgM)",
         keywords: ['virus hanta'],
-        establecimiento: "<img src='img/adv.png' /> Clinala",
+        establecimiento: "<img src='img/bk.png' /> Barnafi",
         codigo: "0306121",
         nota: ""
       },
@@ -1868,10 +1868,28 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Panel Miositis 16, Auto Anticuerpos Tipo IgG",
+        keywords: ['Panel miopatias inflamatorias'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "0305007-8",
         codigoBK: "MIOSITIS16",
         nota: "<ol><li>Anti-Mi-2alpha, <li>Anti-Mi-2beta, <li>Anti-TIF1gamma, <li>Anti-MDA5, <li>Anti-NXP2, <li>Anti-SAE1, <li>Anti-Ku, <li>Anti-PM-Scl100, <li>Anti-PM-Scl75, <li>Anti-Jo-1, <li>Anti-SRP, <li>Anti-PL-7, <li>Anti-PL-12, <li>Anti-EJ, <li>Anti-OJ, <li>Anti-Ro52</ol>",
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Ac. Anti HMGCR (3-Hidroxicoenzima A reductasa)",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "s/c",
+        codigoBK: "ANTIHMGCR",
+        nota: "$199.530.-<br>Tiempo de respuesta: 20 días hábiles.<br>Ingresar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
+      },
+      {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
+        examen: "Glucosa 6 Fosfato Deshidrogenasa",
+        keywords: ['G6PD'],
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "s/c",
+        codigoBK: "GLUCO6",
+        nota: "Sangre total (EDTA)<br>Ingresar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
         tubo: "<img src='img/tlila32.png' height='32px'/>",
