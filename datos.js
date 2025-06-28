@@ -2164,7 +2164,7 @@ const datos = [
       {
         /* tubo: "<img src='img/trosa.png' height='32px'/>", */
         examen: "Panel de Infecciones de Transmision Sexual, 6 Antígenos (PCR-RT)",
-        keywords: ['ITS', 'panelits', 'panel its','ETS', 'panel enfermedades de transmision', 'enfermedades de transmision'],
+        keywords: ['ITS', 'panelits', 'panel its','ETS', 'panel enfermedades de transmision', 'enfermedades de transmision', 'mycoplasma', 'ureaplasma', 'trichomonas', 'chlamydia', 'neisseria gonorrhoeae'],
         establecimiento: "<img src='img/adv.png' /> Clinala ",
         codigo: "0306097",
         codigoBK: "PANELSTI",
@@ -2237,10 +2237,19 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Beta 2 Microglobulina",
-        keywords: ['b2 microglobulina'],
+        keywords: ['b2 microglobulina', 'anti beta 2 microglobulina', 'anti b2 microglobulina'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "0305010",
         codigoBK: "BETA2",
+        nota: "Suero u Orina",
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Cistatina C",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "s/c",
+        codigoBK: "CISTATINA",
+        nota: "Particular $ 24.150.-<br>Ingresar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -2261,7 +2270,7 @@ const datos = [
       {
         tubo: "",
         examen: "Panel Respiratorio Por Biología Molecular (PCR-RT)",
-        keywords: ['virus respiratorios', 'influenza', 'covid', 'vrs', 'adenovirus', ' metapneumovirus', 'rhinovirus', 'enterovirus', 'bordetella', 'mycoplasma', 'nuemonia', 'pneumonia', 'flu', 'viral', 'coqueluche', 'tos ferina', 'pertussis'],
+        keywords: ['virus respiratorios', 'influenza', 'covid', 'vrs', 'adenovirus', ' metapneumovirus', 'rhinovirus', 'enterovirus', 'bordetella', 'mycoplasma', 'neumonia', 'pneumonia', 'flu', 'viral', 'coqueluche', 'tos ferina', 'pertussis'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
         codigo: "Tecnigen:<ul><li>0306122</ul>MK:<ul><li>0306122",
         codigoBK: "",
