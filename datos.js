@@ -48,13 +48,6 @@ const datos = [
         nota: "",
       },
       {
-        examen: "Cuerpos Cetónicos (Acetona en Sangre)",
-        keywords: ['Acetona cualitativa'],
-        establecimiento: "No se realiza<br>No se deriva",
-        codigo: "",
-        nota: "",
-      },
-      {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Índice Androgénico Libre",
         establecimiento: "<img src='img/bk.png' /> Barnafi",
@@ -1691,12 +1684,22 @@ const datos = [
         nota: "Cuantificación por ELISA de un tipo de anticuerpo ANCA"
       },
       {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Cetonemia",
+        keywords: ['Cetona en sangre', 'cuerpos cetonicos en sangre', 'cetonas en sangre',],
+        establecimiento: "<img src='img/ispchs32.png' width='20'/> Hospital",
+        codigo: "0302001",
+        codigoBK: "",
+        nota: "Cuerpos cetónicos en sangre",
+      },
+      {
         tubo: "<img src='img/fdep32.png' height='32px'/>",
-        examen: "Elastasa en deposiciones (Cuantitativa)",
+        examen: "Elastasa Fecal (Cuantitativa)",
+        keywords: ['elastasa en deposiciones',],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003653",
+        codigo: "Tecnigen:<ul><li>0308007</ul>MK:<ul><li>8003653",
         codigoBK: "ELASTASA",
-        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas"
+        nota: ""
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1852,7 +1855,7 @@ const datos = [
         keywords: ['tirosin', 'fosfatasa', 'IA2', 'células beta', 'ICA', 'IAA', 'descarboxilasa',
             'acido glutamico', 'gad', 'transportador 8', 'znt8',],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0305106<br>(Fonasa)",
+        codigo: "Tecnigen:<ul><li>0305106-1</ul>iMed:<ul><li>0305055",
         codigoBK: "APANELDIAS",
         nota: "<ol>Anticuerpos anti:<li> Tirosin Fosfatasa (IA2),<li> Células beta (ICA),<li> Insulina (IAA),<li> Descarboxilasa del ácido glutámico (GAD),<li> Transportador 8 del Zinc (ZNT8) "
       },
@@ -2247,9 +2250,9 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Cistatina C",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "s/c",
+        codigo: "Tecnigen:<ul><li>0302137-800</ul>MK:<ul><li>8003464",
         codigoBK: "CISTATINA",
-        nota: "Particular $ 24.150.-<br>Ingresar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
+        nota: "",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -2257,6 +2260,13 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003448",
         codigoBK: "NEUMO",
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Eritropoyetina (EPO)",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>0303009-800</ul>MK:<ul><li>8003465",
+        codigoBK: "ERI",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
