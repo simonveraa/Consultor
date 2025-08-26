@@ -1528,7 +1528,6 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti Peptido Deaminado de Gliadina IgG ",
-        keywords: ['Ac Antifosfolipidos',],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "0305086-2",
         codigoBK: "GLIDG",
@@ -1538,8 +1537,9 @@ const datos = [
         examen: "Anticuerpos Antifosfolipidos",
         keywords: ['ac anti fosfolipidos',],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0305007-4",
+        codigo: "0305084 (x2)<br>+<br>0305105 (x2)",
         codigoBK: "",
+        nota: "Ac. Anticardiolipinas IgG, IgM (Cobrar x2)<br>+<br>Ac. Anti Beta 2 Glicoproteina I IgG, IgM (Cobrar x2)"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -1636,7 +1636,7 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Anticuerpos Anti B2 Glicoproteina IgG",
-        keywords: ['anti b2', 'ac antiglicoproteina', 'ac anti glicoproteina', 'ac antib2', 'ac anti b2 glicoproteina'],
+        keywords: ['anti b2', 'ac antiglicoproteina', 'ac anti glicoproteina', 'ac antib2', 'ac anti b2 glicoproteina', 'anti beta 2 glicoproteina'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>0305105</ul>MK:<ul><li>8004035",
         codigoBK: "B2G",
