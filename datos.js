@@ -519,7 +519,7 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hantavirus (IgM)",
         keywords: ['virus hanta'],
-        establecimiento: "<img src='img/bk.png' /> Barnafi",
+        establecimiento: "<b>Ya no se realiza, ni se deriva</b>",
         codigo: "0306121",
         nota: ""
       },
@@ -1199,10 +1199,11 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "17-Hidroxiprogesterona (17-OHP)",
-        keywords: ['17 oh progesterona'],
+        keywords: ['17 oh progesterona', '17 alfa hidroxiprogesterona', '17 alfa oh progesterona'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "0303029",
         codigoBK: "17PR",
+        nota: "Tambien nombrada 17-alfa-Hidroxiprogesterona<br><b>No confundir con Progesterona</b>"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
