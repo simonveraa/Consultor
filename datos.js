@@ -379,9 +379,10 @@ const datos = [
       {
         tubo: "<img src='img/tmed32.png' height='18px'/>",
         examen: "Tiempo de sangría",
+        keywords: ['T. sangria de IVY', 'IVY', 'I.V.Y.'],
         establecimiento: "<img src='img/adv.png' /> Clinala",
         codigo: "0301072",
-        nota: "Evaluación de la Hemostasia Primaria en el reclutamiento y activación plaquetaria",
+        nota: "Evaluación de la Hemostasia Primaria en el reclutamiento y activación plaquetaria<br>Tiempo de Sangría de I.V.Y",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
