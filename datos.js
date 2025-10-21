@@ -526,8 +526,8 @@ const datos = [
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
-        examen: "Virus Hepatitis B (HBsAg)",
-        keywords: ['VHB', 'superficie'],
+        examen: "Hepatitis B, Antígeno de superficie (HBsAg)",
+        keywords: ['VHB', 'superficie', 'virus hepatitis b'],
         establecimiento: "<img src='img/adv.png' /> Clinala - <img src='img/ispchs32.png' width='20'/> ISPCH",
         codigo: "0306079",
         nota: "Antígeno de superficie de Hepatitis B",
