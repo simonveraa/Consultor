@@ -530,7 +530,7 @@ const datos = [
         keywords: ['VHB', 'superficie', 'virus hepatitis b'],
         establecimiento: "<img src='img/adv.png' /> Clinala - <img src='img/ispchs32.png' width='20'/> ISPCH",
         codigo: "0306079",
-        nota: "Antígeno de superficie de Hepatitis B",
+        nota: "Busqueda de infección por Virus Hepatitis B",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
