@@ -2297,7 +2297,7 @@ const datos = [
         codigoBK: "",
         nota: "Enfermedad causada por <i>Bordetella pertussis</i>, patógeno incluido en el<br><b>Panel Respiratorio Por Biología Molecular (PCR-RT)</b>"
       },
-      {
+      /**{
         tubo: "",
         examen: "SARS COV-2 por PCR-RT",
         keywords: ['virus', 'covid19'],
@@ -2305,6 +2305,15 @@ const datos = [
         codigo: "Tecnigen:<ul><li>0306082</ul>MK:<ul><li>0306082",
         codigoBK: "",
         nota: "Muestra: Hispado Nasofaríngeo con torula de dacron en buffer"
+      },**/
+      {
+        tubo: "",
+        examen: "Antigeno SARS COV-2",
+        keywords: ['virus', 'covid19'],
+        establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "Tecnigen:<ul><li>0306271</ul>MK:<ul><li>0306271",
+        codigoBK: "",
+        nota: "Muestra: Hispado Nasofaríngeo"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
