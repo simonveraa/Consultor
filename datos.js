@@ -1806,9 +1806,9 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Inmunofijación de Inmunoglobulinas en Sangre",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0305025",
+        codigo: "Tecnigen:<ul><li>0305025</ul>MK:<ul><li>8003433",
         codigoBK: "INMUNOFIJA",
-        nota: "<b>Cod. MK:</b> 8003433"
+        nota: "Resultado en 5 días hábiles después de recepcionado en santiago"
       },
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
