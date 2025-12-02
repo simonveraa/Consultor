@@ -1999,10 +1999,11 @@ const datos = [
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Varicela Zoster, Serología IgG, IgM ",
+        keywords: ['Herpes zoster'],
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003602",
         codigoBK: "IgG: <strong>VARG</strong><br> IgM: <strong>VARM</strong>",
-        nota: "Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
+        nota: "Virus que produce Herpes Zoster<br>Especificar si se requiere uno o ambos anticuerpos con sus codigos BK."
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
