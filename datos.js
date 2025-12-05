@@ -1496,6 +1496,7 @@ const datos = [
       {
         tubo: "<img src='img/tcel32.png' height='32px'/>",
         examen: "Antitrombina III funcional",
+        keywords: ['anti trombina III'],
         establecimiento: "No lo realizamos",
         codigo: "Tecnigen:<ul><li>s/c</ul>Fonasa:<ul><li>301008",
         codigoBK: "ANTITROM",
