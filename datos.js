@@ -1481,8 +1481,42 @@ const datos = [
         tubo: "<img src='img/tlila32.png' height='32px'/>",
         examen: "Factor V Leiden",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "Tecnigen:<ul><li>s/c-5</ul>MK:<ul><li>8003460",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>8003460",
         codigoBK: "FV",
+        nota: "Mutación del gen 1691 G>A<br>Estudio de trombofilias<br>Transporte T° Ambiente"
+      },
+      {
+        tubo: "<img src='img/tcel32.png' height='32px'/>",
+        examen: "Proteína S Libre",
+        establecimiento: "No lo realizamos",
+        codigo: "Tecnigen:<ul><li>s/c</ul>Fonasa:<ul><li>301092",
+        codigoBK: "PROTEINA S",
+        nota: "Plasma Citratado<br>Barnafi: Transporte congelado"
+      },
+      {
+        tubo: "<img src='img/tcel32.png' height='32px'/>",
+        examen: "Antitrombina III funcional",
+        establecimiento: "No lo realizamos",
+        codigo: "Tecnigen:<ul><li>s/c</ul>Fonasa:<ul><li>301008",
+        codigoBK: "ANTITROM",
+        nota: "Plasma Citratado<br>Barnafi: Transporte congelado"
+      },
+      {
+        tubo: "<img src='img/tcel32.png' height='32px'/>",
+        examen: "Proteína C (Coagulación)",
+        establecimiento: "No lo realizamos",
+        codigo: "Tecnigen:<ul><li>s/c</ul>Fonasa:<ul><li>301091",
+        codigoBK: "PROTECC",
+        nota: "Plasma Citratado<br>Barnafi: Transporte congelado"
+      },
+       {
+        tubo: "<img src='img/tlila32.png' height='32px'/>",
+        examen: "Mutación 677C>T y 1298A>T del gen MTHFR",
+        keywords: ['mutacion mthfr'],
+        establecimiento: "No lo realizamos",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>s/c",
+        codigoBK: "MUTACIONC6",
+        nota: "Sangre total EDTA<br>Barnafi: Transporte Refrigerado"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
@@ -2553,7 +2587,7 @@ const datos = [
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "Tecnigen:<ul>s/c</ul>MK:<ul><li>8003462",
         codigoBK: "CROMOGRA",
-        nota: "(Proteina Secretora Paratiroidea 1)git<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>Suero, Plasma EDTA o Plasma Heparina.",
+        nota: "(Proteina Secretora Paratiroidea 1)<br>Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas<br>Suero, Plasma EDTA o Plasma Heparina.",
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
