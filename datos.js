@@ -1076,9 +1076,19 @@ const datos = [
       {
         tubo: "<img src='img/forina32.png' height='24px'/>",
         examen: "Alcohol en Orina",
+        keywords: ['Etanol'],
         establecimiento: "<img src='img/adv.png' /> Clinala ",
         codigo: "Tecnigen:<ul><li>0309107</ul>MK:<ul><li>8003255",
         codigoBK: "",
+      },
+      {
+        tubo: "<img src='img/tverde32.png' height='24px'/>",
+        examen: "Alcohol en Sangre",
+        keywords: ['Etanol'],
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "Tecnigen:<ul><li>s/c</ul>MK:<ul><li>s/c",
+        codigoBK: "ALCO",
+        nota: "Particular $ 55.034.-<br><span style='color: green; font-weight: bold;'>Tubo verde</span><br>Tiempo máximo de transporte: 3 días."
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
