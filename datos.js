@@ -924,7 +924,7 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Electroforesis de Proteínas",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
-        codigo: "0301044",
+        codigo: "0302061",
         codigoBK: "EFP"
       },
       {
