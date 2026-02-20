@@ -520,9 +520,9 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hantavirus (IgM)",
         keywords: ['virus hanta'],
-        establecimiento: "<b>Ya no se realiza, ni se deriva</b>",
+        establecimiento: "<b>Clinica Los Andes</b>",
         codigo: "0306121",
-        nota: ""
+        nota: "Se puede derivar a Lab. Cordillera"
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
