@@ -525,6 +525,12 @@ const datos = [
         nota: "Se puede derivar a Lab. Cordillera"
       },
       {
+        examen: "Hemocultivo Aeróbico Automatizado",
+        establecimiento: "<img src='img/adv.png' /> Clinala",
+        codigo: "0306091",
+        nota: "Toma de muestras de brazo distinto en un intervalo de 30 min. 2 Botellas"
+      },
+      {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Hepatitis B, Antígeno de superficie (HBsAg)",
         keywords: ['VHB', 'superficie', 'virus hepatitis b'],
