@@ -411,7 +411,7 @@ const datos = [
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Perfil TORCH",
         establecimiento: "<img src='img/bk.png' /> Barnafi",
-        codigo: "<ul><li>0306061-7<li>0306069-4<li>0306069-3<li>0306069-1<li>0306069-2</i></ul>",
+        codigo: "0306061-7<br>0306069-4<br>0306069-3<br>0306069-1<br>0306069-2</br>",
         nota: "Incluye los siguientes virus:<ul><li>Toxoplasmosis IgG, IgM<li>Rubeola IgG, IgM<li>Citomegalovirus IgG, IgM<li>Herpes simple I y II IgG, IgM</li></ul>"
       },
       {
