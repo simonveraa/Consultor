@@ -421,6 +421,12 @@ const datos = [
         establecimiento: "<img src='img/adv.png' /> Clinala",
         codigo: "0301096<br>(Fonasa)"
       },
+       {
+        tubo: "",
+        examen: "Calcitonina (No se realiza)",
+        establecimiento: "No se realiza",
+        codigo: "No se realiza"
+      },
       {
         tubo: "<img src='img/tverde32.png' height='32px'/>",
         examen: "Péptido Natriurético tipo B (NT-proBNP)",
