@@ -2572,6 +2572,15 @@ const datos = [
       },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Haptoglobina",
+        keywords: ['aptoglobina'],
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "s/c",
+        codigoBK: "HAPTOC",
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
+      },
+      {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Ácido Micofenólico, nivel plasmático (Fármaco)",
         establecimiento: "<img src='img/bk.png' /> Barnafi ",
         codigo: "s/c",
