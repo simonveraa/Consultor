@@ -2579,6 +2579,14 @@ const datos = [
         codigoBK: "HAPTOC",
         nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
       },
+         {
+        tubo: "<img src='img/trojo32.png' height='32px'/>",
+        examen: "Inhibina B",
+        establecimiento: "<img src='img/bk.png' /> Barnafi ",
+        codigo: "s/c",
+        codigoBK: "INHIBINA",
+        nota: "Agregar como <i>Examen Barnafi</i>: 0307099 y escribir en notas",
+      },
       {
         tubo: "<img src='img/trojo32.png' height='32px'/>",
         examen: "Ácido Micofenólico, nivel plasmático (Fármaco)",
